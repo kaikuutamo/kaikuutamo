@@ -3,17 +3,94 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import {connect} from 'react-redux';
 
+import {TweenMax, Power2, TimelineLite} from "gsap/TweenMax";
+
 import './frontpage.css';
 
 
 import pic1 from '../pictures2/pic1.jpg'
+import pic2 from '../pictures2/pic2.jpg'
+import pic3 from '../pictures2/pic3.jpg'
 
 import facebook from '../pictures2/facebook.png'
 import instagram from '../pictures2/instagram.png'
 import youtube from '../pictures2/youtube.png'
 
+var words = ["TUNNETTA", "ELÄMYKSIÄ", "MEININKIÄ"];
+
+var pics = [pic1, pic2, pic3];
+
 class FrontPage extends React.Component {
 
+    constructor(props) {
+        super();
+
+        this.state = {
+            pic: pic1,
+            text: "TUNNETTA", 
+            number: 1,
+        }
+    }
+    
+
+
+slideShow = () => {
+    
+    var pic = document.getElementById("frontpic");
+    var text = document.getElementById("fronttext");
+
+    
+
+    TweenMax.to(pic, 0.5, {left: "100px", opacity: "0"});
+    TweenMax.to(text, 0.5, {left: "-170px", opacity: "0"});
+
+    setTimeout(() => {
+        
+        if (this.state.number === 1) {
+            this.setState({
+                pic: pics[1],
+                text: words[1],
+                number: 2
+    
+            })
+        }
+    
+        else if (this.state.number === 2) {
+            this.setState({
+                pic: pics[2],
+                text: words[2],
+                number: 3
+    
+            })
+        }
+    
+        else if (this.state.number === 3) {
+            this.setState({
+                pic: pics[0],
+                text: words[0],
+                number: 1
+    
+            })
+        }
+
+
+    }, 500);
+
+    
+
+    TweenMax.to(pic, 0.5, {left: "0px", opacity: "1", delay: 0.9});
+    TweenMax.to(text, 0.5, {left: "-70px", opacity: "1", delay: 0.9});
+
+    
+}    
+
+componentWillMount () {
+
+    setInterval(() => {
+        this.slideShow()
+    }, 4000);
+
+}
 
 render() {
 
@@ -24,8 +101,8 @@ return (
 
 
     <div id="frontcont">
-        <img alt="Slideshow" id="frontpic" src={pic1}></img>
-        <p id="fronttext">TUNNETTA</p>
+        <img onClick={this.slideShow} alt="Slideshow" id="frontpic" src={this.state.pic}></img>
+        <p id="fronttext">{this.state.text}</p>
     </div>
 
 

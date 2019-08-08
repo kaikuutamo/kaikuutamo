@@ -15,6 +15,7 @@ class App extends React.Component {
 componentDidMount () {
 
 /*--------- 3d -------------*/
+
 // this is the scene
 var scene = new THREE.Scene();
 
@@ -52,7 +53,7 @@ var geometry = new THREE.SphereGeometry( 0.8, 10, 10 );
 var material = new THREE.MeshLambertMaterial({color: "#f2efe8"})
 // let's combine these two
 
-for (var k = 0; k<1000; k++) {
+for (var k = 0; k<1200; k++) {
 
 var x = Math.random() * 1800;
 var y = Math.random() * 1200;
@@ -66,6 +67,7 @@ mesh.position.z = z;
 
 scene.add(mesh);
 
+/*------------------------------------------*/
 
 }
 
@@ -81,7 +83,7 @@ scene.add(light)
 
 // let's render the scene and the camera
 
-var distance = 0.05;
+var distance = 0.09;
 var status = "in";
 
 function animate () {
