@@ -57,7 +57,7 @@ for (var k = 0; k<1200; k++) {
 
 var x = Math.random() * 1800;
 var y = Math.random() * 1200;
-var z = Math.random() * 250;
+var z = Math.random() * 300;
 
 var mesh = new THREE.Mesh(geometry, material);
 

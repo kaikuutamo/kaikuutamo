@@ -20,6 +20,8 @@ var words = ["TUNNETTA", "ELÄMYKSIÄ", "MEININKIÄ"];
 
 var pics = [pic1, pic2, pic3];
 
+var number = 1;
+
 class FrontPage extends React.Component {
 
     constructor(props) {
@@ -28,7 +30,6 @@ class FrontPage extends React.Component {
         this.state = {
             pic: pic1,
             text: "TUNNETTA", 
-            number: 1,
         }
     }
     
@@ -46,31 +47,29 @@ slideShow = () => {
 
     setTimeout(() => {
         
-        if (this.state.number === 1) {
+        if (number === 1) {
             this.setState({
                 pic: pics[1],
-                text: words[1],
-                number: 2
-    
+                text: words[1]
             })
+            number = 2;
         }
     
-        else if (this.state.number === 2) {
+        else if (number === 2) {
             this.setState({
                 pic: pics[2],
-                text: words[2],
-                number: 3
-    
+                text: words[2]
             })
+            number = 3;
         }
     
-        else if (this.state.number === 3) {
+        else if (number === 3) {
             this.setState({
                 pic: pics[0],
-                text: words[0],
-                number: 1
+                text: words[0]
     
             })
+            number = 1;
         }
 
 
@@ -78,8 +77,8 @@ slideShow = () => {
 
     
 
-    TweenMax.to(pic, 0.5, {left: "0px", opacity: "1", delay: 0.9});
-    TweenMax.to(text, 0.5, {left: "-70px", opacity: "1", delay: 0.9});
+    TweenMax.to(pic, 0.5, {left: "0px", opacity: "1", delay: 1});
+    TweenMax.to(text, 0.5, {left: "-70px", opacity: "1", delay: 1});
 
     
 }    
