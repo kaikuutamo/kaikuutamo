@@ -1,0 +1,62 @@
+
+#headwrap {
+    height: auto;
+    z-index: 1000;
+}
+
+#headlogowrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#headlogo {
+    width: 350px;
+}
+
+#headlangwrap {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+}
+
+#headlangwrap p {
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+    color: var(--color4);
+    cursor: pointer;
+}
+
+
+#headlinkwrap {
+    height: auto;
+
+}
+
+#headlinkwrap nav {
+    height: auto;
+    display: flex;
+ 
+}
+
+#headlinkwrap ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin: 0 auto;
+    display: flex;
+}
+
+#headlinkwrap li {
+    padding: 10px;
+}
+
+#headlinkwrap a {
+    text-decoration: none;
+    color: var(--color2);
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+}

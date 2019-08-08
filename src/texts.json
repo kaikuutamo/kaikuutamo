@@ -1,0 +1,33 @@
+{
+
+    "finnish": {
+
+        "header": {
+            "who": "KUKA",
+            "services": "PALVELUT",
+            "shows": "ESITYKSET",
+            "pictures": "KUVAT",
+            "videos": "VIDEOT",
+            "articles": "ARTIKKELIT",
+            "media": "MEDIA",
+            "offer": "TARJOUSPYYNTÖ",
+            "contact": "YHTEYSTIEDOT"
+        }
+
+    },
+
+    "english": {
+        "header": {
+            "who": "WHO",
+            "services": "SERVICES",
+            "shows": "SHOWS",
+            "pictures": "PICTURES",
+            "videos": "VIDEOS",
+            "articles": "ARTICLES",
+            "media": "MEDIA",
+            "offer": "OFFERS",
+            "contact": "CONTACT"
+        }
+    }
+
+}
