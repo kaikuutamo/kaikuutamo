@@ -1,6 +1,6 @@
 
 #frontwrap {
-    
+    overflow: hidden;
     display: flex;
     
     flex-direction: row;
