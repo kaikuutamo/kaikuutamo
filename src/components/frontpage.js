@@ -22,6 +22,8 @@ var pics = [pic1, pic2, pic3];
 
 var number = 1;
 
+var theInterval;
+
 class FrontPage extends React.Component {
 
     constructor(props) {
@@ -31,23 +33,26 @@ class FrontPage extends React.Component {
             pic: pic1,
             text: "TUNNETTA", 
         }
+
+        this.mounted = "true";
     }
     
 
 
 slideShow = () => {
     
+    if (this.mounted === "false") {return null}
+
     var pic = document.getElementById("frontpic");
     var text = document.getElementById("fronttext");
 
     
-
     TweenMax.to(pic, 0.5, {left: "100px", opacity: "0"});
     TweenMax.to(text, 0.5, {left: "-170px", opacity: "0"});
 
     setTimeout(() => {
         
-        if (number === 1) {
+        if (number === 1 && this.mounted === "true") {
             this.setState({
                 pic: pics[1],
                 text: words[1]
@@ -55,7 +60,7 @@ slideShow = () => {
             number = 2;
         }
     
-        else if (number === 2) {
+        else if (number === 2 && this.mounted === "true") {
             this.setState({
                 pic: pics[2],
                 text: words[2]
@@ -63,7 +68,7 @@ slideShow = () => {
             number = 3;
         }
     
-        else if (number === 3) {
+        else if (number === 3 && this.mounted === "true") {
             this.setState({
                 pic: pics[0],
                 text: words[0]
@@ -85,10 +90,15 @@ slideShow = () => {
 
 componentWillMount () {
 
-    setInterval(() => {
+    theInterval = setInterval(() => {
         this.slideShow()
     }, 4000);
 
+}
+
+componentWillUnmount () {
+    this.mounted = "false";
+    clearInterval(theInterval);
 }
 
 render() {

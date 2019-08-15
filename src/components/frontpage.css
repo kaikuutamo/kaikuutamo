@@ -14,9 +14,12 @@
     display: inline-block;
     position: relative;
     margin-bottom: 100px;
+    
 }
 
 #frontpic {
+    display: flex;
+    flex-direction: column;
     position: relative;
     filter: grayscale(100%);
     width: 100%;
@@ -30,7 +33,7 @@
     position: absolute;
     bottom: 30px;
     left: -70px;
-    color: var(--color2);
+    color: #FFE66D;
     font-size: 5.5rem;
     margin: 0;
     padding: 0;
@@ -53,4 +56,23 @@
     height: 33px;
     padding-left: 7px;
     padding-right: 7px;
+}
+
+
+/* -------------------------------*/
+
+@media (max-height: 850px) {
+
+    #frontwrap {
+        
+    }
+
+    #frontcont {
+        margin-bottom: 0;
+    }
+
+    #frontpic {
+        max-width: 650px;
+    }
+
 }
