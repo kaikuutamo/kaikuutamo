@@ -128,7 +128,11 @@ function createStars ()  {
 // Image loader
 
 var map = new THREE.TextureLoader().load( kuu );
-var material2 = new THREE.SpriteMaterial( { map: map, color: 0xffffff } );
+var material2 = new THREE.SpriteMaterial( {
+   map: map,
+   color: 0xffffff
+   
+  } );
 var sprite = new THREE.Sprite( material2 );
 sprite.scale.set(10, 10, 1)
 sprite.position.set(0, 0, 50)
@@ -162,11 +166,26 @@ scene.add(light)
 
 // let's render the scene and the camera
 
-
-
+var status = "up";
 
 function animate () {
 
+
+if (material2.rotation > 0) {
+  status = "down"
+}
+
+if (material2.rotation < -1) {
+  status = "up"
+}
+
+if (status === "up") {
+  material2.rotation += 0.01;
+} 
+
+if (status === "down") {
+  material2.rotation -= 0.01;
+}
 
 
 controls.update();

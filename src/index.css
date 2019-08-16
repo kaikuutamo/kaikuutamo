@@ -10,12 +10,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
   
 
-  --color1: #2c2a2a;
-  --color2: #EDF2F4;
-  --color3: #929786;
-  --color4: #f2efe8;
+  --sky1: #30718E;    /* sky upper part  */
+  --sky2: #5085A5;    /* sky bottom  */
 
-  font-family: 'Fjalla One', sans-serif;
+  --text1: #F7F9FB;   /* header text */
+  --text2: #F7F9FB;   /* slideshow text */
+
+  --text3: #30718E;   /* table text */
+  --table: #F7F9FB;   /* table background */
+
+  font-family: 'Montserrat', sans-serif;
   
 }
 

@@ -2,7 +2,7 @@
 #headwrap {
     height: auto;
     z-index: 1000;
-    
+    font-family: 'Fjalla One', sans-serif;
 }
 
 #headlogowrap {
@@ -27,7 +27,7 @@
     margin: 0;
     padding: 0;
     padding: 10px;
-    color: var(--color4);
+    color: var(--text1);
     cursor: pointer;
 }
 
@@ -57,7 +57,7 @@
 
 #headlinkwrap a {
     text-decoration: none;
-    color: var(--color2);
+    color: var(--text1);
     font-size: 1.1rem;
     letter-spacing: 1.5px;
 }
