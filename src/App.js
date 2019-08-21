@@ -194,7 +194,7 @@ controls.update();
 
 renderer.render(scene, camera);
 
- requestAnimationFrame(animate);
+ // requestAnimationFrame(animate);
 
 }
 
