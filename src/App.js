@@ -43,7 +43,7 @@ var camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHe
 
 camera.position.x = 0;
 camera.position.y = 0;
-camera.position.z = 0;
+camera.position.z = -2.5;
 
 
 // this is the canvas
@@ -194,7 +194,7 @@ controls.update();
 
 renderer.render(scene, camera);
 
- // requestAnimationFrame(animate);
+  requestAnimationFrame(animate);
 
 }
 
