@@ -12,11 +12,39 @@
             "media": "MEDIA",
             "offer": "TARJOUSPYYNTÖ",
             "contact": "YHTEYSTIEDOT"
+        },
+
+        "frontpage": {
+
+            "text": "Although I am blind I could feel your energy. It was a pleasure to experience your show.", 
+            "text2": "- sokea afrikkalainen mies",
+            "words": ["Although I am blind I could feel your energy. It was a pleasure to experience your show.", "Ok on uus hyvä!", "To perform you need practice, to practice you need passion."],
+            "words2": ["- sokea afrikkalainen mies", "- Jukka Keränen", "― Amit Kalantri"]
+
+        },
+
+        "who": {
+            "whotitle": "Jonglööri Kai Kuutamo",
+            "whotext1": "Kai Kuutamo on jongleeraukseen keskittynyt sirkustaiteilija, jolla on takanaan kymmenen vuoden esiintymiskokemus ja lukemattomat tunnit harjoittelua. Hän on koulutettu sirkustaiteiden opettaja, Sirkussirkus Putiikin omistaja, Herttakuninkaat-ryhmän toinen perustajajäsen ja myös Multi Bueno -festivaalin perustaja ja järjestäjä.",
+            "whotext2": "Uransa aikana Kuutamo on opiskellut jongleerausta Suomessa ja Ukrainassa, esiintynyt muun muassa Englannissa, Saksassa, Belgiassa, Ruotsissa, Eestissä, Thaimaassa ja Kambodzassa, voittanut katuesiintymisen Suomen mestaruuden, rikkonut jongleerauksen Suomen ennätyksen sekä pitänyt yllä kaksi vuotta ilmaista sirkuskoulua Kambodzassa.",
+            "whotext3": "Nykyään hän työskentelee pääasiassa Suomessa esiintyen yksin, Herttakuninkaat-ryhmän, Aimo Annoksen tai Merkkarit-orkesterin kanssa. Esiintymispaikat vaihtelevat lasten festivaaleista vanhainkoteihin sekä suurtapahtumista pieniin syntymäpäiviin.",
+            "whotext4": "\"Esitämme valmiita teoksia omien kiertueaikataulujemme mukaan ja tilauksesta. Toisinaan rakennamme tapahtumiin ja tilaisuuksiin myös omia ohjelmia tilaajan toiveiden mukaisesti. Opetuspalveluita tarjoamme eri sirkuskouluille ja kerhoille sovitun mittaisissa jaksoissa, ja järjestämme myös kertaluontoisia jongleeraustyöpajoja kaikenlaisille ryhmille tilauksesta. Kaikki on mahdollista, jos kalenterissa on tilaa ja palkkiosta päästään yhteisymmärrykseen.\"",
+            "whotext5": "- Kai Kuutamo",
+            "whotitle2": "Linkit",
+            "link1": "Ansioluettelo",
+            "link2": "Kai Kuutamo Wikipediassa",
+            "link3": "Merkkarit ja Kai Kuutamo",
+            "link4": "Herttakuninkaat -sirkusryhmä",
+            "link5": "Kai Kuutamo & Aimo Annos -sirkusmusiikkiduo",
+            "link6": "Sirkussirkus Putiikki, kaikki sirkusvälineet saman katon alta",
+            "link7": "Multi Bueno festivaali, monisyysirkusfestivaali Turussa",
+            "link8": "Circus Kampot, suomalainen sirkuskoulu Kambodzassa"
         }
 
     },
 
     "english": {
+
         "header": {
             "who": "WHO",
             "services": "SERVICES",
@@ -27,6 +55,34 @@
             "media": "MEDIA",
             "offer": "OFFERS",
             "contact": "CONTACT"
+        },
+
+
+        "frontpage": {
+
+            "text": "Although I am blind I could feel your energy. It was a pleasure to experience your show.", 
+            "text2": "- sokea afrikkalainen mies",
+            "words": ["Although I am blind I could feel your energy. It was a pleasure to experience your show.", "Ok is new good!", "To perform you need practice, to practice you need passion."],
+            "words2": ["- Blind african man", "- Jukka Keränen", "― Amit Kalantri"]
+
+        },
+
+        "who": {
+            "whotitle": "Juggler Kai Kuutamo",
+            "whotext1": "Kai Kuutamo on jongleeraukseen keskittynyt sirkustaiteilija, jolla on takanaan kymmenen vuoden esiintymiskokemus ja lukemattomat tunnit harjoittelua. Hän on koulutettu sirkustaiteiden opettaja, Sirkussirkus Putiikin omistaja, Herttakuninkaat-ryhmän toinen perustajajäsen ja myös Multi Bueno -festivaalin perustaja ja järjestäjä.",
+            "whotext2": "Uransa aikana Kuutamo on opiskellut jongleerausta Suomessa ja Ukrainassa, esiintynyt muun muassa Englannissa, Saksassa, Belgiassa, Ruotsissa, Eestissä, Thaimaassa ja Kambodzassa, voittanut katuesiintymisen Suomen mestaruuden, rikkonut jongleerauksen Suomen ennätyksen sekä pitänyt yllä kaksi vuotta ilmaista sirkuskoulua Kambodzassa.",
+            "whotext3": "Nykyään hän työskentelee pääasiassa Suomessa esiintyen yksin, Herttakuninkaat-ryhmän, Aimo Annoksen tai Merkkarit-orkesterin kanssa. Esiintymispaikat vaihtelevat lasten festivaaleista vanhainkoteihin sekä suurtapahtumista pieniin syntymäpäiviin.",
+            "whotext4": "\"Esitämme valmiita teoksia omien kiertueaikataulujemme mukaan ja tilauksesta. Toisinaan rakennamme tapahtumiin ja tilaisuuksiin myös omia ohjelmia tilaajan toiveiden mukaisesti. Opetuspalveluita tarjoamme eri sirkuskouluille ja kerhoille sovitun mittaisissa jaksoissa, ja järjestämme myös kertaluontoisia jongleeraustyöpajoja kaikenlaisille ryhmille tilauksesta. Kaikki on mahdollista, jos kalenterissa on tilaa ja palkkiosta päästään yhteisymmärrykseen.\"",
+            "whotext5": "- Kai Kuutamo",
+            "whotitle2": "Linkit",
+            "link1": "Ansioluettelo",
+            "link2": "Kai Kuutamo Wikipediassa",
+            "link3": "Merkkarit ja Kai Kuutamo",
+            "link4": "Herttakuninkaat -sirkusryhmä",
+            "link5": "Kai Kuutamo & Aimo Annos -sirkusmusiikkiduo",
+            "link6": "Sirkussirkus Putiikki, kaikki sirkusvälineet saman katon alta",
+            "link7": "Multi Bueno festivaali, monisyysirkusfestivaali Turussa",
+            "link8": "Circus Kampot, suomalainen sirkuskoulu Kambodzassa"
         }
     }
 

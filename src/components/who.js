@@ -28,57 +28,50 @@ componentDidMount () {
             <div className="tablewrap">
             <div id="whowrap2">
 
+
+                <div id="whopic">
+                <img alt="Kai Kuutamo" src={kaikuutamo}></img>
+                </div>
+
+
                <div id="whotitlewrap">
-               <h1 id="whotitle">Jonglööri Kai Kuutamo</h1>
+               <h1 id="whotitle">{this.props.texts.who.whotitle}</h1>
                 
                </div>
 
                 <div id="whointro">
 
                 
-
                 <div id="whotext">
                 
-                <p>
-                Kai Kuutamo on jongleeraukseen keskittynyt sirkustaiteilija, jolla on takanaan kymmenen vuoden esiintymiskokemus ja lukemattomat tunnit harjoittelua. Hän on koulutettu sirkustaiteiden opettaja, Sirkussirkus Putiikin omistaja, Herttakuninkaat-ryhmän toinen perustajajäsen ja myös Multi Bueno -festivaalin perustaja ja järjestäjä.
-                </p>
+                <p>{this.props.texts.who.whotext1}</p>
 
-                <p>
-                Uransa aikana Kuutamo on opiskellut jongleerausta Suomessa ja Ukrainassa, esiintynyt muun muassa Englannissa, Saksassa, Belgiassa, Ruotsissa, Eestissä, Thaimaassa ja Kambodzassa, voittanut katuesiintymisen Suomen mestaruuden, rikkonut jongleerauksen Suomen ennätyksen sekä pitänyt yllä kaksi vuotta ilmaista sirkuskoulua Kambodzassa.
-                </p>
+                <p>{this.props.texts.who.whotext2}</p>
+                
+                <p>{this.props.texts.who.whotext3}</p>
 
-                <p>
-                Nykyään hän työskentelee pääasiassa Suomessa esiintyen yksin, Herttakuninkaat-ryhmän, Aimo Annoksen tai Merkkarit-orkesterin kanssa. Esiintymispaikat vaihtelevat lasten festivaaleista vanhainkoteihin sekä suurtapahtumista pieniin syntymäpäiviin.
-                </p>
+                <p>{this.props.texts.who.whotext4}</p>
 
-                <p>
-                "Esitämme valmiita teoksia omien kiertueaikataulujemme mukaan ja tilauksesta. Toisinaan rakennamme tapahtumiin ja tilaisuuksiin myös omia ohjelmia tilaajan toiveiden mukaisesti. Opetuspalveluita tarjoamme eri sirkuskouluille ja kerhoille sovitun mittaisissa jaksoissa, ja järjestämme myös kertaluontoisia jongleeraustyöpajoja kaikenlaisille ryhmille tilauksesta. Kaikki on mahdollista, jos kalenterissa on tilaa ja palkkiosta päästään yhteisymmärrykseen." 
-                </p>
+                <p>{this.props.texts.who.whotext5}</p>
 
-                <p>
-                -Kai Kuutamo 
-
-                </p>
 
                 </div>
 
-                <div id="whopic">
-                <img alt="Kai Kuutamo" src={kaikuutamo}></img>
-                </div>
+
 
                 </div>
 
                 <div id="wholinks">
-                    <h2>Linkit</h2>
+                    <h2>{this.props.texts.who.whotitle2}</h2>
 
-                    <a href="http://www.sirkussirkus.com/cv.pdf" target="black">Ansioluettelo</a>
-                    <a href="https://fi.wikipedia.org/wiki/Kai_Kuutamo" target="black">Kai Kuutamo Wikipediassa</a>
-                    <a href="http://www.sirkussirkus.com/merkkarit/" target="black">Merkkarit ja Kai Kuutamo</a>
-                    <a href="http://www.sirkussirkus.com/herttakuninkaat/" target="black">Herttakuninkaat -sirkusryhmä</a>
-                    <a href="http://www.sirkussirkus.com/kkaa/" target="black">Kai Kuutamo & Aimo Annos -sirkusmusiikkiduo</a>
-                    <a href="http://putiikki.sirkussirkus.com/" target="black">Sirkussirkus Putiikki, kaikki sirkusvälineet saman katon alta</a>
-                    <a href="http://www.sirkussirkus.com/multibueno/index.html" target="black">Multi Bueno festivaali, monisyysirkusfestivaali Turussa</a>
-                    <a href="http://www.sirkussirkus.com/circuskampot/" target="black">Circus Kampot, suomalainen sirkuskoulu Kambodzassa</a>
+                    <a href="http://www.sirkussirkus.com/cv.pdf" target="black">{this.props.texts.who.link1}</a>
+                    <a href="https://fi.wikipedia.org/wiki/Kai_Kuutamo" target="black">{this.props.texts.who.link2}</a>
+                    <a href="http://www.sirkussirkus.com/merkkarit/" target="black">{this.props.texts.who.link3}</a>
+                    <a href="http://www.sirkussirkus.com/herttakuninkaat/" target="black">{this.props.texts.who.link4}</a>
+                    <a href="http://www.sirkussirkus.com/kkaa/" target="black">{this.props.texts.who.link5}</a>
+                    <a href="http://putiikki.sirkussirkus.com/" target="black">{this.props.texts.who.link6}</a>
+                    <a href="http://www.sirkussirkus.com/multibueno/index.html" target="black">{this.props.texts.who.link7}</a>
+                    <a href="http://www.sirkussirkus.com/circuskampot/" target="black">{this.props.texts.who.link8}</a>
 
                 </div>
 
