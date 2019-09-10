@@ -1,0 +1,28 @@
+#footersocialwrap {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#footersocialwrap2 {
+    margin-bottom: 20px;
+}
+
+#footersocialwrap2 img {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 40px;
+
+}
+
+#footersocialwrap p {
+    margin: 0;
+    padding: 0;
+}
