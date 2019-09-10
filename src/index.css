@@ -17,7 +17,7 @@ body {
   --text2: #F7F9FB;   /* slideshow text */
 
   --text3: #F7F9FB;   /* table text */
-  --table: #1b2c62;   /* table background */
+  --table: rgba(27, 44, 98, 0.8);   /* table background */
 
   font-family: 'Montserrat', sans-serif;
   
