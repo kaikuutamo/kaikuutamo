@@ -43,7 +43,7 @@ var camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHe
 
 camera.position.x = 0;
 camera.position.y = 0;
-camera.position.z = 0;
+camera.position.z = -2.5;
 
 
 // this is the canvas
@@ -133,6 +133,12 @@ var material2 = new THREE.SpriteMaterial( {
    color: 0xffffff
    
   } );
+
+  var material3 = new THREE.SpriteMaterial( {
+    map: map,
+    color: 0xffffff
+    
+   } );
 var sprite = new THREE.Sprite( material2 );
 sprite.scale.set(10, 10, 1)
 sprite.position.set(0, 0, 50)
@@ -140,7 +146,7 @@ scene.add( sprite );
 
 
 
-var sprite2 = new THREE.Sprite( material2 );
+var sprite2 = new THREE.Sprite( material3 );
 sprite2.position.set(0, 0, -50)
 sprite2.scale.set(10, 10, 1)
 scene.add( sprite2 );
@@ -166,27 +172,11 @@ scene.add(light)
 
 // let's render the scene and the camera
 
-var status = "up";
 
 function animate () {
 
 
-if (material2.rotation > 0) {
-  status = "down"
-}
-
-if (material2.rotation < -1) {
-  status = "up"
-}
-
-if (status === "up") {
-  material2.rotation += 0.01;
-} 
-
-if (status === "down") {
-  material2.rotation -= 0.01;
-}
-
+  material3.rotation -= 0.01;
 
 controls.update();
 
@@ -194,7 +184,7 @@ controls.update();
 
 renderer.render(scene, camera);
 
- requestAnimationFrame(animate);
+  requestAnimationFrame(animate);
 
 }
 

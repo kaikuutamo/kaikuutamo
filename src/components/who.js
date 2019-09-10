@@ -6,6 +6,8 @@ import cloudAnim from './cloudanimation'
 
 import kaikuutamo from '../pictures3/kaikuutamo.jpg'
 
+import Footer from './footer'
+
 import './who.css';
 
 class Who extends React.Component {
@@ -83,6 +85,9 @@ componentDidMount () {
                 
                 
             </div>
+
+            <Footer />
+
             </div>
 
 

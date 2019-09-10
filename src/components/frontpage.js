@@ -16,7 +16,6 @@ import facebook from '../pictures2/facebook.png'
 import instagram from '../pictures2/instagram.png'
 import youtube from '../pictures2/youtube.png'
 
-var words = ["TUNNETTA", "ELÄMYKSIÄ", "MEININKIÄ"];
 
 var pics = [pic1, pic2, pic3];
 
@@ -31,10 +30,14 @@ class FrontPage extends React.Component {
 
         this.state = {
             pic: pic1,
-            text: "TUNNETTA", 
+            text: "Although I am blind I could feel your energy. It was a pleasure to experience your show.", 
+            text2: "- sokea afrikkalainen mies",
+            words: ["Although I am blind I could feel your energy. It was a pleasure to experience your show.", "Ok on uus hyvä!", "To perform you need practice, to practice you need passion."],
+            words2: ["- sokea afrikkalainen mies", "- Jukka Keränen", "― Amit Kalantri"]
         }
 
         this.mounted = "true";
+
     }
     
 
@@ -45,17 +48,19 @@ slideShow = () => {
 
     var pic = document.getElementById("frontpic");
     var text = document.getElementById("fronttext");
-
+    
     
     TweenMax.to(pic, 0.5, {left: "100px", opacity: "0"});
     TweenMax.to(text, 0.5, {left: "-170px", opacity: "0"});
+    
 
     setTimeout(() => {
         
         if (number === 1 && this.mounted === "true") {
             this.setState({
                 pic: pics[1],
-                text: words[1]
+                text: this.state.words[1],
+                text2: this.state.words2[1]
             })
             number = 2;
         }
@@ -63,7 +68,8 @@ slideShow = () => {
         else if (number === 2 && this.mounted === "true") {
             this.setState({
                 pic: pics[2],
-                text: words[2]
+                text: this.state.words[2],
+                text2: this.state.words2[2]
             })
             number = 3;
         }
@@ -71,7 +77,8 @@ slideShow = () => {
         else if (number === 3 && this.mounted === "true") {
             this.setState({
                 pic: pics[0],
-                text: words[0]
+                text: this.state.words[0],
+                text2: this.state.words2[0]
     
             })
             number = 1;
@@ -84,6 +91,7 @@ slideShow = () => {
 
     TweenMax.to(pic, 0.5, {left: "0px", opacity: "1", delay: 1});
     TweenMax.to(text, 0.5, {left: "-70px", opacity: "1", delay: 1});
+    
 
     
 }    
@@ -92,7 +100,7 @@ componentWillMount () {
 
     theInterval = setInterval(() => {
         this.slideShow()
-    }, 4000);
+    }, 6000);
 
 }
 
@@ -110,8 +118,11 @@ return (
 
 
     <div id="frontcont">
-        <img onClick={this.slideShow} alt="Slideshow" id="frontpic" src={this.state.pic}></img>
-        <p id="fronttext">{this.state.text}</p>
+        <img alt="Slideshow" id="frontpic" src={this.state.pic}></img>
+        <div id="fronttext">
+        <p id="fronttext1">{this.state.text}</p>
+        <p id="fronttext2">{this.state.text2}</p>
+        </div>
     </div>
 
 
