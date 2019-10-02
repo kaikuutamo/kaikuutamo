@@ -8,7 +8,7 @@
     color: var(--text3);
 }
 
-#whowrap2 {
+.tablewrap2 {
     padding: 10px;
     width: 100%;
     max-width: 1000px;
@@ -18,21 +18,21 @@
 }
 
 
-#whopic {
+.intropic {
     height: auto;
 }
 
-#whopic img {
+.intropic img {
 
     width: 100%;
 
 }
 
-#whotitlewrap {
+.tabletitlewrap {
     height: auto;
 }
 
-#whotitle {
+.tabletitle {
     margin: 0;
     padding: 0;
     font-size: 1.8rem;
@@ -43,16 +43,16 @@
 }
 
 
-#whointro {
+.tableintro {
     height: auto;
 }
 
-#whotext {
+.tabletext {
    height: auto;
 }
 
 
-#whotext p {
+.tabletext p {
     margin: 0;
     margin-top: 17px;
     margin-bottom: 17px;
@@ -72,10 +72,9 @@
 #wholinks h2 {
     margin: 0;
     padding: 0;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-family: 'Muli', sans-serif;
     font-weight: 900;
-
 
     }
 

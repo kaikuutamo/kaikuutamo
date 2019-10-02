@@ -3,8 +3,10 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import {connect} from 'react-redux';
 
+import {TweenMax} from "gsap/TweenMax";
 
 import logo from '../pictures/logo2.png'
+import logo2 from '../pictures/logo3.png'
 
 import './header.css';
 
@@ -26,11 +28,17 @@ changeLan = (arg) => {
 
 }
 
+mobileMenu = () => {
+    console.log("MOI")
+}
+
 
 render() {
 
 
 return (
+    <div>
+
     <header id="headwrap">
         
     <div id="headlogowrap">
@@ -42,28 +50,26 @@ return (
         <p onClick={() => this.changeLan("eng")}>Eng</p>
     </div>
 
-    <div id="headlinkwrap">
-
-    <nav>
-
-        <ul>
-                <li><Link to="/who">{this.props.texts.header.who}</Link></li>
-                <li><Link to="/services">{this.props.texts.header.services}</Link></li>
-                <li><Link to="/shows">{this.props.texts.header.shows}</Link></li>
-                <li><Link to="/pictures">{this.props.texts.header.pictures}</Link></li>
-                <li><Link to="/videos">{this.props.texts.header.videos}</Link></li>
-                <li><Link to="/articles">{this.props.texts.header.articles}</Link></li>
-                <li><Link to="/media">{this.props.texts.header.media}</Link></li>
-                <li><Link to="/offer">{this.props.texts.header.offer}</Link></li>
-                <li><Link to="/contact">{this.props.texts.header.contact}</Link></li>
-        </ul>
-
-    </nav>
-
-    </div>
+    {this.props.texts.header}
 
 
     </header>
+
+    <header id="mobileheader">
+
+    <div id="headlogowrap2">
+    <Link to="/"><img  id="headlogo" alt="Kai Kuutamo logo" src={logo2}></img></Link>
+    </div>
+
+    <div onClick={this.mobileMenu()} id="hamburger">
+        <div className="line"></div>
+        <div className="line"></div>
+        <div className="line"></div>
+    </div>
+
+    </header>
+
+    </div>
 )
 
 }
