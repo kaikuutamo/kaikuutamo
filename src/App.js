@@ -176,7 +176,7 @@ scene.add(light)
 function animate () {
 
 
-  material3.rotation -= 0.01;
+  material3.rotation += 0.01;
 
 controls.update();
 

@@ -8,7 +8,7 @@
     color: var(--text3);
 }
 
-#whowrap2 {
+.tablewrap2 {
     padding: 10px;
     width: 100%;
     max-width: 1000px;
@@ -17,36 +17,42 @@
     border-radius: 5px;
 }
 
-#whotitlewrap {
+
+.intropic {
     height: auto;
 }
 
-#whotitle {
+.intropic img {
+
+    width: 100%;
+
+}
+
+.tabletitlewrap {
+    height: auto;
+}
+
+.tabletitle {
     margin: 0;
     padding: 0;
     font-size: 1.8rem;
     font-family: 'Muli', sans-serif;
     font-weight: 900;
     text-align: left;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-left: 30px;
+    margin-top: 30px;
 }
 
 
-#whointro {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.tableintro {
+    height: auto;
 }
 
-#whotext {
-    padding-left: 30px;
-    padding-right: 30px;
+.tabletext {
+   height: auto;
 }
 
 
-
-#whotext p {
+.tabletext p {
     margin: 0;
     margin-top: 17px;
     margin-bottom: 17px;
@@ -54,19 +60,10 @@
     line-height: 1.5rem;
 }
 
-#whopic {
-    display: flex;
-    align-items: center;
-}
 
-#whopic img {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 320px;
-}
 
 #wholinks {
-    padding-left: 30px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     
@@ -75,12 +72,10 @@
 #wholinks h2 {
     margin: 0;
     padding: 0;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-family: 'Muli', sans-serif;
     font-weight: 900;
-    text-align: left;
-    margin-top: 20px;
-    margin-bottom: 20px;
+
     }
 
 #wholinks a {

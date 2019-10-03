@@ -6,19 +6,36 @@ import cloudAnim from './cloudanimation'
 
 import './services.css';
 
+import services from '../pictures3/services.jpg'
+
+import Footer from './footer'
 
 class Services extends React.Component {
  
+
+    componentDidMount () {
+
+        cloudAnim();
+    
+    }
 
     render() {
 
 
         return (
 
-            <div>
-                SERVICEEEES
+            <div className="tablewrap">
+            <div className="tablewrap2">
+
+            <div className="intropic">
+                <img alt="Kai Kuutamo" src={services}></img>
             </div>
 
+            {this.props.texts.services}
+
+            </div>
+            <Footer />
+            </div>
         )
 
 

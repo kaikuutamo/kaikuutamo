@@ -3,7 +3,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import {connect} from 'react-redux';
 
-import {TweenMax, Power2, TimelineLite} from "gsap/TweenMax";
+import {TweenMax} from "gsap/TweenMax";
 
 import './frontpage.css';
 
@@ -17,9 +17,10 @@ import instagram from '../pictures2/instagram.png'
 import youtube from '../pictures2/youtube.png'
 
 
+
 var pics = [pic1, pic2, pic3];
 
-var number = 1;
+
 
 var theInterval;
 
@@ -30,13 +31,16 @@ class FrontPage extends React.Component {
 
         this.state = {
             pic: pic1,
-            text: "Although I am blind I could feel your energy. It was a pleasure to experience your show.", 
-            text2: "- sokea afrikkalainen mies",
-            words: ["Although I am blind I could feel your energy. It was a pleasure to experience your show.", "Ok on uus hyvä!", "To perform you need practice, to practice you need passion."],
-            words2: ["- sokea afrikkalainen mies", "- Jukka Keränen", "― Amit Kalantri"]
+            text: "", 
+            text2: "",
+            words: [],
+            words2: []
+            
         }
 
         this.mounted = "true";
+
+        this.number = 1;
 
     }
     
@@ -56,38 +60,40 @@ slideShow = () => {
 
     setTimeout(() => {
         
-        if (number === 1 && this.mounted === "true") {
+        if (this.mounted === "false") {return null}
+
+        if (this.number === 1 && this.mounted === "true") {
             this.setState({
                 pic: pics[1],
-                text: this.state.words[1],
-                text2: this.state.words2[1]
+                text: this.props.texts.frontpage.words[1],
+                text2: this.props.texts.frontpage.words2[1]
             })
-            number = 2;
+            this.number = 2;
         }
     
-        else if (number === 2 && this.mounted === "true") {
+        else if (this.number === 2 && this.mounted === "true") {
             this.setState({
                 pic: pics[2],
-                text: this.state.words[2],
-                text2: this.state.words2[2]
+                text: this.props.texts.frontpage.words[2],
+                text2: this.props.texts.frontpage.words2[2]
             })
-            number = 3;
+            this.number = 3;
         }
     
-        else if (number === 3 && this.mounted === "true") {
+        else if (this.number === 3 && this.mounted === "true") {
             this.setState({
                 pic: pics[0],
-                text: this.state.words[0],
-                text2: this.state.words2[0]
+                text: this.props.texts.frontpage.words[0],
+                text2: this.props.texts.frontpage.words2[0]
     
             })
-            number = 1;
+            this.number = 1;
         }
 
 
     }, 500);
 
-    
+    if (this.mounted === "false") {return null}
 
     TweenMax.to(pic, 0.5, {left: "0px", opacity: "1", delay: 1});
     TweenMax.to(text, 0.5, {left: "-70px", opacity: "1", delay: 1});
@@ -102,6 +108,13 @@ componentWillMount () {
         this.slideShow()
     }, 6000);
 
+    this.setState({
+        text: this.props.texts.frontpage.text, 
+            text2: this.props.texts.frontpage.text2,
+        words: this.props.texts.frontpage.words,
+            words2: this.props.texts.frontpage.words2
+    })
+
 }
 
 componentWillUnmount () {
@@ -110,6 +123,9 @@ componentWillUnmount () {
 }
 
 render() {
+
+
+
 
 return (
 

@@ -1,0 +1,18 @@
+/* who.css */
+
+.tableh2wrap, .tableh3wrap, .tableh4wrap {
+    height: auto;
+}
+
+.tableh2wrap h2, .tableh3wrap h3, .tableh4wrap h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
+}
+
+#shoplink {
+  text-decoration: none;
+  color: var(--color1)
+}
