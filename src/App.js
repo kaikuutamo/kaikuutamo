@@ -38,7 +38,7 @@ componentDidMount () {
 var scene = new THREE.Scene();
 
 // this is the camera
-var camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+var camera = new THREE.PerspectiveCamera( 75, window.innerWidth / document.getElementById("App").clientHeight, 0.1, 1000 );
 
 
 camera.position.x = 0;
@@ -68,7 +68,11 @@ controls.enableZoom = false
 
 renderer.setClearColor( 0x000000, 0 );
 
-renderer.setSize(window.innerWidth, window.innerHeight);
+
+
+
+
+renderer.setSize(window.innerWidth, document.getElementById("App").clientHeight);
 
 var background = document.getElementById("background");
 
@@ -184,7 +188,7 @@ controls.update();
 
 renderer.render(scene, camera);
 
-  requestAnimationFrame(animate);
+ // requestAnimationFrame(animate);
 
 }
 
@@ -203,7 +207,7 @@ animate();
 
   return (
     <BrowserRouter>
-    <div className="App">
+    <div id="App" className="App">
     <div id="background">
     </div>
     <div id="clouds">

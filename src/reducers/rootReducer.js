@@ -10,9 +10,9 @@ var finnish = {
 
     frontpage: {
 
-        "text": "Although I am blind I could feel your energy. It was a pleasure to experience your show.", 
+        "text": "Although I am blind I could feel your energy.", 
         "text2": "- sokea afrikkalainen mies",
-        "words": ["Although I am blind I could feel your energy. It was a pleasure to experience your show.", "Ok on uus hyvä!", "To perform you need practice, to practice you need passion."],
+        "words": ["Although I am blind I could feel your energy.", "Ok on uus hyvä!", "To perform you need practice, to practice you need passion."],
         "words2": ["- sokea afrikkalainen mies", "- Jukka Keränen", "― Amit Kalantri"]
 
     },
@@ -71,14 +71,14 @@ var finnish = {
      <div id="wholinks">
          <h2>Linkit</h2>
 
-         <a href="http://www.sirkussirkus.com/cv.pdf" target="black">Ansioluettelo</a>
-         <a href="https://fi.wikipedia.org/wiki/Kai_Kuutamo" target="black">Kai Kuutamo Wikipediassa</a>
-         <a href="http://www.sirkussirkus.com/merkkarit/" target="black">Merkkarit ja Kai Kuutamo</a>
-         <a href="http://www.sirkussirkus.com/herttakuninkaat/" target="black">Herttakuninkaat -sirkusryhmä</a>
-         <a href="http://www.sirkussirkus.com/kkaa/" target="black">Kai Kuutamo & Aimo Annos -sirkusmusiikkiduo</a>
-         <a href="http://putiikki.sirkussirkus.com/" target="black">Sirkussirkus Putiikki, kaikki sirkusvälineet saman katon alta</a>
-         <a href="http://www.sirkussirkus.com/multibueno/index.html" target="black">Multi Bueno festivaali, monisyysirkusfestivaali Turussa</a>
-         <a href="http://www.sirkussirkus.com/circuskampot/" target="black">Circus Kampot, suomalainen sirkuskoulu Kambodzassa</a>
+         <a href="http://www.sirkussirkus.com/cv.pdf" target="blank">Ansioluettelo</a>
+         <a href="https://fi.wikipedia.org/wiki/Kai_Kuutamo" target="blank">Kai Kuutamo Wikipediassa</a>
+         <a href="http://www.sirkussirkus.com/merkkarit/" target="blank">Merkkarit ja Kai Kuutamo</a>
+         <a href="http://www.sirkussirkus.com/herttakuninkaat/" target="blank">Herttakuninkaat -sirkusryhmä</a>
+         <a href="http://www.sirkussirkus.com/kkaa/" target="blank">Kai Kuutamo & Aimo Annos -sirkusmusiikkiduo</a>
+         <a href="http://putiikki.sirkussirkus.com/" target="blank">Sirkussirkus Putiikki, kaikki sirkusvälineet saman katon alta</a>
+         <a href="http://www.sirkussirkus.com/multibueno/index.html" target="blank">Multi Bueno festivaali, monisyysirkusfestivaali Turussa</a>
+         <a href="http://www.sirkussirkus.com/circuskampot/" target="blank">Circus Kampot, suomalainen sirkuskoulu Kambodzassa</a>
 
      </div>
      </div>,
@@ -133,12 +133,27 @@ var finnish = {
          <div className="tabletext">
              <p>Kai Kuutamon Sirkussirkus Putiikki on myynyt sirkusvälineitä ammattilaisille ja harrastajille jo vuodesta 2006.</p>
              <p>Putiikki sijaitsi alkuaikoina Jarrumiehenkadulla Turussa. Se oli suljettuna vuodet 2011-2015, ja avattiin uudestaan verkkokauppana vuonna 2016. Marraskuussa 2017 uusi kivijalkakauppa avattiin osoitteeseen Lonttistentie 14, Turku.</p>
-             <p>Kaupasta saat parhaat jongleerausvälineet joka lähtöön. Lisäksi hyllystä löytyvät ilma-akrobatiavälineet, taikuustuotteet, yksipyöräiset sekä paljon muita kiinnostavia myyntiartikkeleita. Kannattaa poiketa paikan päällä! Aukiolo ja noudot sovitusti tai sattumanvaraisesti. Toimitamme myös tavaraa Euroopan-laajuisesti. Sirkussirkus Putiikin tarjontaan voit tutustua parhaiten osoitteessa:  <a id="shoplink" href="http://putiikki.sirkussirkus.com/" target="black">putiikki.sirkussirkus.com</a>.</p>
+             <p>Kaupasta saat parhaat jongleerausvälineet joka lähtöön. Lisäksi hyllystä löytyvät ilma-akrobatiavälineet, taikuustuotteet, yksipyöräiset sekä paljon muita kiinnostavia myyntiartikkeleita. Kannattaa poiketa paikan päällä! Aukiolo ja noudot sovitusti tai sattumanvaraisesti. Toimitamme myös tavaraa Euroopan-laajuisesti. Sirkussirkus Putiikin tarjontaan voit tutustua parhaiten osoitteessa:  <a id="shoplink" href="http://putiikki.sirkussirkus.com/" target="blank">putiikki.sirkussirkus.com</a>.</p>
              
          </div>
      </div>
 
+     </div>,
+
+     mobilemenu: 
+     
+     <div>
+     <li><Link to="/who">KUKA</Link></li>
+     <li><Link to="/services">PALVELUT</Link></li>
+     <li><Link to="/shows">ESITYKSET</Link></li>
+     <li><Link to="/pictures">KUVAT</Link></li>
+     <li><Link to="/videos">VIDEOT</Link></li>
+     <li><Link to="/articles">ARTIKKELIT</Link></li>
+     <li><Link to="/media">MEDIA</Link></li>
+     <li><Link to="/offer">TARJOUSPYYNTÖ</Link></li>
+     <li><Link to="/contact">YHTEYSTIEDOT</Link></li>
      </div>
+
 }
 
 
@@ -149,9 +164,9 @@ var english = {
 
     frontpage: {
 
-        "text": "Although I am blind I could feel your energy. It was a pleasure to experience your show.", 
+        "text": "Although I am blind I could feel your energy.", 
         "text2": "- Blind african man",
-        "words": ["Although I am blind I could feel your energy. It was a pleasure to experience your show.", "Ok on uus hyvä!", "To perform you need practice, to practice you need passion."],
+        "words": ["Although I am blind I could feel your energy.", "Ok on uus hyvä!", "To perform you need practice, to practice you need passion."],
         "words2": ["- Blind african man", "- Cool Keränen", "― Some Amit Kalantri"]
 
     },
@@ -179,48 +194,48 @@ var english = {
 
     </div>,
 
-    who:
-    <div>
-    <div id="whotitlewrap">
-    <h1 id="whotitle">Juggler Kai Kuutamo</h1>
-     
-    </div>
+who:
+<div>
+<div className="tabletitlewrap">
+<h1 className="tabletitle">Juggler Kai Kuutamo</h1>
+ 
+</div>
 
-     <div id="whointro">
+ <div className="tableintro">
 
-     
-     <div id="whotext">
-     
-     <p>Kai Kuutamo on jongleeraukseen keskittynyt sirkustaiteilija, jolla on takanaan kymmenen vuoden esiintymiskokemus ja lukemattomat tunnit harjoittelua. Hän on koulutettu sirkustaiteiden opettaja, Sirkussirkus Putiikin omistaja, Herttakuninkaat-ryhmän toinen perustajajäsen ja myös Multi Bueno -festivaalin perustaja ja järjestäjä.</p>
+ 
+ <div className="tabletext">
+ 
+ <p>Kai Kuutamo on jongleeraukseen keskittynyt sirkustaiteilija, jolla on takanaan kymmenen vuoden esiintymiskokemus ja lukemattomat tunnit harjoittelua. Hän on koulutettu sirkustaiteiden opettaja, Sirkussirkus Putiikin omistaja, Herttakuninkaat-ryhmän toinen perustajajäsen ja myös Multi Bueno -festivaalin perustaja ja järjestäjä.</p>
 
-     <p>Uransa aikana Kuutamo on opiskellut jongleerausta Suomessa ja Ukrainassa, esiintynyt muun muassa Englannissa, Saksassa, Belgiassa, Ruotsissa, Eestissä, Thaimaassa ja Kambodzassa, voittanut katuesiintymisen Suomen mestaruuden, rikkonut jongleerauksen Suomen ennätyksen sekä pitänyt yllä kaksi vuotta ilmaista sirkuskoulua Kambodzassa.</p>
-     
-     <p>Nykyään hän työskentelee pääasiassa Suomessa esiintyen yksin, Herttakuninkaat-ryhmän, Aimo Annoksen tai Merkkarit-orkesterin kanssa. Esiintymispaikat vaihtelevat lasten festivaaleista vanhainkoteihin sekä suurtapahtumista pieniin syntymäpäiviin.</p>
+ <p>Uransa aikana Kuutamo on opiskellut jongleerausta Suomessa ja Ukrainassa, esiintynyt muun muassa Englannissa, Saksassa, Belgiassa, Ruotsissa, Eestissä, Thaimaassa ja Kambodzassa, voittanut katuesiintymisen Suomen mestaruuden, rikkonut jongleerauksen Suomen ennätyksen sekä pitänyt yllä kaksi vuotta ilmaista sirkuskoulua Kambodzassa.</p>
+ 
+ <p>Nykyään hän työskentelee pääasiassa Suomessa esiintyen yksin, Herttakuninkaat-ryhmän, Aimo Annoksen tai Merkkarit-orkesterin kanssa. Esiintymispaikat vaihtelevat lasten festivaaleista vanhainkoteihin sekä suurtapahtumista pieniin syntymäpäiviin.</p>
 
-     <p>"Esitämme valmiita teoksia omien kiertueaikataulujemme mukaan ja tilauksesta. Toisinaan rakennamme tapahtumiin ja tilaisuuksiin myös omia ohjelmia tilaajan toiveiden mukaisesti. Opetuspalveluita tarjoamme eri sirkuskouluille ja kerhoille sovitun mittaisissa jaksoissa, ja järjestämme myös kertaluontoisia jongleeraustyöpajoja kaikenlaisille ryhmille tilauksesta. Kaikki on mahdollista, jos kalenterissa on tilaa ja palkkiosta päästään yhteisymmärrykseen."</p>
+ <p>"Esitämme valmiita teoksia omien kiertueaikataulujemme mukaan ja tilauksesta. Toisinaan rakennamme tapahtumiin ja tilaisuuksiin myös omia ohjelmia tilaajan toiveiden mukaisesti. Opetuspalveluita tarjoamme eri sirkuskouluille ja kerhoille sovitun mittaisissa jaksoissa, ja järjestämme myös kertaluontoisia jongleeraustyöpajoja kaikenlaisille ryhmille tilauksesta. Kaikki on mahdollista, jos kalenterissa on tilaa ja palkkiosta päästään yhteisymmärrykseen."</p>
 
-     <p>- Kai Kuutamo</p>
-
-
-     </div>
+ <p>- Kai Kuutamo</p>
 
 
-     </div>
+ </div>
 
-     <div id="wholinks">
-         <h2>Linkit</h2>
 
-         <a href="http://www.sirkussirkus.com/cv.pdf" target="black">Ansioluettelo</a>
-         <a href="https://fi.wikipedia.org/wiki/Kai_Kuutamo" target="black">Kai Kuutamo Wikipediassa</a>
-         <a href="http://www.sirkussirkus.com/merkkarit/" target="black">Merkkarit ja Kai Kuutamo</a>
-         <a href="http://www.sirkussirkus.com/herttakuninkaat/" target="black">Herttakuninkaat -sirkusryhmä</a>
-         <a href="http://www.sirkussirkus.com/kkaa/" target="black">Kai Kuutamo & Aimo Annos -sirkusmusiikkiduo</a>
-         <a href="http://putiikki.sirkussirkus.com/" target="black">Sirkussirkus Putiikki, kaikki sirkusvälineet saman katon alta</a>
-         <a href="http://www.sirkussirkus.com/multibueno/index.html" target="black">Multi Bueno festivaali, monisyysirkusfestivaali Turussa</a>
-         <a href="http://www.sirkussirkus.com/circuskampot/" target="black">Circus Kampot, suomalainen sirkuskoulu Kambodzassa</a>
+ </div>
 
-     </div>
-     </div>,
+ <div id="wholinks">
+     <h2>Linkit</h2>
+
+     <a href="http://www.sirkussirkus.com/cv.pdf" target="blank">Ansioluettelo</a>
+     <a href="https://fi.wikipedia.org/wiki/Kai_Kuutamo" target="blank">Kai Kuutamo Wikipediassa</a>
+     <a href="http://www.sirkussirkus.com/merkkarit/" target="blank">Merkkarit ja Kai Kuutamo</a>
+     <a href="http://www.sirkussirkus.com/herttakuninkaat/" target="blank">Herttakuninkaat -sirkusryhmä</a>
+     <a href="http://www.sirkussirkus.com/kkaa/" target="blank">Kai Kuutamo & Aimo Annos -sirkusmusiikkiduo</a>
+     <a href="http://putiikki.sirkussirkus.com/" target="blank">Sirkussirkus Putiikki, kaikki sirkusvälineet saman katon alta</a>
+     <a href="http://www.sirkussirkus.com/multibueno/index.html" target="blank">Multi Bueno festivaali, monisyysirkusfestivaali Turussa</a>
+     <a href="http://www.sirkussirkus.com/circuskampot/" target="blank">Circus Kampot, suomalainen sirkuskoulu Kambodzassa</a>
+
+ </div>
+ </div>,
 
      services: 
 
@@ -273,12 +288,28 @@ var english = {
          <div className="tabletext">
              <p>Kai Kuutamon Sirkussirkus Putiikki on myynyt sirkusvälineitä ammattilaisille ja harrastajille jo vuodesta 2006.</p>
              <p>Putiikki sijaitsi alkuaikoina Jarrumiehenkadulla Turussa. Se oli suljettuna vuodet 2011-2015, ja avattiin uudestaan verkkokauppana vuonna 2016. Marraskuussa 2017 uusi kivijalkakauppa avattiin osoitteeseen Lonttistentie 14, Turku.</p>
-             <p>Kaupasta saat parhaat jongleerausvälineet joka lähtöön. Lisäksi hyllystä löytyvät ilma-akrobatiavälineet, taikuustuotteet, yksipyöräiset sekä paljon muita kiinnostavia myyntiartikkeleita. Kannattaa poiketa paikan päällä! Aukiolo ja noudot sovitusti tai sattumanvaraisesti. Toimitamme myös tavaraa Euroopan-laajuisesti. Sirkussirkus Putiikin tarjontaan voit tutustua parhaiten osoitteessa:  <a id="shoplink" href="http://putiikki.sirkussirkus.com/" target="black">putiikki.sirkussirkus.com</a>.</p>
+             <p>Kaupasta saat parhaat jongleerausvälineet joka lähtöön. Lisäksi hyllystä löytyvät ilma-akrobatiavälineet, taikuustuotteet, yksipyöräiset sekä paljon muita kiinnostavia myyntiartikkeleita. Kannattaa poiketa paikan päällä! Aukiolo ja noudot sovitusti tai sattumanvaraisesti. Toimitamme myös tavaraa Euroopan-laajuisesti. Sirkussirkus Putiikin tarjontaan voit tutustua parhaiten osoitteessa:  <a id="shoplink" href="http://putiikki.sirkussirkus.com/" target="blank">putiikki.sirkussirkus.com</a>.</p>
              
          </div>
      </div>
 
-     </div>
+     </div>,
+
+mobilemenu: 
+     
+<div>
+<li><Link to="/who">WHO</Link></li>
+<li><Link to="/services">SERVICES</Link></li>
+<li><Link to="/shows">SHOWS</Link></li>
+<li><Link to="/pictures">PICTURES</Link></li>
+<li><Link to="/videos">VIDEOS</Link></li>
+<li><Link to="/articles">ARTICLES</Link></li>
+<li><Link to="/media">MEDIA</Link></li>
+<li><Link to="/offer">OFFER</Link></li>
+<li><Link to="/contact">CONTACT</Link></li>
+</div>
+
+
 }
 
 

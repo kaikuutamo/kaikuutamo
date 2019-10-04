@@ -1,0 +1,18 @@
+/* who.css */
+
+#piccontainer {
+    margin-top: 30px;
+    height: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 10px;
+}
+
+#piccontainer img {
+    display: flex;
+    filter: grayscale(100%);
+    width: 100%;
+    margin-bottom: 10px;
+}

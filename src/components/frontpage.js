@@ -8,9 +8,9 @@ import {TweenMax} from "gsap/TweenMax";
 import './frontpage.css';
 
 
-import pic1 from '../pictures2/pic1.jpg'
-import pic2 from '../pictures2/pic2.jpg'
-import pic3 from '../pictures2/pic3.jpg'
+import pic1 from '../pictures2/s1.jpg'
+import pic2 from '../pictures2/s2.jpg'
+import pic3 from '../pictures2/s3.jpg'
 
 import facebook from '../pictures2/facebook.png'
 import instagram from '../pictures2/instagram.png'
@@ -95,8 +95,17 @@ slideShow = () => {
 
     if (this.mounted === "false") {return null}
 
-    TweenMax.to(pic, 0.5, {left: "0px", opacity: "1", delay: 1});
-    TweenMax.to(text, 0.5, {left: "-70px", opacity: "1", delay: 1});
+    if (window.innerWidth < 1200) {
+        TweenMax.to(pic, 0.5, {left: "0px", opacity: "1", delay: 1});
+        TweenMax.to(text, 0.5, {left: "0px", opacity: "1", delay: 1});
+    }
+
+    else {
+        TweenMax.to(pic, 0.5, {left: "0px", opacity: "1", delay: 1});
+        TweenMax.to(text, 0.5, {left: "-70px", opacity: "1", delay: 1});
+    }
+
+
     
 
     
@@ -107,6 +116,7 @@ componentWillMount () {
     theInterval = setInterval(() => {
         this.slideShow()
     }, 6000);
+
 
     this.setState({
         text: this.props.texts.frontpage.text, 
@@ -128,19 +138,27 @@ render() {
 
 
 return (
-
+<div id="frontmain">
 <div id="frontwrap">
     
 
 
     <div id="frontcont">
+
+        
         <img alt="Slideshow" id="frontpic" src={this.state.pic}></img>
+        
+
         <div id="fronttext">
         <p id="fronttext1">{this.state.text}</p>
         <p id="fronttext2">{this.state.text2}</p>
         </div>
+
+
     </div>
 
+    
+</div>
 
     <div id="frontsocialwrap">
     <div id="frontsocialwrap2">
@@ -150,8 +168,6 @@ return (
     </div>
     </div>
 
-
-    
 </div>
 
 )

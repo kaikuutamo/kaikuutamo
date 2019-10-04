@@ -3,7 +3,6 @@
     
     width: 100%;
     
-    margin-top: 10px;
     z-index: 0;
     color: var(--text3);
 }
@@ -15,6 +14,7 @@
     background: var(--table);
     margin: 0 auto;
     border-radius: 5px;
+    box-sizing: border-box;
 }
 
 
