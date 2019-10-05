@@ -24,8 +24,8 @@ class Footer extends React.Component {
             <a href="https://www.youtube.com/user/kaikuutamo/videos" target="_blank" rel="noopener noreferrer" ><img src={youtube} alt="youtube"></img></a>
             </div>
 
-            <p>Kai Kuutamo | kai@sirkussirkus.com | 040 754 6182</p>
-
+            <p>Kai Kuutamo | kai@sirkussirkus.com</p>
+            <p>040 754 6182</p>
             </div>
         
 

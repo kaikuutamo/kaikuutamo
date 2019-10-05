@@ -64,10 +64,12 @@
 
 
 #mobileheader {
+    
     position: fixed;
+    top: 0;
     z-index: 1000;
     height: 50px;
-    
+    background: var(--sky1);
     width: 100%;
     display: none;
     padding-left: 3px;
@@ -88,21 +90,84 @@
 #hamburger {
     position: absolute;
     right: 10px;
-
+    
 }
 
 .line {
-    width: 30px;
-    height: 6px;
+    width: 24px;
+    height: 4px;
     margin-top: 3px;
     margin-bottom: 3px;
     background: white;
 }
 
+#emptybox {
+    position: relative;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    display: none;
+}
+
+#mobilemenu {
+    position: fixed;
+    top: 50px;
+    background: var(--sky1);
+    z-index: 1000;
+    width: 100%;
+    height: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#mobilenav {
+    width: 100%;
+    display: none;
+    
+}
+
+#mobilemenu ul {
+    padding: 0;
+    margin: 0 auto;
+    width: 100%; 
+    
+}
+
+#mobilemenu li {
+    list-style: none;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#mobilemenu a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.7rem;
+}
+
+
+#headlangwrap2 {
+    color: white;
+    display: flex;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+#headlangwrap2 p {
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 1rem;
+}
+
 /*---------------------------------------*/
 
  
-@media (max-width: 1100px) {
+@media (max-width: 1000px) {
 
     #headwrap {
         display: none;
@@ -113,5 +178,9 @@
         align-items: center;
     }
 
+    #emptybox {
+        display: block;
+    }
 
+ 
 }
