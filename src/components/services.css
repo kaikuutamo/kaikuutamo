@@ -22,6 +22,17 @@
 
 /*------------------------------*/
 
+@media (max-width: 1000px) {
+
+  .tableh2wrap h2, .tableh3wrap h3, .tableh4wrap h4 {
+
+    font-size: 1.4rem;
+ 
+}
+
+}
+
+
 @media (max-width: 900px) {
 
   .tableh2wrap h2, .tableh3wrap h3, .tableh4wrap h4 {

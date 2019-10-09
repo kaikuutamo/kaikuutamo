@@ -35,6 +35,8 @@ componentDidMount () {
 
 /*------------------ 3d --------------------*/
 
+
+
 // this is the scene
 var scene = new THREE.Scene();
 
@@ -189,6 +191,7 @@ controls.update();
 
 renderer.render(scene, camera);
 
+
    requestAnimationFrame(animate);
 
 }
@@ -203,6 +206,7 @@ animate();
 }
 
   render() {
+
 
 
 

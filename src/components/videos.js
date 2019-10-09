@@ -15,7 +15,7 @@ class Videos extends React.Component {
     componentDidMount () {
 
         cloudAnim();
-    
+        
     }
 
     render() {
