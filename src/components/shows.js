@@ -8,17 +8,9 @@ import './shows.css';
 
 import Footer from './footer'
 
-import show1 from '../pictures3/show1.jpg';
-import show2 from '../pictures3/show1.jpg';
-import show3 from '../pictures3/show1.jpg';
+import {Link} from 'react-router-dom';
 
-import show4 from '../pictures3/show1.jpg';
-import show5 from '../pictures3/show1.jpg';
-import show6 from '../pictures3/show1.jpg';
 
-import show7 from '../pictures3/show1.jpg';
-import show8 from '../pictures3/show1.jpg';
-import show9 from '../pictures3/show1.jpg';
 
 
 class Shows extends React.Component {
@@ -39,23 +31,23 @@ class Shows extends React.Component {
             <div className="tablewrap2">
 
             <div className="tabletitlewrap">
-              <h1 className="tabletitle">Esitykset</h1>
+              
      
              </div>
 
             <div id="showcontainer">
 
-            <a href="http://www.sirkussirkus.com/cv.pdf" target="blank"><img alt="Show" src={show1}></img></a>
-            <a href="http://www.sirkussirkus.com/cv.pdf" target="blank"><img alt="Show" src={show2}></img></a>
-            <a href="http://www.sirkussirkus.com/cv.pdf" target="blank"><img alt="Show" src={show3}></img></a>
+            <Link to="/show?show1"><img alt="Show" src="./pictures5/show1.jpg"></img></Link>
+            <Link to="/show?show2"><img alt="Show" src="./pictures5/show2.jpg"></img></Link>
+            <Link to="/show?show3"><img alt="Show" src="./pictures5/show3.jpg"></img></Link>
 
-            <a href="http://www.sirkussirkus.com/cv.pdf" target="blank"><img alt="Show" src={show4}></img></a>
-            <a href="http://www.sirkussirkus.com/cv.pdf" target="blank"><img alt="Show" src={show5}></img></a>
-            <a href="http://www.sirkussirkus.com/cv.pdf" target="blank"> <img alt="Show" src={show6}></img></a>
+            <Link to="/show?show4"><img alt="Show" src="./pictures5/show4.jpg"></img></Link>
+            <Link to="/show?show5"><img alt="Show" src="./pictures5/show5.jpg"></img></Link>
+            <Link to="/show?show6"> <img alt="Show" src="./pictures5/show6.jpg"></img></Link>
 
-            <a href="http://www.sirkussirkus.com/cv.pdf" target="blank"><img alt="Show" src={show7}></img></a>
-            <a href="http://www.sirkussirkus.com/cv.pdf" target="blank"><img alt="Show" src={show8}></img></a>
-            <a href="http://www.sirkussirkus.com/cv.pdf" target="blank"><img alt="Show" src={show9}></img></a>
+            <Link to="/show?show7"><img alt="Show" src="./pictures5/show7.jpg"></img></Link>
+            <Link to="/show?show8"><img alt="Show" src="./pictures5/show8.jpg"></img></Link>
+            <Link to="/show?show9"><img alt="Show" src="./pictures5/show9.jpg"></img></Link>
 
             </div>
                 

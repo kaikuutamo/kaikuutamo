@@ -1,0 +1,16 @@
+/* who.css */
+
+.contacttext {
+    text-align: center;
+}
+
+#contacttitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#contacttitle2 {
+    margin-top: 50px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}

@@ -6,17 +6,30 @@ import cloudAnim from './cloudanimation'
 
 import './articles.css';
 
+import Footer from './footer'
 
 class Articles extends React.Component {
  
+
+    componentDidMount () {
+
+        cloudAnim();
+    
+    }
 
     render() {
 
 
         return (
 
-            <div>
-                ARTICLES
+            <div className="tablewrap">
+            <div className="tablewrap2">
+
+           
+            {this.props.texts.articles}
+
+            </div>
+            <Footer />
             </div>
 
         )

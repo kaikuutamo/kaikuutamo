@@ -1,0 +1,23 @@
+
+/* who.css */
+
+.showpic {
+    width: 100%;
+}
+
+.showpicsextra {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.showpic2 {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 10px;
+}
+
+.showlink {
+    color: white;
+}
