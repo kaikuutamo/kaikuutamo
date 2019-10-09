@@ -28,8 +28,6 @@ class Pictures extends React.Component {
         
         var popup = document.getElementById("popup");
 
-        var pics = document.getElementsByClassName("gallerypic");
-        
         
 
         var src = '/pictures4/' + e + '.jpg'
@@ -140,7 +138,7 @@ class Pictures extends React.Component {
             <div className="tablewrap2">
 
             <div className="tabletitlewrap">
-              <h1 className="tabletitle">Kuvat</h1>
+              
      
              </div>
 

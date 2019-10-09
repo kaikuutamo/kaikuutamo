@@ -10,9 +10,24 @@
     font-size: 1.6rem;
     font-family: 'Muli', sans-serif;
     font-weight: 900;
+
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 #shoplink {
   text-decoration: none;
   color: var(--color1)
+}
+
+/*------------------------------*/
+
+@media (max-width: 900px) {
+
+  .tableh2wrap h2, .tableh3wrap h3, .tableh4wrap h4 {
+
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 }

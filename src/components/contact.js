@@ -6,17 +6,31 @@ import cloudAnim from './cloudanimation'
 
 import './contact.css';
 
+import Footer from './footer'
 
 class Contact extends React.Component {
  
+
+
+    componentDidMount () {
+
+        cloudAnim();
+    
+    }
 
     render() {
 
 
         return (
 
-            <div>
-                CONTAAATCT
+            <div className="tablewrap">
+            <div className="tablewrap2">
+
+            {this.props.texts.contact}
+
+
+            </div>
+            <Footer />
             </div>
 
         )

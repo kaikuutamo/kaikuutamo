@@ -8,6 +8,7 @@ import FrontPage from './components/frontpage';
 import Who from './components/who'
 import Services from './components/services'
 import Shows from './components/shows'
+import Show from './components/show'
 import Pictures from './components/pictures'
 import Videos from './components/videos'
 import Articles from './components/articles'
@@ -188,7 +189,7 @@ controls.update();
 
 renderer.render(scene, camera);
 
-  requestAnimationFrame(animate);
+   requestAnimationFrame(animate);
 
 }
 
@@ -220,6 +221,7 @@ animate();
       <Route exact path='/who' component={Who}/>
       <Route exact path='/services' component={Services}/>
       <Route exact path='/shows' component={Shows}/>
+      <Route exact path='/show' component={Show}/>
       <Route exact path='/pictures' component={Pictures}/>
       <Route exact path='/videos' component={Videos}/>
       <Route exact path='/articles' component={Articles}/>
