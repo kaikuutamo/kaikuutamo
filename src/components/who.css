@@ -86,6 +86,7 @@
     
     padding-left: 25px;
     padding-right: 25px;
+    margin-bottom: 22px;
 }
 
 #wholinks h2 {
@@ -99,9 +100,13 @@
 
 #wholinks a {
     color: var(--color2);
-    text-decoration: none;
+    
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+#wholinks a:hover {
+    color: var(--yellow);
 }
 
 /*------------------------------*/

@@ -68,6 +68,24 @@ mobileMenu = () => {
 
 }
 
+/*
+dimensions = () => {
+    
+    var nav = document.getElementById("mobilenav")
+
+    console.log(nav.clientHeight)
+}
+
+
+componentDidMount () {
+
+    this.dimensions();
+    window.addEventListener('resize', this.dimensions);
+
+}
+*/
+
+
 
 render() {
 

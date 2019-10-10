@@ -62,6 +62,12 @@ render () {
         show = this.props.texts.show.show9;
         break;
     
+        case "?show10":
+        show = this.props.texts.show.show10;
+        break;
+
+        default:
+            break;
 
       }
 
@@ -71,7 +77,7 @@ render () {
 
         {show}
 
-
+        <div id="showmargin"></div>
         </div>
         <Footer />
         </div>

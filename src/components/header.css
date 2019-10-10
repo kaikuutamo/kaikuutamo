@@ -31,6 +31,10 @@
     cursor: pointer;
 }
 
+#headlangwrap p:hover {
+    color: var(--yellow);
+}
+
 
 #headlinkwrap {
     height: auto;
@@ -55,11 +59,18 @@
     padding: 10px;
 }
 
+
+
 #headlinkwrap a {
     text-decoration: none;
     color: var(--text1);
     font-size: 1.1rem;
     letter-spacing: 1.5px;
+    transition: color 0.2s;
+}
+
+#headlinkwrap a:hover {
+    color:var(--yellow);
 }
 
 
@@ -135,6 +146,11 @@
     
 }
 
+.licont {
+    height: auto;
+
+}
+
 #mobilemenu li {
     list-style: none;
     width: 100%;
@@ -184,3 +200,16 @@
 
  
 }
+
+/*---------------------------------------*/
+
+ 
+@media (max-height: 450px) {
+
+    .licont {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    
+    }
+
+ }
