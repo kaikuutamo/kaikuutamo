@@ -20,6 +20,10 @@
   color: var(--color1)
 }
 
+#servicesmargin {
+  height: 13px;
+}
+
 /*------------------------------*/
 
 @media (max-width: 1000px) {

@@ -38,6 +38,8 @@ class Shows extends React.Component {
             <div id="showcontainer">
 
             <Link to="/show?show1"><img alt="Show" src="./pictures5/show1.jpg"></img></Link>
+            <Link to="/show?show10"><img alt="Show" src="./pictures5/show10.jpg"></img></Link>
+
             <Link to="/show?show2"><img alt="Show" src="./pictures5/show2.jpg"></img></Link>
             <Link to="/show?show3"><img alt="Show" src="./pictures5/show3.jpg"></img></Link>
 

@@ -1,6 +1,7 @@
 
 #frontmain {
     height: calc(100% - 144px);
+    
     overflow-x: hidden;
     
 }
@@ -27,12 +28,20 @@
 }
 
 
-#frontpic {
+#slideimgcont {
     position: relative;
     width: 100%;
+    padding-top: 56.25%;
     
+    
+}
+
+#frontpic {
+    position: absolute;
+    width: 100%;
+    top: 0;
     flex-direction: column;
-    filter: grayscale(100%);
+    
     transform: rotate(-2.4deg);
 }
 
@@ -49,12 +58,12 @@
 }
 
 #fronttext1 {
-    color: var(--text2);
+    color: var(--yellow);
     font-size: 2rem;
 }
 
 #fronttext2 {
-    color: var(--text2);
+    color: var(--yellow);
     font-size: 1.3rem;
 }
 

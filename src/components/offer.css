@@ -1,0 +1,65 @@
+
+
+/* who.css  */
+
+#forminfo {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#form {
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#theform {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#theform input {
+    height: 25px;
+    width: 100%;
+    font-size: 1rem;
+}
+
+#checkbox {
+
+display: grid;
+grid-template-columns: 100px 50px;
+align-items: center;
+}
+
+#checkbox input {
+    width: auto;
+}
+
+#send {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    background: var(--sky2);
+    user-select: none;
+}
+
+#send:hover {
+    cursor: pointer;
+}
+
+#send:active {
+    filter: brightness(80%);
+}
+
+#linktoformsent {
+    display: none;
+}
+
+
+

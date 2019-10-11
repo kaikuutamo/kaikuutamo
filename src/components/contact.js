@@ -25,10 +25,11 @@ class Contact extends React.Component {
 
             <div className="tablewrap">
             <div className="tablewrap2">
+            <div className="contactmargin"></div>
 
             {this.props.texts.contact}
 
-
+            <div className="contactmargin"></div>
             </div>
             <Footer />
             </div>

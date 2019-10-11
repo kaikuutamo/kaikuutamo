@@ -142,7 +142,7 @@ var finnish = {
 
      mobilemenu: 
      
-     <div>
+     <div className="licont">
      <li><Link to="/who">KUKA</Link></li>
      <li><Link to="/services">PALVELUT</Link></li>
      <li><Link to="/shows">ESITYKSET</Link></li>
@@ -724,6 +724,76 @@ show9:
 
 
 
+                    </div>,
+
+
+show10: 
+
+                <div>
+
+                    <img className="showpic" alt="Show" src="./pictures5/show10.jpg"></img>
+
+                    <h1 className="tabletitle">Matkalaukkusirkus</h1>
+                    <h2 className="subtitle">Kai Kuutamon uusi päiväkoti-ikäisille suunnattu kiertävä yhden miehen esitys</h2>
+                                        
+                    
+
+                    <div className="tableintro">
+                    <div className="tabletext">
+                         
+
+                        <p>Matkalaukkusirkus on matkalaukkuun mahtuva esitys, joka vie yhden miehen voimin sirkuksen monta jännittävää ulottuvuutta yleisön kuin yleisön luokse. Matkalaukkusirkus on vartavasten suunniteltu sopimaan tilaan kuin tilaan.</p>
+
+                        <p>Esityksessä nähdään muun muassa taitavaa korvajongleerausta, vaikeita taikatemppuja, erikoinen pallovipulauta eikä eläinnumeroitakaan ole unohdettu. Näe ratsastava hevonen sekä kuuluisa akrobaattipossu samassa esityksessä! Mutta miten kaikki tämä voi mahtua matkalaukkuun?! Se selviää tietysti Kai Kuutamon Matkalaukkusirkus-esityksessä!</p>
+
+                        <p>Sirkustaiteilija Kai Kuutamo juontaa itse koko esityksen, ja vuorovaikutus lapsiyleisön kanssa on tärkeässä roolissa. Esityksessä ei käytetä oikeita eläimiä.</p>
+
+                  
+                    </div>
+                    </div>
+
+                    <br></br>
+
+                    <div className="tableintro">
+                    <div className="tabletext">
+                        <p>Kesto: noin 35 minuuttia</p>
+                        <p>Kohdeyleisö: 2-vuotiaasta lähtien ylöspäin koko perhe</p>
+                        <p>Tila: Esitys soveltuu millaiseen tilaan vain, mutta korkeudesta on etua.</p>
+                        <p>Yleisömääräsuositus ilman äänentoistoa: 100</p>
+                        <p>Äänentoiston kanssa: Ei ylärajaa.</p>
+                        <p>Voin järjestää paikalle oman äänentoiston sovittaessa.</p>
+                        
+                    </div>
+                    </div>
+
+                    <br></br>
+
+                    <div className="tableintro">
+                    <div className="tabletext">
+                        <p>Pienin tila tähän mennessä 2.5m korkea, jossa lattiatila noin 3x3m. Suurimmat tilat tähän asti ovat olleet liikuntasaleja ja kunnan auditorioita.</p>
+
+                        
+                    </div>
+                    </div>
+
+                    <br></br>
+
+                    <div className="tableintro">
+                    <div className="tabletext">
+                        <p>Pystytys noin 30 minuuttia</p>
+                        <p>Purku noin 20 minuuttia</p>
+
+                        
+                    </div>
+                    </div>
+
+                    <div className="showpicsextra">
+                    <img className="showpic2" alt="Show" src="./pictures5/show10_1.jpg"></img>
+                    
+
+                    </div>
+
+
                     </div>
 
                     
@@ -811,7 +881,21 @@ show9:
             </div>
             </div>
 
-            </div>
+            </div>,
+
+
+form:
+
+<div>
+
+<div className="tabletitlewrap">
+        <h1 style={{textAlign: "center"}} className="tabletitle">Kiitos!</h1>
+        
+</div>
+
+<p id="thankyou">Tarjouspyyntösi on lähetetty!</p>
+
+</div>
 
 }
 
@@ -845,7 +929,7 @@ var english = {
                 <li><Link to="/videos">VIDEOS</Link></li>
                 <li><Link to="/articles">ARTICLES</Link></li>
                 <li><Link to="/media">MEDIA</Link></li>
-                <li><Link to="/offer">OFFER</Link></li>
+                
                 <li><Link to="/contact">CONTACT</Link></li>
         </ul>
 
@@ -956,7 +1040,7 @@ who:
 
 mobilemenu: 
      
-<div>
+<div className="licont">
 <li><Link to="/who">WHO</Link></li>
 <li><Link to="/services">SERVICES</Link></li>
 <li><Link to="/shows">SHOWS</Link></li>
@@ -964,7 +1048,7 @@ mobilemenu:
 <li><Link to="/videos">VIDEOS</Link></li>
 <li><Link to="/articles">ARTICLES</Link></li>
 <li><Link to="/media">MEDIA</Link></li>
-<li><Link to="/offer">OFFER</Link></li>
+
 <li><Link to="/contact">CONTACT</Link></li>
 </div>,
 
@@ -1540,6 +1624,76 @@ show9:
 
 
 
+                    </div>,
+
+
+show10: 
+
+                <div>
+
+                    <img className="showpic" alt="Show" src="./pictures5/show10.jpg"></img>
+
+                    <h1 className="tabletitle">Matkalaukkusirkus</h1>
+                    <h2 className="subtitle">Kai Kuutamon uusi päiväkoti-ikäisille suunnattu kiertävä yhden miehen esitys</h2>
+                                        
+                    
+
+                    <div className="tableintro">
+                    <div className="tabletext">
+                         
+
+                        <p>Matkalaukkusirkus on matkalaukkuun mahtuva esitys, joka vie yhden miehen voimin sirkuksen monta jännittävää ulottuvuutta yleisön kuin yleisön luokse. Matkalaukkusirkus on vartavasten suunniteltu sopimaan tilaan kuin tilaan.</p>
+
+                        <p>Esityksessä nähdään muun muassa taitavaa korvajongleerausta, vaikeita taikatemppuja, erikoinen pallovipulauta eikä eläinnumeroitakaan ole unohdettu. Näe ratsastava hevonen sekä kuuluisa akrobaattipossu samassa esityksessä! Mutta miten kaikki tämä voi mahtua matkalaukkuun?! Se selviää tietysti Kai Kuutamon Matkalaukkusirkus-esityksessä!</p>
+
+                        <p>Sirkustaiteilija Kai Kuutamo juontaa itse koko esityksen, ja vuorovaikutus lapsiyleisön kanssa on tärkeässä roolissa. Esityksessä ei käytetä oikeita eläimiä.</p>
+
+                  
+                    </div>
+                    </div>
+
+                    <br></br>
+
+                    <div className="tableintro">
+                    <div className="tabletext">
+                        <p>Kesto: noin 35 minuuttia</p>
+                        <p>Kohdeyleisö: 2-vuotiaasta lähtien ylöspäin koko perhe</p>
+                        <p>Tila: Esitys soveltuu millaiseen tilaan vain, mutta korkeudesta on etua.</p>
+                        <p>Yleisömääräsuositus ilman äänentoistoa: 100</p>
+                        <p>Äänentoiston kanssa: Ei ylärajaa.</p>
+                        <p>Voin järjestää paikalle oman äänentoiston sovittaessa.</p>
+                        
+                    </div>
+                    </div>
+
+                    <br></br>
+
+                    <div className="tableintro">
+                    <div className="tabletext">
+                        <p>Pienin tila tähän mennessä 2.5m korkea, jossa lattiatila noin 3x3m. Suurimmat tilat tähän asti ovat olleet liikuntasaleja ja kunnan auditorioita.</p>
+
+                        
+                    </div>
+                    </div>
+
+                    <br></br>
+
+                    <div className="tableintro">
+                    <div className="tabletext">
+                        <p>Pystytys noin 30 minuuttia</p>
+                        <p>Purku noin 20 minuuttia</p>
+
+                        
+                    </div>
+                    </div>
+
+                    <div className="showpicsextra">
+                    <img className="showpic2" alt="Show" src="./pictures5/show10_1.jpg"></img>
+                    
+
+                    </div>
+
+
                     </div>
 
                
@@ -1626,7 +1780,20 @@ show9:
             </div>
             </div>
 
-            </div>
+            </div>,
+
+form:
+
+<div>
+
+<div className="tabletitlewrap">
+        <h1 style={{textAlign: "center"}} className="tabletitle">Thank you!</h1>
+        
+</div>
+
+<p id="thankyou">Tarjouspyyntösi on lähetetty!</p>
+
+</div>
 
 }
 

@@ -45,13 +45,16 @@
     font-size: 3rem;
     top: 45%;
     position: absolute;
-    background: rgba(0,0,0, 0.8);
+    background: rgba(255,255,255, 0.3);
     width: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     user-select: none;
     border-radius: 5px;
+    color:black;
 }
 
 .arrow:hover {
@@ -147,7 +150,10 @@
         grid-gap: 10px;
     }
     
-    
+    .arrow {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
     
     #piccontainer2 img {
         display: flex;

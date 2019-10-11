@@ -16,6 +16,8 @@ import Media from './components/media'
 import Offer from './components/offer'
 import Contact from './components/contact'
 
+import FormSent from './components/formsent'
+
 import kuu from './pictures2/kuu.png'
 
 import pilvi1 from './pictures2/cloud1.png'
@@ -232,6 +234,8 @@ animate();
       <Route exact path='/media' component={Media}/>
       <Route exact path='/offer' component={Offer}/>
       <Route exact path='/contact' component={Contact}/>
+
+      <Route exact path='/formsent' component={FormSent}/>
     </div>
     </BrowserRouter>
   );

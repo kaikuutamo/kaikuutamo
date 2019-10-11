@@ -45,6 +45,39 @@ class FrontPage extends React.Component {
     }
     
 
+dimensions = () => {
+    
+    var wrap = document.getElementById("frontwrap");
+
+    var cont = document.getElementById("frontcont");
+ 
+    var social = document.getElementById("frontsocialwrap");
+    
+    //var mainwrap = document.getElementById("frontmain")
+
+
+    if (wrap.clientHeight <= cont.clientHeight+50) {
+        
+        //mainwrap.style.height = "auto";
+        wrap.style.height = "auto";
+        wrap.style.paddingTop = "30px";
+        wrap.style.paddingBottom = "30px";
+        social.style.position = "relative";
+        
+    }
+
+    else {
+
+        //mainwrap.style.height = "calc(100% - 144px)";
+        wrap.style.height = "calc(100% - 50px)";
+        wrap.style.paddingTop = "0px";
+        wrap.style.paddingBottom = "0px";
+        social.style.position = "fixed";
+
+    }
+
+}
+
 
 slideShow = () => {
     
@@ -111,6 +144,15 @@ slideShow = () => {
     
 }    
 
+
+componentDidMount  () {
+
+    this.dimensions();
+
+    window.addEventListener('resize', this.dimensions);
+
+}
+
 componentWillMount () {
 
     theInterval = setInterval(() => {
@@ -125,11 +167,14 @@ componentWillMount () {
             words2: this.props.texts.frontpage.words2
     })
 
+
 }
 
 componentWillUnmount () {
     this.mounted = "false";
     clearInterval(theInterval);
+    window.removeEventListener("resize", this.dimensions);
+
 }
 
 render() {
@@ -145,9 +190,9 @@ return (
 
     <div id="frontcont">
 
-        
+        <div id="slideimgcont">
         <img alt="Slideshow" id="frontpic" src={this.state.pic}></img>
-        
+        </div>
 
         <div id="fronttext">
         <p id="fronttext1">{this.state.text}</p>

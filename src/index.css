@@ -19,7 +19,15 @@ body {
   --text3: #F7F9FB;   /* table text */
   --table: rgba(27, 44, 98, 0.8);   /* table background */
 
+  --yellow: #ffeb2d;
+
+
   font-family: 'Montserrat', sans-serif;
   
+
+
 }
 
+a:hover {
+  color: var(--yellow)
+}

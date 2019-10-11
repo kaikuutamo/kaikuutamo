@@ -38,7 +38,8 @@ componentDidMount () {
                {this.props.texts.who}
 
                 
-                
+
+
             </div>
 
             <Footer />
