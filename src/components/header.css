@@ -131,12 +131,13 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    
 }
 
 #mobilenav {
     width: 100%;
     display: none;
-    
+    padding-bottom: 50px;
 }
 
 #mobilemenu ul {

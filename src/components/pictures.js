@@ -26,14 +26,13 @@ class Pictures extends React.Component {
 
     popUp = (e) => {
         
-        var popup = document.getElementById("popup");
 
-        
+
+        var popup = document.getElementById("popup");
 
         var src = '/pictures4/' + e + '.jpg'
         
         
-
         if (this.status === "off") {
 
             popup.style.display = "flex";
@@ -121,11 +120,11 @@ class Pictures extends React.Component {
 
         return (
 
-            <div className="tablewrap">
+            <div  className="tablewrap">
 
-                <div id="popup">
+                <div  id="popup">
 
-                <div onClick={this.popUp} id="popupx"><p>X</p></div>
+                <div onClick={() => this.popUp("close")}  id="popupx"><p>X</p></div>
                 
                 <div id="popupimg">
                 <div onClick={() => this.changePic("-")} className="arrow" id="arrowleft"><p>&#x2039;</p></div>
@@ -142,7 +141,7 @@ class Pictures extends React.Component {
      
              </div>
 
-            <div id="piccontainer">
+            <div  id="piccontainer">
                 
                 <div>
                 <img onClick={() => this.popUp(1)} className="gallerypic" alt="Kai Kuutamo" src='/pictures4/1.jpg'></img>

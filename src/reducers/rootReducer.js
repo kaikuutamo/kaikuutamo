@@ -71,14 +71,14 @@ var finnish = {
      <div id="wholinks">
          <h2>Linkit</h2>
 
-         <a href="http://www.sirkussirkus.com/cv.pdf" rel="noopener noreferrer" target="blank">Ansioluettelo</a>
-     <a href="https://fi.wikipedia.org/wiki/Kai_Kuutamo" rel="noopener noreferrer" target="blank">Kai Kuutamo Wikipediassa</a>
-     <a href="http://www.sirkussirkus.com/merkkarit/" rel="noopener noreferrer" target="blank">Merkkarit ja Kai Kuutamo</a>
-     <a href="http://www.sirkussirkus.com/herttakuninkaat/" rel="noopener noreferrer" target="blank">Herttakuninkaat -sirkusryhmä</a>
-     <a href="http://www.sirkussirkus.com/kkaa/" rel="noopener noreferrer" target="blank">Kai Kuutamo & Aimo Annos -sirkusmusiikkiduo</a>
-     <a href="http://putiikki.sirkussirkus.com/" rel="noopener noreferrer" target="blank">Sirkussirkus Putiikki, kaikki sirkusvälineet saman katon alta</a>
-     <a href="http://www.sirkussirkus.com/multibueno/index.html" rel="noopener noreferrer" target="blank">Multi Bueno festivaali, monisyysirkusfestivaali Turussa</a>
-     <a href="http://www.sirkussirkus.com/circuskampot/" rel="noopener noreferrer" target="blank">Circus Kampot, suomalainen sirkuskoulu Kambodzassa</a>
+     <p><a href="http://www.sirkussirkus.com/cv.pdf" rel="noopener noreferrer" target="blank">Ansioluettelo</a></p>
+     <p><a href="https://fi.wikipedia.org/wiki/Kai_Kuutamo" rel="noopener noreferrer" target="blank">Kai Kuutamo Wikipediassa</a></p>
+     <p><a href="http://www.sirkussirkus.com/merkkarit/" rel="noopener noreferrer" target="blank">Merkkarit ja Kai Kuutamo</a></p>
+     <p><a href="http://www.sirkussirkus.com/herttakuninkaat/" rel="noopener noreferrer" target="blank">Herttakuninkaat -sirkusryhmä</a></p>
+     <p><a href="http://www.sirkussirkus.com/kkaa/" rel="noopener noreferrer" target="blank">Kai Kuutamo & Aimo Annos -sirkusmusiikkiduo</a></p>
+     <p><a href="http://putiikki.sirkussirkus.com/" rel="noopener noreferrer" target="blank">Sirkussirkus Putiikki, kaikki sirkusvälineet saman katon alta</a></p>
+     <p><a href="http://www.sirkussirkus.com/multibueno/index.html" rel="noopener noreferrer" target="blank">Multi Bueno festivaali, monisyysirkusfestivaali Turussa</a></p>
+     <p><a href="http://www.sirkussirkus.com/circuskampot/" rel="noopener noreferrer" target="blank">Circus Kampot, suomalainen sirkuskoulu Kambodzassa</a></p>
 
      </div>
      </div>,
@@ -311,13 +311,17 @@ var finnish = {
                     </div>
                     </div>
 
-                    <div className="showpicsextra">
-                    <img className="showpic2" alt="Show" src="./pictures5/show1_1.jpg"></img>
-                    <img className="showpic2" alt="Show" src="./pictures5/show1_2.jpg"></img>
-                    <img className="showpic2" alt="Show" src="./pictures5/show1_3.jpg"></img>
+                    <div className="moremargin"></div>
+
+                    <div className="icont_2">
+                    <div className="icont2_2">
+                    <iframe className="video" title="1" src="https://www.youtube.com/embed/c0TV9iVjoyY" allowFullScreen></iframe>
+                    </div>
                     </div>
 
                     </div>,
+
+                    show1_pics: ["./pictures5/show1.jpg", "./pictures5/show1_1.jpg", "./pictures5/show1_2.jpg", "./pictures5/show1_3.jpg"],
 
                     
                     show2: 
@@ -368,7 +372,13 @@ var finnish = {
                     </div>
                     </div>
 
+                    <div className="moremargin"></div>
+
+
+
                     </div>,
+
+                    show2_pics: [],
 
 
 show3: 
@@ -425,18 +435,19 @@ show3:
 
                         <p>"Jumalauta! Saa*ana miten mahtavaa!"</p>
                         <p>- Vanhainkodin Asukas</p>
-                        <br></br>
+                        
 
 
                     </div>
                     </div>
 
-                    <div className="showpicsextra">
-                    <img className="showpic2" alt="Show" src="./pictures5/show3_1.jpg"></img>
 
-                    </div>
+                    <div className="moremargin"></div>
+
 
                     </div>,
+
+                    show3_pics: ["./pictures5/show3_1.jpg"],
 
 
 show4: 
@@ -468,17 +479,12 @@ show4:
                     </div>
                     </div>
 
-                    <br></br>
+                    <div className="moremargin"></div>
 
-                    
-
-                    <div className="showpicsextra">
-                    <img className="showpic2" alt="Show" src="./pictures5/show4_1.jpg"></img>
-                    <img className="showpic2" alt="Show" src="./pictures5/show4_2.jpg"></img>
-
-                    </div>
 
                     </div>,
+
+                    show4_pics: ["./pictures5/show4_1.jpg", "./pictures5/show4_2.jpg"],
 
 
 show5: 
@@ -525,13 +531,12 @@ show5:
                     </div>
                     </div>
 
-                    <div className="showpicsextra">
-                    <img className="showpic2" alt="Show" src="./pictures5/show5_1.jpg"></img>
-                    <img className="showpic2" alt="Show" src="./pictures5/show5_2.jpg"></img>
+                    <div className="moremargin"></div>
 
-                    </div>
 
                     </div>,
+
+                    show5_pics: ["./pictures5/show5_1.jpg", "./pictures5/show5_2.jpg"],
 
 
 show6: 
@@ -567,18 +572,12 @@ show6:
                     </div>
                     </div>
 
-                    <br></br>
+                    <div className="moremargin"></div>
 
-
-
-                    <div className="showpicsextra">
-                    <img className="showpic2" alt="Show" src="./pictures5/show6_1.jpg"></img>
-                    <img className="showpic2" alt="Show" src="./pictures5/show6_2.jpg"></img>
-                    <img className="showpic2" alt="Show" src="./pictures5/show6_3.jpg"></img>
-
-                    </div>
 
                     </div>,
+
+                    show6_pics: ["./pictures5/show6_1.jpg", "./pictures5/show6_2.jpg", "./pictures5/show6_3.jpg"],
 
 
 show7: 
@@ -626,14 +625,12 @@ show7:
                     </div>
                     </div>
 
-                    <div className="showpicsextra">
-                    <img className="showpic2" alt="Show" src="./pictures5/show7_1.jpg"></img>
+                    <div className="moremargin"></div>
 
-
-                    </div>
-                    <br></br>
 
                     </div>,
+
+                    show7_pics: ["./pictures5/show7_1.jpg"],
 
 
 show8: 
@@ -686,15 +683,12 @@ show8:
                     </div>
                     </div>
 
-                    <div className="showpicsextra">
-                    <img className="showpic2" alt="Show" src="./pictures5/show8_1.jpg"></img>
-                    <img className="showpic2" alt="Show" src="./pictures5/show8_2.jpg"></img>
+                    <div className="moremargin"></div>
 
-
-                    </div>
-                    <br></br>
 
                     </div>,
+
+                    show8_pics: ["./pictures5/show8_1.jpg", "./pictures5/show8_2.jpg"],
 
 
 show9: 
@@ -722,9 +716,12 @@ show9:
                     </div>
                     </div>
 
+                    <div className="moremargin"></div>
 
 
                     </div>,
+
+                    show9_pics: [],
 
 
 show10: 
@@ -787,14 +784,13 @@ show10:
                     </div>
                     </div>
 
-                    <div className="showpicsextra">
-                    <img className="showpic2" alt="Show" src="./pictures5/show10_1.jpg"></img>
-                    
 
-                    </div>
+                    <div className="moremargin"></div>
 
 
-                    </div>
+                    </div>,
+
+                    show10_pics: ["./pictures5/show10_1.jpg"],
 
                     
 
@@ -968,14 +964,14 @@ who:
  <div id="wholinks">
      <h2>Linkit</h2>
 
-     <a href="http://www.sirkussirkus.com/cv.pdf" rel="noopener noreferrer" target="blank">Ansioluettelo</a>
-     <a href="https://fi.wikipedia.org/wiki/Kai_Kuutamo" rel="noopener noreferrer" target="blank">Kai Kuutamo Wikipediassa</a>
-     <a href="http://www.sirkussirkus.com/merkkarit/" rel="noopener noreferrer" target="blank">Merkkarit ja Kai Kuutamo</a>
-     <a href="http://www.sirkussirkus.com/herttakuninkaat/" rel="noopener noreferrer" target="blank">Herttakuninkaat -sirkusryhmä</a>
-     <a href="http://www.sirkussirkus.com/kkaa/" rel="noopener noreferrer" target="blank">Kai Kuutamo & Aimo Annos -sirkusmusiikkiduo</a>
-     <a href="http://putiikki.sirkussirkus.com/" rel="noopener noreferrer" target="blank">Sirkussirkus Putiikki, kaikki sirkusvälineet saman katon alta</a>
-     <a href="http://www.sirkussirkus.com/multibueno/index.html" rel="noopener noreferrer" target="blank">Multi Bueno festivaali, monisyysirkusfestivaali Turussa</a>
-     <a href="http://www.sirkussirkus.com/circuskampot/" rel="noopener noreferrer" target="blank">Circus Kampot, suomalainen sirkuskoulu Kambodzassa</a>
+     <p><a href="http://www.sirkussirkus.com/cv.pdf" rel="noopener noreferrer" target="blank">Ansioluettelo</a></p>
+     <p><a href="https://fi.wikipedia.org/wiki/Kai_Kuutamo" rel="noopener noreferrer" target="blank">Kai Kuutamo Wikipediassa</a></p>
+     <p><a href="http://www.sirkussirkus.com/merkkarit/" rel="noopener noreferrer" target="blank">Merkkarit ja Kai Kuutamo</a></p>
+     <p><a href="http://www.sirkussirkus.com/herttakuninkaat/" rel="noopener noreferrer" target="blank">Herttakuninkaat -sirkusryhmä</a></p>
+     <p><a href="http://www.sirkussirkus.com/kkaa/" rel="noopener noreferrer" target="blank">Kai Kuutamo & Aimo Annos -sirkusmusiikkiduo</a></p>
+     <p><a href="http://putiikki.sirkussirkus.com/" rel="noopener noreferrer" target="blank">Sirkussirkus Putiikki, kaikki sirkusvälineet saman katon alta</a></p>
+     <p><a href="http://www.sirkussirkus.com/multibueno/index.html" rel="noopener noreferrer" target="blank">Multi Bueno festivaali, monisyysirkusfestivaali Turussa</a></p>
+     <p><a href="http://www.sirkussirkus.com/circuskampot/" rel="noopener noreferrer" target="blank">Circus Kampot, suomalainen sirkuskoulu Kambodzassa</a></p>
 
  </div>
  </div>,
@@ -1067,7 +1063,7 @@ videos:
 
 <div className="videos">
 
-    <h2>Elävänä</h2>
+    <h2>Live shows</h2>
 
     <p>Jongleerausnumerot Herttakuninkaat-ryhmän nimikkoesityksestä vastaiskronologisessa järjestyksessä.</p>
 
@@ -1165,15 +1161,13 @@ show:
 
 
             {
-                
-
-                    show1: 
+                show1: 
 
                 <div>
 
                     <img className="showpic" alt="Show" src="./pictures5/show1.jpg"></img>
 
-                    <h1 className="tabletitle">THE Kai Kuutamo -show</h1>
+                    <h1 className="tabletitle">Kai Moonlight -show</h1>
 
                     <div className="tableintro">
                     <div className="tabletext">
@@ -1212,14 +1206,19 @@ show:
                     </div>
                     </div>
 
-                    <div className="showpicsextra">
-                    <img className="showpic2" alt="Show" src="./pictures5/show1_1.jpg"></img>
-                    <img className="showpic2" alt="Show" src="./pictures5/show1_2.jpg"></img>
-                    <img className="showpic2" alt="Show" src="./pictures5/show1_3.jpg"></img>
+                    <div className="moremargin"></div>
+
+                    <div className="icont_2">
+                    <div className="icont2_2">
+                    <iframe className="video" title="1" src="https://www.youtube.com/embed/c0TV9iVjoyY" allowFullScreen></iframe>
+                    </div>
                     </div>
 
                     </div>,
 
+                    show1_pics: ["./pictures5/show1.jpg", "./pictures5/show1_1.jpg", "./pictures5/show1_2.jpg", "./pictures5/show1_3.jpg"],
+
+                    
                     show2: 
 
                 <div>
@@ -1268,7 +1267,13 @@ show:
                     </div>
                     </div>
 
+                    <div className="moremargin"></div>
+
+
+
                     </div>,
+
+                    show2_pics: [],
 
 
 show3: 
@@ -1325,18 +1330,19 @@ show3:
 
                         <p>"Jumalauta! Saa*ana miten mahtavaa!"</p>
                         <p>- Vanhainkodin Asukas</p>
-                        <br></br>
+                        
 
 
                     </div>
                     </div>
 
-                    <div className="showpicsextra">
-                    <img className="showpic2" alt="Show" src="./pictures5/show3_1.jpg"></img>
 
-                    </div>
+                    <div className="moremargin"></div>
+
 
                     </div>,
+
+                    show3_pics: ["./pictures5/show3_1.jpg"],
 
 
 show4: 
@@ -1368,17 +1374,12 @@ show4:
                     </div>
                     </div>
 
-                    <br></br>
+                    <div className="moremargin"></div>
 
-                    
-
-                    <div className="showpicsextra">
-                    <img className="showpic2" alt="Show" src="./pictures5/show4_1.jpg"></img>
-                    <img className="showpic2" alt="Show" src="./pictures5/show4_2.jpg"></img>
-
-                    </div>
 
                     </div>,
+
+                    show4_pics: ["./pictures5/show4_1.jpg", "./pictures5/show4_2.jpg"],
 
 
 show5: 
@@ -1425,13 +1426,12 @@ show5:
                     </div>
                     </div>
 
-                    <div className="showpicsextra">
-                    <img className="showpic2" alt="Show" src="./pictures5/show5_1.jpg"></img>
-                    <img className="showpic2" alt="Show" src="./pictures5/show5_2.jpg"></img>
+                    <div className="moremargin"></div>
 
-                    </div>
 
                     </div>,
+
+                    show5_pics: ["./pictures5/show5_1.jpg", "./pictures5/show5_2.jpg"],
 
 
 show6: 
@@ -1467,18 +1467,12 @@ show6:
                     </div>
                     </div>
 
-                    <br></br>
+                    <div className="moremargin"></div>
 
-
-
-                    <div className="showpicsextra">
-                    <img className="showpic2" alt="Show" src="./pictures5/show6_1.jpg"></img>
-                    <img className="showpic2" alt="Show" src="./pictures5/show6_2.jpg"></img>
-                    <img className="showpic2" alt="Show" src="./pictures5/show6_3.jpg"></img>
-
-                    </div>
 
                     </div>,
+
+                    show6_pics: ["./pictures5/show6_1.jpg", "./pictures5/show6_2.jpg", "./pictures5/show6_3.jpg"],
 
 
 show7: 
@@ -1526,14 +1520,12 @@ show7:
                     </div>
                     </div>
 
-                    <div className="showpicsextra">
-                    <img className="showpic2" alt="Show" src="./pictures5/show7_1.jpg"></img>
+                    <div className="moremargin"></div>
 
-
-                    </div>
-                    <br></br>
 
                     </div>,
+
+                    show7_pics: ["./pictures5/show7_1.jpg"],
 
 
 show8: 
@@ -1586,15 +1578,12 @@ show8:
                     </div>
                     </div>
 
-                    <div className="showpicsextra">
-                    <img className="showpic2" alt="Show" src="./pictures5/show8_1.jpg"></img>
-                    <img className="showpic2" alt="Show" src="./pictures5/show8_2.jpg"></img>
+                    <div className="moremargin"></div>
 
-
-                    </div>
-                    <br></br>
 
                     </div>,
+
+                    show8_pics: ["./pictures5/show8_1.jpg", "./pictures5/show8_2.jpg"],
 
 
 show9: 
@@ -1622,9 +1611,12 @@ show9:
                     </div>
                     </div>
 
+                    <div className="moremargin"></div>
 
 
                     </div>,
+
+                    show9_pics: [],
 
 
 show10: 
@@ -1687,14 +1679,13 @@ show10:
                     </div>
                     </div>
 
-                    <div className="showpicsextra">
-                    <img className="showpic2" alt="Show" src="./pictures5/show10_1.jpg"></img>
-                    
 
-                    </div>
+                    <div className="moremargin"></div>
 
 
-                    </div>
+                    </div>,
+
+                    show10_pics: ["./pictures5/show10_1.jpg"],
 
                
 

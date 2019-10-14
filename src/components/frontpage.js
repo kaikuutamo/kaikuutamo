@@ -195,8 +195,12 @@ return (
         </div>
 
         <div id="fronttext">
+        <div className="fronttextcont">
         <p id="fronttext1">{this.state.text}</p>
+        </div>
+        <div className="fronttextcont">
         <p id="fronttext2">{this.state.text2}</p>
+        </div>
         </div>
 
 

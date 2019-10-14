@@ -29,14 +29,18 @@
 }
 
 #arrowleft {
-
+    
     left: 0px;
+    display: flex;
+    align-items: center;
 
 }
 
 #arrowright {
-
+    
     right: 0px;
+    display: flex;
+    align-items: center;
     
 
 }
@@ -55,6 +59,7 @@
     user-select: none;
     border-radius: 5px;
     color:black;
+    
 }
 
 .arrow:hover {
