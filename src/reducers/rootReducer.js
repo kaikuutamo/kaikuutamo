@@ -71,7 +71,7 @@ var finnish = {
      <div id="wholinks">
          <h2>Linkit</h2>
 
-     <p><a href="http://www.sirkussirkus.com/cv.pdf" rel="noopener noreferrer" target="blank">Ansioluettelo</a></p>
+     <p style={{paddingTop: "5px"}}><a href="http://www.sirkussirkus.com/cv.pdf" rel="noopener noreferrer" target="blank">Ansioluettelo</a></p>
      <p><a href="https://fi.wikipedia.org/wiki/Kai_Kuutamo" rel="noopener noreferrer" target="blank">Kai Kuutamo Wikipediassa</a></p>
      <p><a href="http://www.sirkussirkus.com/merkkarit/" rel="noopener noreferrer" target="blank">Merkkarit ja Kai Kuutamo</a></p>
      <p><a href="http://www.sirkussirkus.com/herttakuninkaat/" rel="noopener noreferrer" target="blank">Herttakuninkaat -sirkusryhmä</a></p>
@@ -261,6 +261,28 @@ var finnish = {
 
             
             </div>,
+
+            shows: {
+
+                title1: <h2 className="showstitle">Omat</h2>,
+                title2: <h3 className="showstitle">Ryhmät</h3>,
+
+                old: 
+                <div id="wholinks">
+                <h2>Poistuneet ohjelmistosta</h2>
+
+                <p style={{paddingTop: "5px"}}><a href="http://www.sirkussirkus.com/specialdelivery/" rel="noopener noreferrer" target="blank">Special Delivery</a></p>
+                <p><a href="http://www.sirkussirkus.com/tisch/" rel="noopener noreferrer" target="blank">Tisch</a></p>
+                <p><a href="https://www.youtube.com/watch?v=GYFoVHWFQDA" rel="noopener noreferrer" target="blank">ALL IN</a></p>
+                <p><a href="https://www.youtube.com/watch?v=4PS4xrsHZlg" rel="noopener noreferrer" target="blank">Kai Kuutamo & Miriam Tuominen</a></p>
+                <p><a href="https://www.youtube.com/watch?v=egHroF9qGbw" rel="noopener noreferrer" target="blank">Soul on Fire</a></p>
+                <p><a href="http://www.sirkussirkus.com/sirkuskunta/esitykset.html" rel="noopener noreferrer" target="blank">Taitureita ja Tunareita</a></p>
+                <p><a href="http://www.sirkussirkus.com/sirkuskunta/esitykset.html" rel="noopener noreferrer" target="blank">Punaisen Maneesin Kirjava Sirkus</a></p>
+                <p><a href="http://www.sirkussirkus.com/kotiinpaluu/" rel="noopener noreferrer" target="blank">Kotiinpaluu</a></p>
+
+                </div>
+            },
+
 
             show:
 
@@ -964,7 +986,7 @@ who:
  <div id="wholinks">
      <h2>Linkit</h2>
 
-     <p><a href="http://www.sirkussirkus.com/cv.pdf" rel="noopener noreferrer" target="blank">Ansioluettelo</a></p>
+     <p style={{paddingTop: "5px"}}><a href="http://www.sirkussirkus.com/cv.pdf" rel="noopener noreferrer" target="blank">Ansioluettelo</a></p>
      <p><a href="https://fi.wikipedia.org/wiki/Kai_Kuutamo" rel="noopener noreferrer" target="blank">Kai Kuutamo Wikipediassa</a></p>
      <p><a href="http://www.sirkussirkus.com/merkkarit/" rel="noopener noreferrer" target="blank">Merkkarit ja Kai Kuutamo</a></p>
      <p><a href="http://www.sirkussirkus.com/herttakuninkaat/" rel="noopener noreferrer" target="blank">Herttakuninkaat -sirkusryhmä</a></p>
@@ -1156,6 +1178,28 @@ videos:
 
 
 </div>,
+
+shows: {
+
+    title1: <h2 className="showstitle">Own</h2>,
+    title2: <h3 className="showstitle">Ryhmät</h3>,
+
+    old: 
+    <div id="wholinks">
+    <h2>Poistuneet ohjelmistosta</h2>
+
+    <p style={{paddingTop: "5px"}}><a href="http://www.sirkussirkus.com/specialdelivery/" rel="noopener noreferrer" target="blank">Special Delivery</a></p>
+    <p><a href="http://www.sirkussirkus.com/tisch/" rel="noopener noreferrer" target="blank">Tisch</a></p>
+    <p><a href="https://www.youtube.com/watch?v=GYFoVHWFQDA" rel="noopener noreferrer" target="blank">ALL IN</a></p>
+    <p><a href="https://www.youtube.com/watch?v=4PS4xrsHZlg" rel="noopener noreferrer" target="blank">Kai Kuutamo & Miriam Tuominen</a></p>
+    <p><a href="https://www.youtube.com/watch?v=egHroF9qGbw" rel="noopener noreferrer" target="blank">Soul on Fire</a></p>
+    <p><a href="http://www.sirkussirkus.com/sirkuskunta/esitykset.html" rel="noopener noreferrer" target="blank">Taitureita ja Tunareita</a></p>
+    <p><a href="http://www.sirkussirkus.com/sirkuskunta/esitykset.html" rel="noopener noreferrer" target="blank">Punaisen Maneesin Kirjava Sirkus</a></p>
+    <p><a href="http://www.sirkussirkus.com/kotiinpaluu/" rel="noopener noreferrer" target="blank">Kotiinpaluu</a></p>
+
+    </div>
+},
+
 
 show:
 

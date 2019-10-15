@@ -31,7 +31,7 @@ class Show extends React.Component {
 
         var popup = document.getElementById("popup2");
 
-        var pics = this.pics.slice();
+        
         
         var src;
 
