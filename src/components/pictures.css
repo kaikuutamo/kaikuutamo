@@ -29,21 +29,25 @@
 }
 
 #arrowleft {
-
+    
     left: 0px;
-
+    display: flex;
+    align-items: center;
+    top: 45%;
 }
 
 #arrowright {
-
-    right: 0px;
     
+    right: 0px;
+    display: flex;
+    align-items: center;
+    top: 44%;
 
 }
 
 .arrow {
     font-size: 3rem;
-    top: 45%;
+    
     position: absolute;
     background: rgba(255,255,255, 0.3);
     width: 50px;
@@ -55,6 +59,7 @@
     user-select: none;
     border-radius: 5px;
     color:black;
+    
 }
 
 .arrow:hover {

@@ -7,6 +7,7 @@
 .tableh2wrap h2, .tableh3wrap h3, .tableh4wrap h4 {
     margin: 0;
     padding: 0;
+    
     font-size: 1.6rem;
     font-family: 'Muli', sans-serif;
     font-weight: 900;

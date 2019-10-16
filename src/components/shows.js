@@ -37,21 +37,25 @@ class Shows extends React.Component {
 
             <div id="showcontainer">
 
+            {this.props.texts.shows.title1}
+
             <Link to="/show?show1"><img alt="Show" src="./pictures5/show1.jpg"></img></Link>
             <Link to="/show?show10"><img alt="Show" src="./pictures5/show10.jpg"></img></Link>
+            <Link to="/show?show4"><img alt="Show" src="./pictures5/show4.jpg"></img></Link>
+
+            {this.props.texts.shows.title2}
 
             <Link to="/show?show2"><img alt="Show" src="./pictures5/show2.jpg"></img></Link>
             <Link to="/show?show3"><img alt="Show" src="./pictures5/show3.jpg"></img></Link>
-
-            <Link to="/show?show4"><img alt="Show" src="./pictures5/show4.jpg"></img></Link>
             <Link to="/show?show5"><img alt="Show" src="./pictures5/show5.jpg"></img></Link>
             <Link to="/show?show6"> <img alt="Show" src="./pictures5/show6.jpg"></img></Link>
-
             <Link to="/show?show7"><img alt="Show" src="./pictures5/show7.jpg"></img></Link>
             <Link to="/show?show8"><img alt="Show" src="./pictures5/show8.jpg"></img></Link>
             <Link to="/show?show9"><img alt="Show" src="./pictures5/show9.jpg"></img></Link>
 
             </div>
+                
+            {this.props.texts.shows.old}
                 
             </div>
             <Footer />

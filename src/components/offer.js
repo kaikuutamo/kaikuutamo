@@ -32,7 +32,11 @@ class Offer extends React.Component {
 
         }
 
-        this.status = "";
+        this.audio = "";
+
+        this.purpose = "";
+
+        this.message = "";
     }
 
     form = (e) => {
@@ -84,12 +88,25 @@ class Offer extends React.Component {
 
     }
 
-    audio = (e) => {
-
-        this.status = e.target.value;
+    audioFunction = (e) => {
+        
+        this.audio = e.target.value;
 
         
     }
+
+    purposeFunction = (e) => {
+        
+        this.purpose = e.target.value;
+
+    }
+
+    changeText = (e) => {
+        
+        this.message = e.target.value;
+
+    }
+
 
     send = () => {
 
@@ -119,7 +136,11 @@ class Offer extends React.Component {
 
             Ulko- vai sisätila: ${this.text.inout}
 
-            Äänentoistolaitteet: ${this.status}
+            Äänentoistolaitteet: ${this.audio}
+
+            Tarkoitus: ${this.purpose}
+
+            Viesti: ${this.message}
             
             `
 
@@ -181,39 +202,57 @@ class Offer extends React.Component {
             <form id="theform">
 
             <p>Nimi <span style={{color: "red"}}>*</span></p>
-            <input name="name" onChange={this.form} type="text"></input>
+            <input className="maininput" name="name" onChange={this.form} type="text"></input>
 
             
             <p>Sähköposti <span style={{color: "red"}}>*</span></p>
-            <input name="email" onChange={this.form} type="text"></input>
+            <input className="maininput" name="email" onChange={this.form} type="text"></input>
 
             <p>Puhelinnumero <span style={{color: "red"}}>*</span></p>
-            <input name="phone" onChange={this.form} type="text"></input>
+            <input className="maininput" name="phone" onChange={this.form} type="text"></input>
 
             <p>Paikkakunta, jossa esitys tapahtuu <span style={{color: "red"}}>*</span></p>
-            <input name="location" onChange={this.form} type="text"></input>
+            <input className="maininput" name="location" onChange={this.form} type="text"></input>
 
             <p>Päivämäärä, jos tiedossa</p>
-            <input name="date" onChange={this.form} type="text"></input>
+            <input className="maininput" name="date" onChange={this.form} type="text"></input>
 
             <p>Kellonaika, jos tiedossa</p>
-            <input name="time" onChange={this.form} type="text"></input>
+            <input className="maininput" name="time" onChange={this.form} type="text"></input>
 
             <p>Yleisömääräarvio, jos tiedossa</p>
-            <input name="audience" onChange={this.form} type="text"></input>
+            <input className="maininput" name="audience" onChange={this.form} type="text"></input>
 
             <p>Sisä- vai ulkotila, jos tiedossa</p>
-            <input name="inout" onChange={this.form} type="text"></input>
+            <input className="maininput" name="inout" onChange={this.form} type="text"></input>
 
-            <p>Äänentoistolaitteet käytettävissä</p>
+            <p className="textwithmargin">Äänentoistolaitteet käytettävissä</p>
 
-            <div id="checkbox">
-            <p>Kyllä</p><input onClick={this.audio} type="radio" name="audio" value="yes"></input>
+            <div className="checkbox">
+
+            <p>Kyllä</p><input className="checkinput" onClick={this.audioFunction} type="radio" name="audio" value="Kyllä"></input>
             
-            <p>Ei</p><input onClick={this.audio} type="radio" name="audio" value="no"></input>
-            
-            <p>Ehkä</p><input onClick={this.audio} type="radio" name="audio" value="maybe"></input>
+            <p>Ei</p><input className="checkinput" onClick={this.audioFunction} type="radio" name="audio" value="Ei"></input>
+                        
             </div>
+
+            <p className="textwithmargin">Tapahtuman tarkoitus</p>
+
+            <div className="checkbox">
+
+            <p>Yleishyödyllinen</p><input className="checkinput" onClick={this.purposeFunction} type="radio" name="purpose" value="Yleishyödyllinen"></input>
+            
+            <p>Kaupallinen</p><input className="checkinput" onClick={this.purposeFunction} type="radio" name="purpose" value="Kaupallinen"></input>
+
+            <p>Yksityinen</p><input className="checkinput" onClick={this.purposeFunction} type="radio" name="purpose" value="Yksityinen"></input>
+                        
+            </div>
+
+            <p className="textwithmargin">Jätä viesti!</p>
+
+            <textarea onChange={this.changeText} id="textarea" rows="7" cols="50">
+
+            </textarea>
 
             </form>
 

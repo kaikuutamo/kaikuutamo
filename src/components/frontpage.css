@@ -55,16 +55,39 @@
     margin: 0;
     padding: 0;
     font-family: 'Fjalla One', sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.fronttextcont {
+    display: inline-block;
+    
 }
 
 #fronttext1 {
     color: var(--yellow);
     font-size: 2rem;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 6px;
+    border-radius: 5px;
+    word-wrap:break-word;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
 }
 
 #fronttext2 {
-    color: var(--yellow);
+    color: white;
     font-size: 1.3rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 6px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
 }
 
 
