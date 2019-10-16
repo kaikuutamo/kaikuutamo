@@ -43,13 +43,12 @@ var finnish = {
     who:
     <div>
     <div className="tabletitlewrap">
-    <h1 className="tabletitle">Jonglööri Kai Kuutamo</h1>
+    <h1 className="tabletitle">Sirkustaiteilija Kai Kuutamo</h1>
      
     </div>
 
      <div className="tableintro">
 
-     
      <div className="tabletext">
      
      <p>Kai Kuutamo on jongleeraukseen keskittynyt sirkustaiteilija, jolla on takanaan kymmenen vuoden esiintymiskokemus ja lukemattomat tunnit harjoittelua. Hän on koulutettu sirkustaiteiden opettaja, Sirkussirkus Putiikin omistaja, Herttakuninkaat-ryhmän toinen perustajajäsen ja myös Multi Bueno -festivaalin perustaja ja järjestäjä.</p>
@@ -71,7 +70,7 @@ var finnish = {
      <div id="wholinks">
          <h2>Linkit</h2>
 
-         <a href="http://www.sirkussirkus.com/cv.pdf" rel="noopener noreferrer" target="blank">Ansioluettelo</a>
+    <a href="http://www.sirkussirkus.com/cv.pdf" rel="noopener noreferrer" target="blank">Ansioluettelo</a>
      <a href="https://fi.wikipedia.org/wiki/Kai_Kuutamo" rel="noopener noreferrer" target="blank">Kai Kuutamo Wikipediassa</a>
      <a href="http://www.sirkussirkus.com/merkkarit/" rel="noopener noreferrer" target="blank">Merkkarit ja Kai Kuutamo</a>
      <a href="http://www.sirkussirkus.com/herttakuninkaat/" rel="noopener noreferrer" target="blank">Herttakuninkaat -sirkusryhmä</a>
