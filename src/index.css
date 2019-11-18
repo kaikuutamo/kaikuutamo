@@ -1,9 +1,16 @@
+:root {
+  --window-height: auto;
+}
+
 html {
   margin: 0;
   
 }
 
 body {
+
+  
+
   margin: 0;
 
   -webkit-font-smoothing: antialiased;
@@ -20,6 +27,7 @@ body {
   --table: rgba(27, 44, 98, 0.8);   /* table background */
 
   --yellow: #ffeb2d;
+
 
 
   font-family: 'Montserrat', sans-serif;
