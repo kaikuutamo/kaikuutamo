@@ -33,10 +33,10 @@ class App extends React.Component {
 
 
 
+
 componentDidMount () {
 
 /*------------------ 3d --------------------*/
-
 
 
 // this is the scene
@@ -69,26 +69,20 @@ controls.dampingFactor = 0.25
 controls.enableZoom = false
 */
 
-
-
 renderer.setClearColor( 0x000000, 0 );
 
-
-
-
-
-renderer.setSize(window.innerWidth, document.getElementById("App").clientHeight);
+renderer.setSize(window.innerWidth, window.innerHeight);
 
 var background = document.getElementById("background");
 
 background.appendChild(renderer.domElement);
+
 
 window.addEventListener('resize', function () {
   renderer.setSize(window.innerWidth, window.innerHeight);
   camera.aspect = window.innerWidth / window.innerHeight;
   camera.updateProjectionMatrix();
 })
-
 
 
 // ball
@@ -99,7 +93,6 @@ var material = new THREE.MeshLambertMaterial({color: "white"})
 // let's combine these two
 
 var x, y, z;
-
 
 
 
@@ -133,7 +126,6 @@ function createStars ()  {
 }
 
 
-
 // Image loader
 
 var map = new THREE.TextureLoader().load( kuu );
@@ -154,12 +146,10 @@ sprite.position.set(0, 0, 50)
 scene.add( sprite );
 
 
-
 var sprite2 = new THREE.Sprite( material3 );
 sprite2.position.set(0, 0, -50)
 sprite2.scale.set(10, 10, 1)
 scene.add( sprite2 );
-
 
 
 
@@ -194,7 +184,7 @@ controls.update();
 renderer.render(scene, camera);
 
 
-   requestAnimationFrame(animate);
+  requestAnimationFrame(animate);
 
 }
 
