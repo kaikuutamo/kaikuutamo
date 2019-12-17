@@ -28,7 +28,7 @@ class Services extends React.Component {
             <div className="tablewrap2">
 
             <div className="intropic">
-                <img alt="Kai Kuutamo" src={services}></img>
+            <img alt="Sirkussirkus palvelee" src={services}></img>
             </div>
 
             {this.props.texts.services}
