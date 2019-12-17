@@ -33,6 +33,7 @@ class App extends React.Component {
 
 
 
+
 componentDidMount () {
 
 /*------------------ 3d --------------------*/
@@ -183,7 +184,7 @@ controls.update();
 renderer.render(scene, camera);
 
 
- // requestAnimationFrame(animate);
+  requestAnimationFrame(animate);
 
 }
 
