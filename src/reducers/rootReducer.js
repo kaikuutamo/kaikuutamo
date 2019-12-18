@@ -97,6 +97,7 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös Sirkussirkus Putiikin omistaj
      </div>
 
      <div className="tableh2wrap">
+        <img className="servicespic" src="pictures6/services1.jpg" alt="Services"></img>
          <h2>Esitykset ja ohjelma</h2>
      </div>
 
@@ -110,6 +111,7 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös Sirkussirkus Putiikin omistaj
      </div>
 
      <div className="tableh3wrap">
+     <img className="servicespic" src="pictures6/services2.jpg" alt="Services"></img>
          <h3>Jongleerauksen opetus</h3>
      </div>
 
@@ -129,6 +131,7 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös Sirkussirkus Putiikin omistaj
      </div>
 
      <div className="tableh4wrap">
+     <img className="servicespic" src="pictures6/services3.jpg" alt="Services"></img>
          <h4>Sirkusvälineet</h4>
      </div>
 
@@ -1003,63 +1006,73 @@ who:
  </div>
  </div>,
 
-     services: 
+services: 
+<div>
 
-     <div>
+<div className="tabletitlewrap">
+ <h1 className="tabletitle">Services</h1>
+</div>
 
-     <div className="tabletitlewrap">
-      <h1 className="tabletitle">Services</h1>
-     </div>
+<div className="tableintro">
+    <div className="tabletext">
+        <p>Kai Kuutamo & Sirkussirkus tarjoaa kolmenlaisia palveluita:</p>
+        <p>- Valmiita sirkusesityksiä ja tilausohjelmaa</p>
+        <p>- Jongleerauksen opetusta</p>
+        <p>- Sirkusvälineiden myyntiä</p>
+    </div>
+</div>
 
-     <div className="tableintro">
-         <div className="tabletext">
-             <p>Kai Kuutamo & Sirkussirkus tarjoaa kolmenlaisia palveluita:</p>
-             <p>- Valmiita sirkusesityksiä ja tilausohjelmaa</p>
-             <p>- Jongleerauksen opetusta</p>
-             <p>- Sirkusvälineiden myyntiä</p>
-         </div>
-     </div>
+<div className="tableh2wrap">
+   <img className="servicespic" src="pictures6/services1.jpg" alt="Services"></img>
+    <h2>Esitykset ja ohjelma</h2>
+</div>
 
-     <div className="tableh2wrap">
-         <h2>Esitykset ja ohjelma</h2>
-     </div>
+<div className="tableintro">
+    <div className="tabletext">
+        <p>Ohjelmaa etsiessäsi voit tutustua valmiisiin esityksiimme ESITYKSET-sivulla,  täyttää tarjouspyyntölomakkeen tai ottaa suoraan yhteyttä ja kertoa tilausuudestasi. Teemme ja myös muokkaamme esityksiä tilaajan kanssa yhteistyössä niin, että ohjelma parhaiten sopii tilaisuuden tai tapahtuman luonteeseen.</p>
+        <p>Kai Kuutamon omasta repertuaarista löytyy erilaisia jongleerausohjelmia, tuliesityksiä ja puujalkahahmoja. Puhetyöt kuten juontaminen, luennointi ja seremoniamestarointi sujuvat myös. Välitämme myös muita taiteilijoita, ja järjestämme isompiin tapahtumiin ohjelmakokonaisuuksia. Kerro minne, milloin sekä mitä kaipaat ja pyydä tarjousta!</p>
+        <p>Lopulliseen hintaan vaikuttavat esityksen sisältö, kesto, esiintyjien määrä,matkakulut sekä mahdolliset rekvisiittakulut. Tarjouksemme on laskutettava kiinteä hinta, joka sisältää sopimuksen mukaan kaikki kulut.</p>
+        
+    </div>
+</div>
 
-     <div className="tableintro">
-         <div className="tabletext">
-             <p>Ohjelmaa etsiessäsi voit tutustua valmiisiin esityksiimme ESITYKSET-sivulla tai ottaa suoraan yhteyttä ja kertoa ohjelmatarpeistasi. Teemme ja muokkaamme myös esityksiä tilaajan kanssa yhteistyössä niin, että ohjelma parhaiten sopii tilaisuuden tai tapahtuman luonteeseen.</p>
-             <p>Kai Kuutamon omasta repertuaarista löytyy erilaisia jongleerausohjelmia, tuliesityksiä ja puujalkahahmoja. Erilaiset puhetyöt kuten juontaminen, luennointi ja seremoniamestarointi sujuvat myös. Välitämme myös muita taiteilijoita, ja järjestämme isompiin tapahtumiin ohjelmakokonaisuuksia. Kerro minne, milloin sekä mitä kaipaat ja pyydä tarjousta!</p>
-             <p>Lopulliseen hintaan vaikuttavat esityksen sisältö, kesto, esiintyjien määrä, matkakulut sekä mahdolliset rekvisiittakulut. Tarjouksemme on laskutettava hinta, joka sisältää sopimuksen mukaan kaikki kulut.</p>
-             
-         </div>
-     </div>
+<div className="tableh3wrap">
+<img className="servicespic" src="pictures6/services2.jpg" alt="Services"></img>
+    <h3>Jongleerauksen opetus</h3>
+</div>
 
-     <div className="tableh3wrap">
-         <h3>Jongleerauksen opetus</h3>
-     </div>
+<div className="tableintro">
+    <div className="tabletext">
+        <p>Tarjoamme jongleerausopetusta tilaisuuksiin, tapahtumiin, leireille ja kouluihin. Jongleerauksen ohjattu peruskurssi kestää sovitusti 45-90 minuuttia, ja sopii kaikenikäisille aikaisemmasta kokemuksesta riippumatta. Myös avoimet jongleeraustyöpajat ovat mahdollisia esimerkiksi koko päivän tapahtumiin tai vastaaviin tilaisuuksiin.</p>
 
-     <div className="tableintro">
-         <div className="tabletext">
-             <p>Tarjoamme jongleerausopetusta kiinnostuneille tilaisuuksiin, tapahtumiin, leireille ja kouluihin. Jongleerauksen peruskurssi kestää sovitusti 45-90 minuuttia, ja sopii kaikenikäisille aikaisemmasta kokemuksesta riippumatta. Myös yleisölle avoimet jongleeraustyöpajat ovat mahdollisia esimerkiksi koko päivän tapahtumiin tai vastaaviin tilaisuuksiin.</p>
-             <p>Peruskurssi tai vastaava avoin jongleeraustyöpaja sopii niin yritystilaisuuksiin kuin esimerkiksi messuillekin. Tuomme välineet mukanamme sovitulle määrälle oppilaita, eikä oppilailta vaadita muuta kuin mukavat vaatteet ja avoin mieli. Tutustumiskurssilla välineenä ovat lähtökohtaisesti pallot, ja pyrkimyksenä on oppia kolmen pallon jongleeraus, mutta tilaajan toiveesta voimme keskittyä pallojen sijaan myös esimerkiksi renkaisiin, keiloihin tai diaboloon. Useamman tunnin työpajassa voidaan tutustua moneen eri välineeseen.</p>
-             <p>Pystymme järjestämään myös tiiviskursseja edistyneemmille tarkasti rajatuista aiheista kuten esimerkiksi "Jongleerauksen perustekniikka kolmesta yhdeksään palloon", "Päävieritykset", "Diabolo-jongleeraus", "Multiplex-heitot" tai "Vartaloheitot".</p>
-             
-         </div>
-     </div>
+        <p>Peruskurssi tai vastaava avoin jongleeraustyöpaja sopii niin yritystilaisuuksiin kuin esimerkiksi lastentapahtumiin. Tuomme välineet mukanamme sovitulle määrälle oppilaita, eikä osanottajilta vaadita muuta kuin mukavat vaatteet ja avoin mieli.</p> 
+        
+            <p>Tutustumiskurssilla välineenä ovat lähtökohtaisesti pallot, ja pyrkimyksenä on oppia kolmen pallon jongleeraus, mutta tilaajan toiveesta voimme keskittyä pallojen sijaan myös esimerkiksi renkaisiin, keiloihin tai diaboloon. Avoimmessa tai useamman tunnin työpajassa voidaan tutustua moneen eri välineeseen.</p> 
+        
+            <p>Lapsille suosituin työpajamalli on ollut avoin työpaja, jossa on paljon eri välineitä ja mukaan voi tulla ja myös lähteä missä kohtaa vain.</p>
+        
+        <p>Pystymme järjestämään myös tiiviskursseja edistyneemmille tarkasti rajatuista aiheista kuten esimerkiksi "Jongleerauksen perustekniikka kolmesta yhdeksään palloon", "Päävieritykset", "Diabolo-jongleeraus", "Multiplex-heitot" tai "Vartaloheitot".</p>
+        
+    </div>
+</div>
 
-     <div className="tableh4wrap">
-         <h4>Sirkusvälineet</h4>
-     </div>
+<div className="tableh4wrap">
+<img className="servicespic" src="pictures6/services3.jpg" alt="Services"></img>
+    <h4>Sirkusvälineet</h4>
+</div>
 
-     <div className="tableintro">
-         <div className="tabletext">
-             <p>Kai Kuutamon Sirkussirkus Putiikki on myynyt sirkusvälineitä ammattilaisille ja harrastajille jo vuodesta 2006.</p>
-             <p>Putiikki sijaitsi alkuaikoina Jarrumiehenkadulla Turussa. Se oli suljettuna vuodet 2011-2015, ja avattiin uudestaan verkkokauppana vuonna 2016. Marraskuussa 2017 uusi kivijalkakauppa avattiin osoitteeseen Lonttistentie 14, Turku.</p>
-             <p>Kaupasta saat parhaat jongleerausvälineet joka lähtöön. Lisäksi hyllystä löytyvät ilma-akrobatiavälineet, taikuustuotteet, yksipyöräiset sekä paljon muita kiinnostavia myyntiartikkeleita. Kannattaa poiketa paikan päällä! Aukiolo ja noudot sovitusti tai sattumanvaraisesti. Toimitamme myös tavaraa Euroopan-laajuisesti. Sirkussirkus Putiikin tarjontaan voit tutustua parhaiten osoitteessa:  <a id="shoplink" href="http://putiikki.sirkussirkus.com/" target="blank">putiikki.sirkussirkus.com</a>.</p>
-             
-         </div>
-     </div>
+<div className="tableintro">
+    <div className="tabletext">
+        <p>Kai Kuutamon Sirkussirkus Putiikki on myynyt sirkusvälineitä ammattilaisille ja harrastajille jo vuodesta 2005.</p>
+        
+        <p>Putiikki sijaitsi alkuaikoina Jarrumiehenkadulla Turussa. Se oli suljettuna vuodet 2011-2015 Aasiassa työskentelyn johdosta, ja se avattiin uudestaan verkkokauppana vuonna 2016. Marraskuussa 2017 uusi kivijalkakauppa avattiin osoitteeseen Lonttistentie 14, Turku.</p>
 
-     </div>,
+        <p>Kaupasta saat parhaat jongleerausvälineet joka lähtöön. Lisäksi hyllystä löytyvät ilma-akrobatiavälineet, taikuustuotteet, yksipyöräiset sekä paljon muita kiinnostavia myyntiartikkeleita. Olemme paikalla keskiviikkoisin klo 15-18 ja sen lisäksi sovitusti tai sattumanvaraisesti. Verkkokaupan tilauksia toimitamme päivittäin. Sirkussirkus Putiikin tarjontaan voit tutustua parhaiten osoitteessa:  <a id="shoplink" href="http://putiikki.sirkussirkus.com/" target="blank">www.sirkuskauppa.com</a>.</p>
+        
+    </div>
+</div>
+
+</div>,
 
 mobilemenu: 
      
