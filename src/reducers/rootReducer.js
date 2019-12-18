@@ -270,7 +270,7 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös Sirkussirkus Putiikin omistaj
             shows: {
 
                 title1: <h2 className="showstitle">Sooloesitykset</h2>,
-                title2: <h3 className="showstitle">Kai Kuutamo & Kumppanit</h3>,
+                title2: <h3 className="showstitle">Kumppanit ja ryhmät</h3>,
 
                 old: 
                 <div id="wholinks">
