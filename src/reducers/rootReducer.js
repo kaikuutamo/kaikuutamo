@@ -12,8 +12,8 @@ var finnish = {
 
         "text": "Although I am blind I could feel your energy.", 
         "text2": "- sokea afrikkalainen mies",
-        "words": ["Although I am blind I could feel your energy.", "Ok on uus hyvä!", "To perform you need practice, to practice you need passion."],
-        "words2": ["- sokea afrikkalainen mies", "- Jukka Keränen", "― Amit Kalantri"]
+        "words": ["Although I am blind I could feel your energy.", "Kuutamo tietää, miten sirkusta tehdään lapsille.", "Satumaisen hieno esitys!"],
+        "words2": ["- Sokea katsoja", "- Turun Sanomat", "- Eläkeläinen"]
 
     },
 
@@ -43,22 +43,22 @@ var finnish = {
     who:
     <div>
     <div className="tabletitlewrap">
-    <h1 className="tabletitle">Jonglööri Kai Kuutamo</h1>
+    <h1 className="tabletitle">Sirkustaiteilija Kai Kuutamo</h1>
      
     </div>
 
      <div className="tableintro">
 
-     
      <div className="tabletext">
      
-     <p>Kai Kuutamo on jongleeraukseen keskittynyt sirkustaiteilija, jolla on takanaan kymmenen vuoden esiintymiskokemus ja lukemattomat tunnit harjoittelua. Hän on koulutettu sirkustaiteiden opettaja, Sirkussirkus Putiikin omistaja, Herttakuninkaat-ryhmän toinen perustajajäsen ja myös Multi Bueno -festivaalin perustaja ja järjestäjä.</p>
+     <p>Kai Kuutamo on kansainvälisen uran luonut palkittu esiintyvä taiteilija. 
+Hän on korkeakoulutettu sirkustaiteilija ja myös Sirkussirkus Putiikin omistaja.</p>
 
-     <p>Uransa aikana Kuutamo on opiskellut jongleerausta Suomessa ja Ukrainassa, esiintynyt muun muassa Englannissa, Saksassa, Belgiassa, Ruotsissa, Eestissä, Thaimaassa ja Kambodzassa, voittanut katuesiintymisen Suomen mestaruuden, rikkonut jongleerauksen Suomen ennätyksen sekä pitänyt yllä kaksi vuotta ilmaista sirkuskoulua Kambodzassa.</p>
+     <p>Uransa aikana Kuutamo on opiskellut jongleerausta Suomessa Lahdessa ja Turussa sekä Ukrainassa Kiovassa. Hän on esiintynyt Englannissa, Saksassa, Belgiassa, Ruotsissa, Eestissä, Thaimaassa ja Kambodzassa, voittanut katuesiintymisen Suomen mestaruuden, rikkonut jongleerauksen Suomen ennätyksen sekä pitänyt yllä kaksi vuotta ilmaista sirkuskoulua lapsille Kambodzassa (Circus Kampot).</p>
      
-     <p>Nykyään hän työskentelee pääasiassa Suomessa esiintyen yksin, Herttakuninkaat-ryhmän, Aimo Annoksen tai Merkkarit-orkesterin kanssa. Esiintymispaikat vaihtelevat lasten festivaaleista vanhainkoteihin sekä suurtapahtumista pieniin syntymäpäiviin.</p>
+     <p>Nykyään hän työskentelee pääasiassa Suomessa esiintyen yksin, osana Herttakuninkaat-ryhmää sekä eri muusikoiden kanssa (Merkkarit, Arttu Aarnio, Sakari Kivinen). Esiintymispaikat vaihtelevat lasten festivaaleista vanhainkoteihin sekä suurtapahtumista pieniin syntymäpäiviin. Kai Kuutamo ja Sirkussirkus järjestää myös epäsäännöllisesti monitaidefestivaalia Multi Bueno.</p>
 
-     <p>"Esitämme valmiita teoksia omien kiertueaikataulujemme mukaan ja tilauksesta. Toisinaan rakennamme tapahtumiin ja tilaisuuksiin myös omia ohjelmia tilaajan toiveiden mukaisesti. Opetuspalveluita tarjoamme eri sirkuskouluille ja kerhoille sovitun mittaisissa jaksoissa, ja järjestämme myös kertaluontoisia jongleeraustyöpajoja kaikenlaisille ryhmille tilauksesta. Kaikki on mahdollista, jos kalenterissa on tilaa ja palkkiosta päästään yhteisymmärrykseen."</p>
+     <p>"Esitämme valmiita teoksia omien kiertueaikataulujemme mukaan ja tilauksesta. Toisinaan rakennamme tapahtumiin ja tilaisuuksiin myös omia ohjelmia tilaajan toiveiden mukaisesti. Opetuspalveluita tarjoamme eri sirkuskouluille ja kerhoille sovitun mittaisissa jaksoissa ja järjestämme myös kertaluontoisia jongleeraustyöpajoja kaikenlaisille ryhmille tilauksesta. Kaikki on mahdollista, jos kalenterissa on tilaa. Esityksiä ja toimintaa kaikkiin tilaisuuksiin on mottomme."</p>
 
      <p>- Kai Kuutamo</p>
 
@@ -73,12 +73,9 @@ var finnish = {
 
      <p style={{paddingTop: "5px"}}><a href="http://www.sirkussirkus.com/cv.pdf" rel="noopener noreferrer" target="blank">Ansioluettelo</a></p>
      <p><a href="https://fi.wikipedia.org/wiki/Kai_Kuutamo" rel="noopener noreferrer" target="blank">Kai Kuutamo Wikipediassa</a></p>
-     <p><a href="http://www.sirkussirkus.com/merkkarit/" rel="noopener noreferrer" target="blank">Merkkarit ja Kai Kuutamo</a></p>
-     <p><a href="http://www.sirkussirkus.com/herttakuninkaat/" rel="noopener noreferrer" target="blank">Herttakuninkaat -sirkusryhmä</a></p>
-     <p><a href="http://www.sirkussirkus.com/kkaa/" rel="noopener noreferrer" target="blank">Kai Kuutamo & Aimo Annos -sirkusmusiikkiduo</a></p>
      <p><a href="http://putiikki.sirkussirkus.com/" rel="noopener noreferrer" target="blank">Sirkussirkus Putiikki, kaikki sirkusvälineet saman katon alta</a></p>
-     <p><a href="http://www.sirkussirkus.com/multibueno/index.html" rel="noopener noreferrer" target="blank">Multi Bueno festivaali, monisyysirkusfestivaali Turussa</a></p>
-     <p><a href="http://www.sirkussirkus.com/circuskampot/" rel="noopener noreferrer" target="blank">Circus Kampot, suomalainen sirkuskoulu Kambodzassa</a></p>
+     <p><a href="http://www.sirkussirkus.com/multibueno/index.html" rel="noopener noreferrer" target="blank">Multi Bueno festivaali, monitaidefestivaali Turussa</a></p>
+     <p><a href="http://www.sirkussirkus.com/circuskampot/" rel="noopener noreferrer" target="blank">Circus Kampot, sirkuskouluhanke Kambodzassa</a></p>
 
      </div>
      </div>,
@@ -105,9 +102,9 @@ var finnish = {
 
      <div className="tableintro">
          <div className="tabletext">
-             <p>Ohjelmaa etsiessäsi voit tutustua valmiisiin esityksiimme ESITYKSET-sivulla tai ottaa suoraan yhteyttä ja kertoa ohjelmatarpeistasi. Teemme ja muokkaamme myös esityksiä tilaajan kanssa yhteistyössä niin, että ohjelma parhaiten sopii tilaisuuden tai tapahtuman luonteeseen.</p>
-             <p>Kai Kuutamon omasta repertuaarista löytyy erilaisia jongleerausohjelmia, tuliesityksiä ja puujalkahahmoja. Erilaiset puhetyöt kuten juontaminen, luennointi ja seremoniamestarointi sujuvat myös. Välitämme myös muita taiteilijoita, ja järjestämme isompiin tapahtumiin ohjelmakokonaisuuksia. Kerro minne, milloin sekä mitä kaipaat ja pyydä tarjousta!</p>
-             <p>Lopulliseen hintaan vaikuttavat esityksen sisältö, kesto, esiintyjien määrä, matkakulut sekä mahdolliset rekvisiittakulut. Tarjouksemme on laskutettava hinta, joka sisältää sopimuksen mukaan kaikki kulut.</p>
+             <p>Ohjelmaa etsiessäsi voit tutustua valmiisiin esityksiimme ESITYKSET-sivulla,  täyttää tarjouspyyntölomakkeen tai ottaa suoraan yhteyttä ja kertoa tilausuudestasi. Teemme ja myös muokkaamme esityksiä tilaajan kanssa yhteistyössä niin, että ohjelma parhaiten sopii tilaisuuden tai tapahtuman luonteeseen.</p>
+             <p>Kai Kuutamon omasta repertuaarista löytyy erilaisia jongleerausohjelmia, tuliesityksiä ja puujalkahahmoja. Puhetyöt kuten juontaminen, luennointi ja seremoniamestarointi sujuvat myös. Välitämme myös muita taiteilijoita, ja järjestämme isompiin tapahtumiin ohjelmakokonaisuuksia. Kerro minne, milloin sekä mitä kaipaat ja pyydä tarjousta!</p>
+             <p>Lopulliseen hintaan vaikuttavat esityksen sisältö, kesto, esiintyjien määrä,matkakulut sekä mahdolliset rekvisiittakulut. Tarjouksemme on laskutettava kiinteä hinta, joka sisältää sopimuksen mukaan kaikki kulut.</p>
              
          </div>
      </div>
@@ -118,8 +115,14 @@ var finnish = {
 
      <div className="tableintro">
          <div className="tabletext">
-             <p>Tarjoamme jongleerausopetusta kiinnostuneille tilaisuuksiin, tapahtumiin, leireille ja kouluihin. Jongleerauksen peruskurssi kestää sovitusti 45-90 minuuttia, ja sopii kaikenikäisille aikaisemmasta kokemuksesta riippumatta. Myös yleisölle avoimet jongleeraustyöpajat ovat mahdollisia esimerkiksi koko päivän tapahtumiin tai vastaaviin tilaisuuksiin.</p>
-             <p>Peruskurssi tai vastaava avoin jongleeraustyöpaja sopii niin yritystilaisuuksiin kuin esimerkiksi messuillekin. Tuomme välineet mukanamme sovitulle määrälle oppilaita, eikä oppilailta vaadita muuta kuin mukavat vaatteet ja avoin mieli. Tutustumiskurssilla välineenä ovat lähtökohtaisesti pallot, ja pyrkimyksenä on oppia kolmen pallon jongleeraus, mutta tilaajan toiveesta voimme keskittyä pallojen sijaan myös esimerkiksi renkaisiin, keiloihin tai diaboloon. Useamman tunnin työpajassa voidaan tutustua moneen eri välineeseen.</p>
+             <p>Tarjoamme jongleerausopetusta tilaisuuksiin, tapahtumiin, leireille ja kouluihin. Jongleerauksen ohjattu peruskurssi kestää sovitusti 45-90 minuuttia, ja sopii kaikenikäisille aikaisemmasta kokemuksesta riippumatta. Myös avoimet jongleeraustyöpajat ovat mahdollisia esimerkiksi koko päivän tapahtumiin tai vastaaviin tilaisuuksiin.</p>
+
+             <p>Peruskurssi tai vastaava avoin jongleeraustyöpaja sopii niin yritystilaisuuksiin kuin esimerkiksi lastentapahtumiin. Tuomme välineet mukanamme sovitulle määrälle oppilaita, eikä osanottajilta vaadita muuta kuin mukavat vaatteet ja avoin mieli.</p> 
+             
+                 <p>Tutustumiskurssilla välineenä ovat lähtökohtaisesti pallot, ja pyrkimyksenä on oppia kolmen pallon jongleeraus, mutta tilaajan toiveesta voimme keskittyä pallojen sijaan myös esimerkiksi renkaisiin, keiloihin tai diaboloon. Avoimmessa tai useamman tunnin työpajassa voidaan tutustua moneen eri välineeseen.</p> 
+             
+                 <p>Lapsille suosituin työpajamalli on ollut avoin työpaja, jossa on paljon eri välineitä ja mukaan voi tulla ja myös lähteä missä kohtaa vain.</p>
+             
              <p>Pystymme järjestämään myös tiiviskursseja edistyneemmille tarkasti rajatuista aiheista kuten esimerkiksi "Jongleerauksen perustekniikka kolmesta yhdeksään palloon", "Päävieritykset", "Diabolo-jongleeraus", "Multiplex-heitot" tai "Vartaloheitot".</p>
              
          </div>
@@ -131,9 +134,11 @@ var finnish = {
 
      <div className="tableintro">
          <div className="tabletext">
-             <p>Kai Kuutamon Sirkussirkus Putiikki on myynyt sirkusvälineitä ammattilaisille ja harrastajille jo vuodesta 2006.</p>
-             <p>Putiikki sijaitsi alkuaikoina Jarrumiehenkadulla Turussa. Se oli suljettuna vuodet 2011-2015, ja avattiin uudestaan verkkokauppana vuonna 2016. Marraskuussa 2017 uusi kivijalkakauppa avattiin osoitteeseen Lonttistentie 14, Turku.</p>
-             <p>Kaupasta saat parhaat jongleerausvälineet joka lähtöön. Lisäksi hyllystä löytyvät ilma-akrobatiavälineet, taikuustuotteet, yksipyöräiset sekä paljon muita kiinnostavia myyntiartikkeleita. Kannattaa poiketa paikan päällä! Aukiolo ja noudot sovitusti tai sattumanvaraisesti. Toimitamme myös tavaraa Euroopan-laajuisesti. Sirkussirkus Putiikin tarjontaan voit tutustua parhaiten osoitteessa:  <a id="shoplink" href="http://putiikki.sirkussirkus.com/" target="blank">putiikki.sirkussirkus.com</a>.</p>
+             <p>Kai Kuutamon Sirkussirkus Putiikki on myynyt sirkusvälineitä ammattilaisille ja harrastajille jo vuodesta 2005.</p>
+             
+             <p>Putiikki sijaitsi alkuaikoina Jarrumiehenkadulla Turussa. Se oli suljettuna vuodet 2011-2015 Aasiassa työskentelyn johdosta, ja se avattiin uudestaan verkkokauppana vuonna 2016. Marraskuussa 2017 uusi kivijalkakauppa avattiin osoitteeseen Lonttistentie 14, Turku.</p>
+
+             <p>Kaupasta saat parhaat jongleerausvälineet joka lähtöön. Lisäksi hyllystä löytyvät ilma-akrobatiavälineet, taikuustuotteet, yksipyöräiset sekä paljon muita kiinnostavia myyntiartikkeleita. Olemme paikalla keskiviikkoisin klo 15-18 ja sen lisäksi sovitusti tai sattumanvaraisesti. Verkkokaupan tilauksia toimitamme päivittäin. Sirkussirkus Putiikin tarjontaan voit tutustua parhaiten osoitteessa:  <a id="shoplink" href="http://putiikki.sirkussirkus.com/" target="blank">www.sirkuskauppa.com</a>.</p>
              
          </div>
      </div>
@@ -264,8 +269,8 @@ var finnish = {
 
             shows: {
 
-                title1: <h2 className="showstitle">Omat</h2>,
-                title2: <h3 className="showstitle">Ryhmät</h3>,
+                title1: <h2 className="showstitle">Sooloesitykset</h2>,
+                title2: <h3 className="showstitle">Kai Kuutamo & Kumppanit</h3>,
 
                 old: 
                 <div id="wholinks">
@@ -294,14 +299,13 @@ var finnish = {
 
                     <img className="showpic" alt="Show" src="./pictures5/show1.jpg"></img>
 
-                    <h1 className="tabletitle">Kai Kuutamo -show</h1>
+                    <h1 className="tabletitle">Kai Kuutamo Show</h1>
 
                     <div className="tableintro">
                     <div className="tabletext">
-                        <p>Kai Kuutamo Show on pyörinyt kodeissa, kaduilla, häissä, vanhainkodeissa, 8-vuotissyntymäpäivillä sekä suurissakin tapahtumissa kansainvälisesti jo vuodesta 2010. Samaisen esityksen vuoden 2012 painoksella voitettiin katuesiintymisen Suomen mestaruus. Niistä ajoista esitys on kuitenkin kehittynyt ja kasvanut entisestään.</p>
+                        <p>Kai Kuutamo Showta esitetty kodeissa, kaduilla, häissä, vanhainkodeissa, syntymäpäivillä sekä myös suurissa tapahtumissa kansainvälisesti jo vuodesta 2010. Samaisen esityksen vuoden 2012 painoksella voitettiin katuesiintymisen Suomen mestaruus.</p>
 
-                        <p>Esitys perustuu verbaaliakrobatian, improvisaation, huumorin ja näyttävien jongleeraustemppujen yhdistelmään. Vuorovaikutus yleisön kanssa on merkittävässä roolissa. Kai Kuutamo Show sopii mihin tahansa tilaan ja tilaisuuteen, ja se voidaan esittää kolmella eri kielellä tai haluttaessa jopa sanattomasti. Esityksen pituuteen voi vaikuttaa, ja se voidaan esittää myös osissa tai vaikka juontojen yhteydessä.</p>
-
+                        <p>Esitys perustuu verbaaliakrobatian, improvisaation, huumorin ja näyttävien jongleeraustemppujen yhdistelmään. Vuorovaikutus yleisön kanssa on merkittävässä roolissa. Kai Kuutamo Show sopii mihin tahansa tilaan ja tilaisuuteen, ja se voidaan esittää kolmella eri kielellä tai haluttaessa jopa sanattomasti. Esityksen pituuteen voi vaikuttaa, ja sitä voidaan esittää myös osissa tai vaikka juontojen yhteydessä.</p>
                     </div>
                     </div>
 
@@ -309,9 +313,12 @@ var finnish = {
 
                     <div className="tableintro">
                     <div className="tabletext">
-                        <p>Kesto: 5-45 min.</p>
-                        <p>Kieli: Suomi, Englanti tai Khmer (Kambodza)</p>
-                        <p>Tila: Soveltuu minne tahansa. Korkeudesta etua. 45 minuutin esitykseen minimikorkeus 7m ja lattiatila 6x6 metriä.</p>
+                    <p>Kesto: 10-45 min.</p>
+                    <p>Kohdeyleisö: Koko perhe. Voidaan myös suunnata tilaisuuden luonteen mukaan vain aikuisille.</p>
+                    <p>Kieli: Suomi, Englanti tai Khmer (Kambodza)</p>
+                    <p>Tila: Soveltuu minne tahansa. Korkeudesta etua.</p>
+                    <p>(45 minuutin esitykseen minimikorkeus 7 metriä ja lattiatila 8 x 5 metriä.)</p>
+                    <p>Äänentoisto: Tuodaan mukana sovittaessa.</p>
                     </div>
                     </div>
 
@@ -328,22 +335,14 @@ var finnish = {
                         <p>"Olipa mielenkiintoinen ja piristävä esitys!"</p>
                         <p>- mies vanhainkodissa</p>
                         <br></br>
-                        <p>"I like your music."</p>
-                        <p>- Billy Siegenfeld</p>
                     </div>
                     </div>
 
                     <div className="moremargin"></div>
 
-                    <div className="icont_2">
-                    <div className="icont2_2">
-                    <iframe className="video" title="1" src="https://www.youtube.com/embed/c0TV9iVjoyY" allowFullScreen></iframe>
-                    </div>
-                    </div>
-
                     </div>,
 
-                    show1_pics: ["./pictures5/show1.jpg", "./pictures5/show1_1.jpg", "./pictures5/show1_2.jpg", "./pictures5/show1_3.jpg"],
+                    show1_pics: ["./pictures5/kaikuutamoshow1.jpg", "./pictures5/kaikuutamoshow2.jpg", "./pictures5/kaikuutamoshow3.jpg", "./pictures5/kaikuutamoshow4.jpg", "./pictures5/kaikuutamoshow5.jpg", "./pictures5/kaikuutamoshow6.jpg", "./pictures5/kaikuutamoshow7.jpg", "./pictures5/kaikuutamoshow8.jpg", "./pictures5/kaikuutamoshow9.jpg"],
 
                     
                     show2: 
@@ -466,6 +465,12 @@ show3:
 
                     <div className="moremargin"></div>
 
+                    <div className="icont_2">
+                    <div className="icont2_2">
+                    <iframe className="video" title="1" src="https://www.youtube.com/embed/c0TV9iVjoyY" allowFullScreen></iframe>
+                    </div>
+                    </div>
+
 
                     </div>,
 
@@ -575,11 +580,11 @@ show6:
                     <div className="tabletext">
                          
 
-                        <p>Rainhard Reisiheisi tunnetaan kaverien kesken nimellä Pitkä Rane, ja kavereitahan Ranella riittää minne hän ikinä eksyykään! Pitkällä mitallaan hän tulee helposti huomatuksi, ja iloisen ulospäinsuuntautuneen luonteensa ansiosta hänen kanssa on helppo jutella päivän polttavista aiheista tai muuten vaan vääntää pitkiä puujalkavitsejä.</p>
+                        <p> Yllä tapahtumasi kanssa uusiin korkeuksiin Pitkä Ranen avulla! Rainhard Reisiheisi tunnetaan kaverien kesken nimellä Pitkä Rane, ja kavereitahan Ranella riittää minne hän ikinä eksyykään! Pitkällä mitallaan hän tulee helposti huomatuksi, ja iloisen ulospäinsuuntautuneen luonteensa ansiosta hänen kanssa on helppo jutella päivän polttavista aiheista, räätälöidyistä vaatteista tai terveellisestä ruokavaliosta.</p>
 
-                        <p>Pitkä Ranella ei ole varsinaista omaa esitystä, vaan hänet voi tilata kiertelemään tapahtumiin, ja ottamaan kontaktia kävijöihin tai muuten vaan olemaan pitkänä. Yllä tapahtumasi kanssa uusiin korkeuksiin Pitkä Ranen avulla!</p>
+                        <p>Pitkä Ranella ei ole varsinaista omaa esitystä, vaan hänet voi tilata kiertelemään tapahtumiin, ja ottamaan kontaktia kävijöihin tai muuten vaan olemaan pitkänä. Lentolehtisten tai esimerkiksi ilmapallojen jakaminen onnistuu myös (tilaaja vastaa materiaaleista).</p>
 
-                        <p>Suurempiin tapahtumiin voit myös tilata 2-5 hengen pitkän seurueen, sillä Rainhard Reisiheisi tuntee pitkien piirit! Usein Pitkä Rane nähdäänkin esiintymässä yhdessä hyvän ystävänsä Harri Harha-askeleen kanssa (kaverikuva alempana).</p>
+                        <p>Suurempiin tapahtumiin voit myös tilata 2-5 hengen pitkän seurueen, sillä Rainhard Reisiheisi tuntee pitkien piirit! Usein Pitkä Rane nähdäänkin esiintymässä yhdessä hyvän ystävänsä Harri Harha-Askeleen kanssa (kaverikuva alempana).</p>
                     </div>
                     </div>
 
@@ -587,10 +592,10 @@ show6:
 
                     <div className="tableintro">
                     <div className="tabletext">
-                        <p>Kesto: Sopiva mitta yhdelle kävelylle on 1 tunti. Pidemmissä rupeamissa yhtä kävelyä kohti 45 min. lepoa, ellei toisin sovita.</p>
+                        <p>Kesto: Pisin mitta yhdelle kävelylle yhtäjaksoisesti on 1 tunti. Pidemmissä rupeamissa yhtä kävelyä kohti 45 minuuttia lepoa, ellei toisin sovita.</p>
                         <p>Kieli: Suomi, Englanti, Khmer (Kambodza), ala-aste Ruotsi, haittaava Espanja</p>
                         <p>Tila: Missä tahansa, kunhan maasto on suhteellisen tasaista.</p>
-                        
+                        <p>Erityistarpeet: Lukittava takalava, jossa 150 cm korkea tukeva alusta pukemista varten.</p>
                     </div>
                     </div>
 
@@ -630,8 +635,8 @@ show7:
 
                     <div className="tableintro">
                     <div className="tabletext">
-                        <p>Kesto noin 20 min | Suositusikä 2+</p>
-                        <p>Esitykseen sisältyy oma äänentoisto</p>
+                        <p>Kesto noin 25 min | Suositusikä 2+</p>
+                        <p>Oma äänentoisto tuodaan mukana sovittaessa.</p>
                         <p>Esitys mahtuu pieniinkin tiloihin</p>
                         
                     </div>
