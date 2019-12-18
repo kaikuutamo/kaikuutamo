@@ -315,9 +315,10 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös Sirkussirkus Putiikin omistaj
                     <div className="tabletext">
                     <p>Kesto: 10-45 min.</p>
                     <p>Kohdeyleisö: Koko perhe. Voidaan myös suunnata tilaisuuden luonteen mukaan vain aikuisille.</p>
-                        <p>Kieli: Suomi, Englanti tai Khmer (Kambodza)</p>
-                        <p>Tila: Soveltuu minne tahansa. Korkeudesta etua.</p>
-                        <p>(45 minuutin esitykseen minimikorkeus 7 metriä ja lattiatila 8 x 5 metriä.)</p>
+                    <p>Kieli: Suomi, Englanti tai Khmer (Kambodza)</p>
+                    <p>Tila: Soveltuu minne tahansa. Korkeudesta etua.</p>
+                    <p>(45 minuutin esitykseen minimikorkeus 7 metriä ja lattiatila 8 x 5 metriä.)</p>
+                    <p>Äänentoisto: Tuodaan mukana sovittaessa.</p>
                     </div>
                     </div>
 
@@ -579,11 +580,11 @@ show6:
                     <div className="tabletext">
                          
 
-                        <p>Rainhard Reisiheisi tunnetaan kaverien kesken nimellä Pitkä Rane, ja kavereitahan Ranella riittää minne hän ikinä eksyykään! Pitkällä mitallaan hän tulee helposti huomatuksi, ja iloisen ulospäinsuuntautuneen luonteensa ansiosta hänen kanssa on helppo jutella päivän polttavista aiheista tai muuten vaan vääntää pitkiä puujalkavitsejä.</p>
+                        <p> Yllä tapahtumasi kanssa uusiin korkeuksiin Pitkä Ranen avulla! Rainhard Reisiheisi tunnetaan kaverien kesken nimellä Pitkä Rane, ja kavereitahan Ranella riittää minne hän ikinä eksyykään! Pitkällä mitallaan hän tulee helposti huomatuksi, ja iloisen ulospäinsuuntautuneen luonteensa ansiosta hänen kanssa on helppo jutella päivän polttavista aiheista, räätälöidyistä vaatteista tai terveellisestä ruokavaliosta.</p>
 
-                        <p>Pitkä Ranella ei ole varsinaista omaa esitystä, vaan hänet voi tilata kiertelemään tapahtumiin, ja ottamaan kontaktia kävijöihin tai muuten vaan olemaan pitkänä. Yllä tapahtumasi kanssa uusiin korkeuksiin Pitkä Ranen avulla!</p>
+                        <p>Pitkä Ranella ei ole varsinaista omaa esitystä, vaan hänet voi tilata kiertelemään tapahtumiin, ja ottamaan kontaktia kävijöihin tai muuten vaan olemaan pitkänä. Lentolehtisten tai esimerkiksi ilmapallojen jakaminen onnistuu myös (tilaaja vastaa materiaaleista).</p>
 
-                        <p>Suurempiin tapahtumiin voit myös tilata 2-5 hengen pitkän seurueen, sillä Rainhard Reisiheisi tuntee pitkien piirit! Usein Pitkä Rane nähdäänkin esiintymässä yhdessä hyvän ystävänsä Harri Harha-askeleen kanssa (kaverikuva alempana).</p>
+                        <p>Suurempiin tapahtumiin voit myös tilata 2-5 hengen pitkän seurueen, sillä Rainhard Reisiheisi tuntee pitkien piirit! Usein Pitkä Rane nähdäänkin esiintymässä yhdessä hyvän ystävänsä Harri Harha-Askeleen kanssa (kaverikuva alempana).</p>
                     </div>
                     </div>
 
@@ -591,10 +592,10 @@ show6:
 
                     <div className="tableintro">
                     <div className="tabletext">
-                        <p>Kesto: Sopiva mitta yhdelle kävelylle on 1 tunti. Pidemmissä rupeamissa yhtä kävelyä kohti 45 min. lepoa, ellei toisin sovita.</p>
+                        <p>Kesto: Pisin mitta yhdelle kävelylle yhtäjaksoisesti on 1 tunti. Pidemmissä rupeamissa yhtä kävelyä kohti 45 minuuttia lepoa, ellei toisin sovita.</p>
                         <p>Kieli: Suomi, Englanti, Khmer (Kambodza), ala-aste Ruotsi, haittaava Espanja</p>
                         <p>Tila: Missä tahansa, kunhan maasto on suhteellisen tasaista.</p>
-                        
+                        <p>Erityistarpeet: Lukittava takalava, jossa 150 cm korkea tukeva alusta pukemista varten.</p>
                     </div>
                     </div>
 
@@ -634,8 +635,8 @@ show7:
 
                     <div className="tableintro">
                     <div className="tabletext">
-                        <p>Kesto noin 20 min | Suositusikä 2+</p>
-                        <p>Esitykseen sisältyy oma äänentoisto</p>
+                        <p>Kesto noin 25 min | Suositusikä 2+</p>
+                        <p>Oma äänentoisto tuodaan mukana sovittaessa.</p>
                         <p>Esitys mahtuu pieniinkin tiloihin</p>
                         
                     </div>
