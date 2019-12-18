@@ -25,6 +25,12 @@
   height: 13px;
 }
 
+.servicespic {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 /*------------------------------*/
 
 @media (max-width: 1000px) {
