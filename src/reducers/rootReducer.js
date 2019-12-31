@@ -97,7 +97,7 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös Sirkussirkus Putiikin omistaj
      </div>
 
      <div className="tableh2wrap">
-        <img className="servicespic" src="pictures6/services1.jpg" alt="Services"></img>
+        <img className="servicespic" src="pictures6/sirkusesitys.jpg" alt="Services"></img>
          <h2>Esitykset ja ohjelma</h2>
      </div>
 
@@ -111,7 +111,7 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös Sirkussirkus Putiikin omistaj
      </div>
 
      <div className="tableh3wrap">
-     <img className="servicespic" src="pictures6/services2.jpg" alt="Services"></img>
+     <img className="servicespic" src="pictures6/sirkustyopaja.jpg" alt="Services"></img>
          <h3>Jongleerauksen opetus</h3>
      </div>
 
@@ -131,7 +131,7 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös Sirkussirkus Putiikin omistaj
      </div>
 
      <div className="tableh4wrap">
-     <img className="servicespic" src="pictures6/services3.jpg" alt="Services"></img>
+     <img className="servicespic" src="pictures6/sirkusvalineet.jpg" alt="Services"></img>
          <h4>Sirkusvälineet</h4>
      </div>
 
@@ -277,7 +277,11 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös Sirkussirkus Putiikin omistaj
 
                 old: 
                 <div id="wholinks">
-                <h2>Poistuneet ohjelmistosta</h2>
+                <h2>Poistuneet ohjelmistosta toistaiseksi</h2>
+
+                <p style={{paddingTop: "5px"}}><a href="http://www.sirkussirkus.com/joulupukki/" rel="noopener noreferrer" target="blank">Joulupukki ja Tempputonttu - Lasten Joululaulusirkusshow</a></p>
+    <p style={{paddingTop: "5px"}}><a href="http://www.sirkussirkus.com/kkaa/" rel="noopener noreferrer" target="blank">Kai Kuutamo & Aimo Annos - Sirkus- ja musiikkispektaakkeli</a></p>
+    <p style={{paddingTop: "5px"}}><a href="http://www.sirkussirkus.com/northman/" rel="noopener noreferrer" target="blank">Pohjolan Äijä</a></p>
 
                 <p style={{paddingTop: "5px"}}><a href="http://www.sirkussirkus.com/specialdelivery/" rel="noopener noreferrer" target="blank">Special Delivery</a></p>
                 <p><a href="http://www.sirkussirkus.com/tisch/" rel="noopener noreferrer" target="blank">Tisch</a></p>
@@ -306,9 +310,9 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös Sirkussirkus Putiikin omistaj
 
                     <div className="tableintro">
                     <div className="tabletext">
-                        <p>Kai Kuutamo Showta esitetty kodeissa, kaduilla, häissä, vanhainkodeissa, syntymäpäivillä sekä myös suurissa tapahtumissa kansainvälisesti jo vuodesta 2010. Samaisen esityksen vuoden 2012 painoksella voitettiin katuesiintymisen Suomen mestaruus.</p>
+                        <p>Kai Kuutamo Showta on esitetty kodeissa, kaduilla, häissä, vanhainkodeissa, syntymäpäivillä sekä myös suurissa tapahtumissa kansainvälisesti jo vuodesta 2010. Samaisen esityksen vuoden 2012 painoksella voitettiin katuesiintymisen Suomen mestaruus.</p>
 
-                        <p>Esitys perustuu verbaaliakrobatian, improvisaation, huumorin ja näyttävien jongleeraustemppujen yhdistelmään. Vuorovaikutus yleisön kanssa on merkittävässä roolissa. Kai Kuutamo Show sopii mihin tahansa tilaan ja tilaisuuteen, ja se voidaan esittää kolmella eri kielellä tai haluttaessa jopa sanattomasti. Esityksen pituuteen voi vaikuttaa, ja sitä voidaan esittää myös osissa tai vaikka juontojen yhteydessä.</p>
+                        <p>Esitys perustuu verbaaliakrobatian, improvisaation, huumorin ja näyttävien jongleeraustemppujen yhdistelmään. Vuorovaikutus yleisön kanssa on merkittävässä roolissa. Kai Kuutamo Show sopii mihin tahansa tilaan ja tilaisuuteen, ja se voidaan esittää kolmella eri kielellä tai haluttaessa jopa sanattomasti. Esityksen pituuteen voi vaikuttaa, ja sitä voidaan esittää myös kahdessa osassa tai vaikka pieninä palasina juontojen yhteydessä.</p>
                     </div>
                     </div>
 
@@ -316,12 +320,16 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös Sirkussirkus Putiikin omistaj
 
                     <div className="tableintro">
                     <div className="tabletext">
-                    <p>Kesto: 10-45 min.</p>
-                    <p>Kohdeyleisö: Koko perhe. Voidaan myös suunnata tilaisuuden luonteen mukaan vain aikuisille.</p>
+                    <p>Kesto: 10-45 minuuttia sopimuksen mukaan.</p>
+                    <p>Kohdeyleisö: Koko perhe. Voidaan myös suunnata tilaisuuden luonteen mukaan aikuisille.</p>
                     <p>Kieli: Suomi, Englanti tai Khmer (Kambodza)</p>
-                    <p>Tila: Soveltuu minne tahansa. Korkeudesta etua.</p>
+                    <p>Tila: Soveltuu minne tahansa sisälle tai ulos. Korkeudesta etua.</p>
                     <p>(45 minuutin esitykseen minimikorkeus 7 metriä ja lattiatila 8 x 5 metriä.)</p>
                     <p>Äänentoisto: Tuodaan mukana sovittaessa.</p>
+                    <p>Pystytys 30 minuuttia</p>
+                    <p>Purku 20 minuuttia</p>
+    
+
                     </div>
                     </div>
 
@@ -347,6 +355,123 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös Sirkussirkus Putiikin omistaj
 
                     show1_pics: ["./pictures5/kaikuutamoshow1.jpg", "./pictures5/kaikuutamoshow2.jpg", "./pictures5/kaikuutamoshow3.jpg", "./pictures5/kaikuutamoshow4.jpg", "./pictures5/kaikuutamoshow5.jpg", "./pictures5/kaikuutamoshow6.jpg", "./pictures5/kaikuutamoshow7.jpg", "./pictures5/kaikuutamoshow8.jpg", "./pictures5/kaikuutamoshow9.jpg"],
 
+                    show10: 
+
+                    <div>
+    
+                        <img className="showpic" alt="Show" src="./pictures5/show10.jpg"></img>
+    
+                        <h1 className="tabletitle">Kai Kuutamon Matkalaukkusirkus</h1>                    
+    
+                        <div className="tableintro">
+                        <div className="tabletext">
+                             
+    
+                            <p>Matkalaukkusirkus on Kai Kuutamon uusi päiväkoti-ikäisille suunnattu kiertävä yhden miehen esitys</p>
+    
+                            <p>Matkalaukkusirkus on matkalaukkuun mahtuva esitys, joka vie yhden miehen voimin sirkuksen monta jännittävää ulottuvuutta yleisön kuin yleisön luokse. Matkalaukkusirkus on vartavasten suunniteltu sopimaan tilaan kuin tilaan.</p>
+    
+                            <p>Esityksessä nähdään muun muassa taitavaa korvajongleerausta, vaikeita taikatemppuja, erikoinen pallovipulauta eikä eläinnumeroitakaan ole unohdettu. Näe ratsastava hevonen sekä kuuluisa akrobaattipossu samassa esityksessä! Mutta miten kaikki tämä voi mahtua matkalaukkuun?! Se selviää tietysti Kai Kuutamon Matkalaukkusirkus-esityksessä!</p>
+    
+                            <p>Sirkustaiteilija Kai Kuutamo juontaa itse koko esityksen, ja vuorovaikutus lapsiyleisön kanssa on tärkeässä roolissa. Esityksessä ei käytetä oikeita eläimiä.</p>
+    
+                      
+                        </div>
+                        </div>
+    
+                        <br></br>
+    
+                        <div className="tableintro">
+                        <div className="tabletext">
+                            <p>Kesto: noin 35 minuuttia.</p>
+                            <p>Kohdeyleisö: Päiväkoti-ikäiset ja ala-astelaiset.</p>
+                            <p>Tila: Esitys soveltuu millaiseen tilaan vain. Korkeudesta on etua.</p>
+                            <p>Kieli: Suomi tai englanti.</p>
+                            <p>Äänentoisto: Tuodaan mukana sovittaessa.</p>
+                            <p>Pystytys 30 minuuttia</p>
+                            <p>Purku 20 minuuttia</p>
+    
+                            
+                        </div>
+                        </div>
+    <br></br>
+
+                            <div className="tableintro">
+                    <div className="tabletext">
+                        <p>”Kuutamo tietää, miten sirkusta tehdään lapsille. Yleisöä kuunnellaan esityksen aikana ja katusirkukselle tyypillinen rento läsnäolo puree myös aikuisiin.”</p>
+                        <p>- Turun Sanomat</p>
+                        <br></br>
+                        <p>"Moi Kai, esityksestä jäi todella hyvä mieli. Siitä välittyi yleisöään kunnioittava ammatillinen ote."</p>
+                        <p>- Yt. Maarit Kallioniemi, lastentarhanopettaja, Turku </p>
+                        <br></br>
+                        <p>"Tykkäsin todella paljon, ja lapset olivat aivan haltioissaan. Mukavaa kun otit huomioon myös yleisöstä tulleet lukuisat kommentit."</p>
+                        <p>- Päiväkodin Johtaja, Aura</p>
+                        <br></br>
+                        <p>"Olit todella läsnä lasten kanssa ja otit heidät hienosti mukaan esitykseen."</p>
+                        <p>- Ohjaaja, Silvan päiväkoti, Kemiö</p>
+                        <br></br>
+                    </div>
+                    </div>
+    
+                        <br></br>
+
+                        <div className="tableintro">
+                    <div className="tabletext">
+                        <p>Voit tutustua Matkalaukkusirkukseen tarkemmin esityksen omilla verkkosivuilla:</p>
+                        <p> <a className="showlink" href="http://www.matkalaukkusirkus.com" target="blank">www.matkalaukkusirkus.com</a></p>   
+                    </div>
+                    </div>
+                    <br></br>
+
+
+                        <div className="moremargin"></div>
+
+</div>,
+
+show10_pics: ["./pictures5/matkalaukkusirkus1.jpg", "./pictures5/matkalaukkusirkus3.jpg", "./pictures5/matkalaukkusirkus2.jpg",  "./pictures5/matkalaukkusirkus9.jpg","./pictures5/matkalaukkusirkus4.jpg", "./pictures5/matkalaukkusirkus5.jpg", "./pictures5/matkalaukkusirkus6.jpg", "./pictures5/matkalaukkusirkus7.jpg", "./pictures5/matkalaukkusirkus8.jpg"],
+
+                        
+show4: 
+
+<div>
+
+    <img className="showpic" alt="Show" src="./pictures5/show4.jpg"></img>
+
+    <h1 className="tabletitle">Prasu</h1>
+
+    <div className="tableintro">
+    <div className="tabletext">
+        <p>Prasu on murresana, joka tarkoittaa nuotiota, valkeaa ja tulta. Kai Kuutamon yhden miehen tuliesityksessä Prasussa nähdään tulennielentää, ainutlaatuista soihtujongleerausta sekä palavien köysien vauhdikasta pyöritystä. Tyylikäs, jännittävä ja väkevä esitys pitää otteessaan alusta loppuun asti, eikä varmasti jätä ketään kylmäksi! Esitys sopii kaiken ikäisille, ja se toteutetaan musiikkiin sovitettuna.</p>
+
+        <p>Esityksen soihtujongleerausnumeroa on esitetty jo vuodesta 2004 lähtien mm. Lahden Kaupunginteatterissa, Tampere-talolla, Salpausselän Kisoissa, Turun Linnassa sekä Turun Joulukadun avajaisissa.</p>
+
+        <p>Pidempää kestoa tai lisää näyttävyyttä haluttaessa, esitykseen voidaan yhdistää muita tulitaiteilijoita, pyrotekniikkaa (räjähdykset, kipinäsuihkut ja liekinheittimet) ja/tai ilotulitus.</p>
+    </div>
+    </div>
+
+    <br></br>
+
+    <div className="tableintro">
+    <div className="tabletext">
+        <p>Kesto: 10 minuuttia (suuremmalla ryhmällä 10-25 min)</p>
+        <p>Kohdeyleisö: Kaikenikäiset.</p>
+        <p>Tila: Yleensä esitetään ulkona. 8x8 metriä tasainen alusta. Madollisimman tuulensuojainen paikka. Sisätiloissa tilan on sovelluttava avotulen käyttöön paloturvallisuussääntöjen mukaisesti.</p>
+        <p>Kieli: Sanaton / Musiikki</p>
+        <p>Äänentoisto: Tuodaan mukana sovittaessa.</p>
+        <p>Pystytys 40 minuuttia</p>
+        <p>Purku 30 minuuttia</p>
+    </div>
+    </div>
+   
+    <br></br>
+
+    <div className="moremargin"></div>
+
+</div>,
+
+show4_pics: ["./pictures5/tuliesitys_prasu1.jpg","./pictures5/tuliesitys_prasu8.jpg", "./pictures5/tuliesitys_prasu7.jpg","./pictures5/tuliesitys_prasu5.jpg", "./pictures5/tuliesitys_prasu3.jpg", "./pictures5/tuliesitys_prasu6.jpg"],
+
+
                     
                     show2: 
 
@@ -362,7 +487,7 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös Sirkussirkus Putiikin omistaj
 
                         <p>Esityksessä soivat Merkkareiden omat kappaleet sekä klassikkolastenlaulut. Energinen esitys tempaa yleisön mukaansa, ja tututkin lastenlaulut saavat Merkkarien käsittelyssä aivan uutta virtaa. Kai Kuutamo esittelee kappaleiden säestämänä taitojaan eri jongleerausvälineillä ja johdattelee katsojat mukaan yhteisiin musiikkileikkeihin.</p>
 
-                        <p>Hauskan esityksen ja kokeneiden esiintyjien parissa viihtyvät helposti myös aikuiset ja nuoriso. Esitys sopii niin suurille festivaaliareenoille ja teatteritiloihin kuin myös pienempiin tilaisuuksiin, päiväkoteihin ja kouluihin.</p>
+                        <p>MERKKARIT JA KAIKUUTAMO -ryhmän hauskan esityksen parissa viihtyvät helposti myös aikuiset ja nuoriso. Esitys sopii niin suurille festivaaliareenoille ja teatteritiloihin kuin myös pienempiin tilaisuuksiin, päiväkoteihin ja kouluihin.</p>
 
                     </div>
                     </div>
@@ -371,7 +496,13 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös Sirkussirkus Putiikin omistaj
 
                     <div className="tableintro">
                     <div className="tabletext">
-                        <p>Esityksen kesto noin 35 minuuttia.</p>
+                    <p>Kesto: 20-40 minuuttia sopimuksen mukaan.</p>
+                    <p>Kohdeyleisö: Koko perhe.</p>
+                    <p>Tila: Soveltuu monenlaisiin tiloihin sekä äänentoiston että jongleerauksen puolesta.</p>
+                    <p>Kieli: Suomi, ruotsi tai kumpaakin.</p>
+                    <p>Äänentoisto: Tuodaan mukana sovittaessa.</p>
+                    <p>Pystytys: 60 minuuttia</p>
+                    <p>Purku: 30 minuuttia</p>
                         
                     </div>
                     </div>
@@ -380,17 +511,8 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös Sirkussirkus Putiikin omistaj
 
                     <div className="tableintro">
                     <div className="tabletext">
-                        <p>Voimme esiintyä suomeksi ja ruotsiksi!</p>
-                        <p>Vi kan uppträda på finska och svenska!</p>
-   
-                    </div>
-                    </div>
-
-                    <br></br>
-
-                    <div className="tableintro">
-                    <div className="tabletext">
-                        <p>Lisätietoa esityksestä ja kokoonpanosta <a className="showlink" href="http://www.sirkussirkus.com/merkkarit/" target="blank">Merkkarit-kotisivuilta</a>!</p>
+                        <p>Lisätietoa esityksestä ja kokoonpanosta</p> 
+                        <p><a className="showlink" href="http://www.sirkussirkus.com/merkkarit/" target="blank">www.merkkarit.com</a></p>
                         
    
                     </div>
@@ -398,11 +520,9 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös Sirkussirkus Putiikin omistaj
 
                     <div className="moremargin"></div>
 
-
-
                     </div>,
 
-                    show2_pics: [],
+show2_pics: ["./pictures5/merkkaritjakaikuutamo1.jpg", "./pictures5/merkkaritjakaikuutamo2.jpg", "./pictures5/merkkaritjakaikuutamo3.jpg", "./pictures5/merkkaritjakaikuutamo4.jpg", "./pictures5/merkkaritjakaikuutamo8.jpg", "./pictures5/merkkaritjakaikuutamo6.jpg", "./pictures5/merkkaritjakaikuutamo7.jpg", "./pictures5/merkkaritjakaikuutamo9.jpg", "./pictures5/merkkaritjakaikuutamo5.jpg"],
 
 
 show3: 
@@ -417,7 +537,7 @@ show3:
                     <div className="tabletext">
                         <p>"Herttakuninkaiden nimikkoteoksessa Kalle Lehto ja Kai Kuutamo marssittavat yleisön eteen joukon erikoisia hahmoja, jotka kukin esittelevät omaa sirkustaiteen tyylilajiaan aina eläinsirkuksesta nykysirkukseen. Herttakuninkaat lyövät ällikällä koko perheen!"</p>
 
-                        <p>Esityksessä käydään yhdessä yleisön kanssa läpi erilaisia sirkustaiteen tyylilajeja itseironisella ja asiantuntevalla ammattiotteella sekä kerronnan että käytännön kautta. Esitys on ihastuttanut ympäri Suomea vuodesta 2014 lähtien herskuvalla huumorilla ja taitavilla tempuilla tuoden hymyn mitä vakavimpienkin katsojien huulille. Esitystä on nähty mm. Seikkisrock, Norpas, Skidit ja SmugsuRock festivaaleilla, ja se on kiertänyt yli 40 vanhainkotia Varsinais-Suomessa ja pääkaupunkiseudulla.</p>
+                        <p>Esityksessä käydään yhdessä yleisön kanssa läpi erilaisia sirkustaiteen tyylilajeja itseironisella ja asiantuntevalla ammattiotteella sekä kerronnan että käytännön kautta. Esitys on ihastuttanut katsojia ympäri Suomea vuodesta 2014 lähtien herskuvalla huumorilla ja taitavilla tempuilla tuoden hymyn mitä vakavimpienkin katsojien huulille. Esitystä on nähty mm. Seikkisrock, Norpas, Skidit sekä SmugsuRock festivaaleilla ja se on kiertänyt yli 60 vanhainkotia Varsinais-Suomessa ja pääkaupunkiseudulla.</p>
 
                     </div>
                     </div>
@@ -426,10 +546,14 @@ show3:
 
                     <div className="tableintro">
                     <div className="tabletext">
-                        <p>Kesto: 40 min.</p>
-                        <p>Kieli: Suomi</p>
-                        <p>Tila: Sovellettavissa erilaisiin tiloihin. Korkeudesta etua.</p>
-                        <p>Mahdollista esittää myös ulkona.</p>
+                    <p>Kesto: 40 min.</p>
+                    <p>Kohdeyleisö: Koko perhe.</p>
+                    <p>Tila: Sovellettavissa erilaisiin tiloihin. Korkeudesta etua.</p>
+                    <p>Mahdollista esittää myös ulkona.</p>
+                    <p>Kieli: Suomi tai englanti.</p>
+                    <p>Äänentoisto: Tuodaan mukana sovittaessa.</p>
+                    <p>Pystytys: 45 minuuttia</p>
+                    <p>Purku: 30 minuuttia</p>   
                     </div>
                     </div>
 
@@ -438,32 +562,40 @@ show3:
                     <div className="tableintro">
                     <div className="tabletext">
                         <p>"Tää oli kyllä kivointa mitä meillä on täällä ikinä ollut!"</p>
-                        <p>- Vanhainkodin Asukas</p>
+                        <p>- Vanhainkodin asukas, Nauvo</p>
                         <br></br>
 
                         <p>"Jopa Pena (nimi muutettu), jolla on 10% näöstä jäljellä, nautti esityksestä."</p>
-                        <p>- Vanhainkodin hoitaja</p>
+                        <p>- Vanhainkodin hoitaja, Helsinki</p>
                         <br></br>
 
                         <p>"Mukavaa kun oli huumoria mukana. Koko esityksen ajan hymyilytti."</p>
-                        <p>- Vanhainkodin Asukas</p>
+                        <p>- Vanhainkodin asukas, Turku</p>
                         <br></br>
 
                         <p>"Teette hyvää työtä, pojat. Olette taitavia, lahjakkaita ja iloisia."</p>
-                        <p>- Vanhainkodin Asukas</p>
+                        <p>- Vanhainkodin asukas, Hyvinkää</p>
                         <br></br>
 
                         <p>"Juuri oikean mittainen ja oikeanlainen esitys meidän asukeille."</p>
-                        <p>- Vanhainkodin hoitaja</p>
-                        <br></br>
+                        <p>- Vanhainkodin hoitaja, Helsinki</p>
+                        <br></br>                        
 
-                        <p>"Jumalauta! Saa*ana miten mahtavaa!"</p>
-                        <p>- Vanhainkodin Asukas</p>
+
+                    </div>
+                    </div>
+
+
+                    <div className="tableintro">
+                    <div className="tabletext">
+                        <p>Lisätietoa Herttakuninkaista täältä:</p> 
+                        <p><a className="showlink" href="http://www.sirkussirkus.com/herttakuninkaat/" target="blank">www.herttakuninkaat.com</a></p>
                         
-
-
+   
                     </div>
                     </div>
+
+   
 
 
                     <div className="moremargin"></div>
@@ -476,98 +608,8 @@ show3:
 
 
                     </div>,
-
-                    show3_pics: ["./pictures5/show3_1.jpg"],
-
-
-show4: 
-
-                <div>
-
-                    <img className="showpic" alt="Show" src="./pictures5/show4.jpg"></img>
-
-                    <h1 className="tabletitle">Prasu</h1>
-
-                    <div className="tableintro">
-                    <div className="tabletext">
-                        <p>Prasu on murresana, joka tarkoittaa nuotiota, valkeaa ja tulta. Kai Kuutamon omassa yhden miehen tuliesityksessä Prasussa nähdään tulennielentää, ainutlaatuista soihtujongleerausta sekä palavien köysien vauhdikasta pyöritystä. Tyylikäs, jännittävä ja väkevä esitys pitää otteessaan alusta loppuun asti, eikä varmasti jätä ketään kylmäksi! Esitys sopii kaiken ikäisille, ja se toteutetaan joko musiikkiin tai hiljaisuudessa.</p>
-
-                        <p>Esityksen soihtujongleerausnumeroa on esitetty jo vuodesta 2004 lähtien mm. Lahden Kaupunginteatterissa, Tampere-talolla, Salpausselän Kisoissa sekä Turun Joulukadun avajaisissa.</p>
-
-                        <p>Pidempää kestoa tai lisää näyttävyyttä haluttaessa, esitykseen voidaan yhdistää muita tulitaiteilijoita, pyrotekniikkaa (räjähdykset, kipinäsuihkut ja liekinheittimet) ja/tai ilotulitus.</p>
-                    </div>
-                    </div>
-
-                    <br></br>
-
-                    <div className="tableintro">
-                    <div className="tabletext">
-                        <p>Kesto: soolona 10 min. / suuremmalla ryhmällä 10-25 min.</p>
-                        <p>Kieli: Sanaton / Musiikki</p>
-                        <p>Tila: Yleensä esitetään ulkona. Sisätilan on sovelluttava avotulen käyttöön paloturvallisuussääntöjen mukaisesti.</p>
-                        
-                    </div>
-                    </div>
-
-                    <div className="moremargin"></div>
-
-
-                    </div>,
-
-                    show4_pics: ["./pictures5/show4_1.jpg", "./pictures5/show4_2.jpg"],
-
-
-show5: 
-
-                <div>
-
-                    <img className="showpic" alt="Show" src="./pictures5/show5.jpg"></img>
-
-                    <h1 className="tabletitle">Kai Kuutamo ja Aimo Annos</h1>
-                    <h2 className="subtitle">Musiikki- ja sirkusspektaakkeli</h2>
-                    
-                    
-
-                    <div className="tableintro">
-                    <div className="tabletext">
-                         
-
-                        <p>Jonglööri Kai Kuutamo ja musiikin moniottelija Aimo Annos yhdistävät voimansa, ja synnyttävät lavalla pieniä ihmeitä koko yleisön iloksi ja hämmästykseksi. Sanaton katuesitystyylinen spektaakkeli luottaa elävän musiikin, fyysisen ilmaisun ja jongleerauksen yhteistyöhön. Esiintyjien läsnäolo ja tilannetaju pitävät yleisön varpaillaan, ja pienempienkin lasten huomio säilyy läpi koko esityksen. Itse esitys ei kumartele kellekkään ja on aito itselleen aina räjähtävään loppuun asti.</p>
-
-                        <p>Esityksessä tutustutaan erilaisiin soittimiin ja jongleeraustemppuihin. Aimo Annoksen käsissä kyytiä saavat seuraavat soittimet: Tuuba, Rumpusetti, Sähköurut, Basso ja aasialainen Erhu. Kappaleet ovat kaikki omia sävellyksiä, jotka on tehty esitystä varten. Musiikkilajeja ovat mm. Rock, Tango, Chiptune, Shamaanijoika ja Film Noir. Osa musiikista on kokeellista, ja instrumenttien äänimaisemaa käytetään luovasti. Kai Kuutamo tulkitsee musiikkia visuaalisesti eri jongleerausvälineiden keinoin.</p>
-
-                        <p>Esitys on sanaton, ja on nauttinut positiivista kritiikkiä jo vuodesta 2012 lähtien kaikenikäisten suusta mukaan lukien 3-vuotiaat lapset, varhaisteinit sekä 65-vuotiaan Emeritus-lehtorin.</p>
-                    </div>
-                    </div>
-
-                    <br></br>
-
-                    <div className="tableintro">
-                    <div className="tabletext">
-                        <p>Kesto: 40 min.</p>
-                        <p>Kieli: Sanaton</p>
-                        <p>Tila: Sovellettavissa erilaisiin tiloihin. Korkeudesta etua. Mahdollista esittää myös ulkona.</p>
-                        
-                    </div>
-                    </div>
-
-                    <br></br>
-
-                    <div className="tableintro">
-                    <div className="tabletext">
-                        <p>Katso Kai Kuutamo & Aimo Annos -esityksen omat <a className="showlink" href="http://www.sirkussirkus.com/kkaa/" target="blank">verkkosivut</a>!</p>
-                        
-   
-                    </div>
-                    </div>
-
-                    <div className="moremargin"></div>
-
-
-                    </div>,
-
-                    show5_pics: ["./pictures5/show5_1.jpg", "./pictures5/show5_2.jpg"],
-
+show3_pics: ["./pictures5/herttakuninkaat1.jpg", "./pictures5/herttakuninkaat2.jpg", "./pictures5/herttakuninkaat3.jpg", "./pictures5/herttakuninkaat4.jpg", "./pictures5/herttakuninkaat5.jpg", "./pictures5/herttakuninkaat6.jpg", "./pictures5/herttakuninkaat7.jpg", "./pictures5/herttakuninkaat8.jpg", "./pictures5/herttakuninkaat9.jpg"],
+                   
 
 show6: 
 
@@ -575,7 +617,7 @@ show6:
 
                     <img className="showpic" alt="Show" src="./pictures5/show6.jpg"></img>
 
-                    <h1 className="tabletitle">Rainhard Reisiheisi & kumppanit</h1>
+                    <h1 className="tabletitle">Rainhard "Pitkä Rane" Reisiheisi & Pitkät Hemmot</h1>
                                         
                     
 
@@ -583,11 +625,11 @@ show6:
                     <div className="tabletext">
                          
 
-                        <p> Yllä tapahtumasi kanssa uusiin korkeuksiin Pitkä Ranen avulla! Rainhard Reisiheisi tunnetaan kaverien kesken nimellä Pitkä Rane, ja kavereitahan Ranella riittää minne hän ikinä eksyykään! Pitkällä mitallaan hän tulee helposti huomatuksi, ja iloisen ulospäinsuuntautuneen luonteensa ansiosta hänen kanssa on helppo jutella päivän polttavista aiheista, räätälöidyistä vaatteista tai terveellisestä ruokavaliosta.</p>
+                        <p> Yllä tapahtumasi kanssa uusiin korkeuksiin Pitkä Ranen ja kumppanien avulla! Rainhard Reisiheisi tunnetaan kaverien kesken nimellä Pitkä Rane, ja kavereitahan Ranella riittää minne hän ikinä eksyykään! Pitkällä mitallaan hän tulee helposti huomatuksi, ja iloisen ulospäinsuuntautuneen luonteensa ansiosta hänen kanssa on helppo jutella päivän polttavista aiheista, räätälöidyistä vaatteista tai terveellisestä ruokavaliosta.</p>
 
                         <p>Pitkä Ranella ei ole varsinaista omaa esitystä, vaan hänet voi tilata kiertelemään tapahtumiin, ja ottamaan kontaktia kävijöihin tai muuten vaan olemaan pitkänä. Lentolehtisten tai esimerkiksi ilmapallojen jakaminen onnistuu myös (tilaaja vastaa materiaaleista).</p>
 
-                        <p>Suurempiin tapahtumiin voit myös tilata 2-5 hengen pitkän seurueen, sillä Rainhard Reisiheisi tuntee pitkien piirit! Usein Pitkä Rane nähdäänkin esiintymässä yhdessä hyvän ystävänsä Harri Harha-Askeleen kanssa (kaverikuva alempana).</p>
+                        <p>Suurempiin tapahtumiin voit myös tilata 2-5 hengen pitkän seurueen, sillä Rainhard Reisiheisi tuntee pitkien piirit! Usein Pitkä Rane nähdäänkin käyskentelemässä yhdessä hyvän ystävänsä Harri Harha-Askeleen kanssa (kaverikuva alempana).</p>
                     </div>
                     </div>
 
@@ -596,7 +638,7 @@ show6:
                     <div className="tableintro">
                     <div className="tabletext">
                         <p>Kesto: Pisin mitta yhdelle kävelylle yhtäjaksoisesti on 1 tunti. Pidemmissä rupeamissa yhtä kävelyä kohti 45 minuuttia lepoa, ellei toisin sovita.</p>
-                        <p>Kieli: Suomi, Englanti, Khmer (Kambodza), ala-aste Ruotsi, haittaava Espanja</p>
+                        <p>Kieli: Suomi, Englanti, Khmer (Kambodza), auttava Ruotsi, haittaava Espanja</p>
                         <p>Tila: Missä tahansa, kunhan maasto on suhteellisen tasaista.</p>
                         <p>Erityistarpeet: Lukittava takalava, jossa 150 cm korkea tukeva alusta pukemista varten.</p>
                     </div>
@@ -607,60 +649,7 @@ show6:
 
                     </div>,
 
-                    show6_pics: ["./pictures5/show6_1.jpg", "./pictures5/show6_2.jpg", "./pictures5/show6_3.jpg"],
-
-
-show7: 
-
-                <div>
-
-                    <img className="showpic" alt="Show" src="./pictures5/show7.jpg"></img>
-
-                    <h1 className="tabletitle">Joulupukki ja Tempputonttu</h1>
-                                        
-                    
-
-                    <div className="tableintro">
-                    <div className="tabletext">
-                         
-
-                        <p>Joulupukki ja hänen lahjakas tonttuystävänsä Tempputonttu esittävät rakastettuja joululauluja ja hämmästyttäviä jongleeraustemppuja. Vauhdikas ja hauska esitys sopii kaikenikäille lapsille.</p>
-
-                        <p>Esityksessä kuullaan joululauluja rokkaavalla meiningillä ja hämmästellään painovoimaa uhmaavia jongleeraustemppuja eri välinein! Kiperiltä tilanteiltakaan ei säästytä esityksen aikana, kun laulujen lomassa pohditaan poroja kahvimukin pohjalla, Korvatunturilla annettavia korvapuusteja sekä sitä miten moni asiaa menee helposti pipariksi.</p>
-
-                        <p>Lapsille suunnattu lämminhenkinen ja hauska jouluesitys tarjoaa huumorin helmiä myös aikuiskatsojalle, ja taitavat sirkustemput hämmästyttävät kaikenikäisiä. Työryhmällä, Merkkareistakin tutuilla muusikko Valtteri Virtasella ja sirkustaiteilija Kai Kuutamolla, on reilusti yli kymmenen vuoden kokemus niin jongleerauksen, joulupukkeilun kuin musiikinkin saralla.</p>
-
-                        <p>Esityksen yhteydessä onnistuu myös erikseen sovittaessa valokuvaustuokio tai lahjojenjako.</p>
-                    </div>
-                    </div>
-
-                    <br></br>
-
-                    <div className="tableintro">
-                    <div className="tabletext">
-                        <p>Kesto noin 25 min | Suositusikä 2+</p>
-                        <p>Oma äänentoisto tuodaan mukana sovittaessa.</p>
-                        <p>Esitys mahtuu pieniinkin tiloihin</p>
-                        
-                    </div>
-                    </div>
-
-                    <br></br>
-
-                    <div className="tableintro">
-                    <div className="tabletext">
-                        <p>Työryhmä on ilahduttanut pieniä joulunodottajia muun muassa Turun seudun päiväkodeissa, Turun Yliopistollisessa Keskussairaalassa ja Suomen Punaisen Ristin vastaanottokeskuksessa.</p>
-
-                        
-                    </div>
-                    </div>
-
-                    <div className="moremargin"></div>
-
-
-                    </div>,
-
-                    show7_pics: ["./pictures5/show7_1.jpg"],
+                    show6_pics: ["./pictures5/puujalkahahmot1.jpg", "./pictures5/puujalkahahmot2.jpg", "./pictures5/puujalkahahmot3.jpg", "./pictures5/puujalkahahmot4.jpg", "./pictures5/puujalkahahmot5.jpg", "./pictures5/puujalkahahmot6.jpg"],
 
 
 show8: 
@@ -669,7 +658,7 @@ show8:
 
                     <img className="showpic" alt="Show" src="./pictures5/show8.jpg"></img>
 
-                    <h1 className="tabletitle">Sirkuskunnan narrit</h1>
+                    <h1 className="tabletitle">Sirkuskunnan Narrit</h1>
                                         
                     
 
@@ -677,9 +666,9 @@ show8:
                     <div className="tabletext">
                          
 
-                        <p>Sirkuskunnan Narrit tuovat keskiajan hengen ja hulvattoman meiningin luoksesi leikarimaisella katuesityksellään, joka esittelee yleisölleen erikoisia taitoja kuten kapuloiden käsittelyä, käsillä tasapainoilua, tynnärin vanteiden pyöritystä, mahtityrväällä isottelua sekä KUOLEMANTEMPPUJA! Koko esitys on aina läpeensä juonnettu ja täynnä hullunkurista, mutta eteenpäin virtaavaa puhtia.</p>
+                        <p>Sirkuskunnan Narrit tuovat keskiajan hengen ja hulvattoman meiningin luoksesi leikarimaisella katuesityksellään, joka esittelee yleisölleen aikansa ihmeitä kuten kapuloiden käsittelyä, käsillä tasapainoilua, tynnärin vanteiden pyöritystä, mahtityrväällä isottelua sekä KUOLEMANTEMPPUJA! Koko esitys on aina läpeensä juonnettu ja täynnä hullunkurista, mutta eteenpäin virtaavaa puhtia.</p>
 
-                        <p>Turun Keskiaikaisilta Markkinoilta ponnistaneet Sirkuskunnan Narrit ovat nauttineet vuosien varrella suurenmoista suosiota. He ovat esiintyneet Turun Keskiaikaisilla markkinoilla jo yi 10 vuoden ajan, ja nykyään he vierailevat jo melkein kaikissa Suomen suuremmissa keskiaikatapahtumissa jollain kokoonpanolla. Heitä tapaa myös säännöllisen epäsäännöllisesti Turun Linnan tapahtumissa.</p>
+                        <p>Turun Keskiaikaisilta Markkinoilta ponnistaneet Sirkuskunnan Narrit ovat nauttineet vuosien varrella suurenmoista suosiota. He ovat esiintyneet Turun Keskiaikaisilla markkinoilla jo yli 10 vuoden ajan, ja nykyään he vierailevat jo melkein kaikissa Suomen suuremmissa keskiaikatapahtumissa jollain kokoonpanolla. Heitä tapaa myös säännöllisen epäsäännöllisesti Turun Linnan tapahtumissa.</p>
 
                         <p>Narreja on mahdollista palkata esiintymään 2-5 hengen ryhmässä, jossa jokaisella narrilla on aina muista poikkeava oma erikoistaitonsa. Pisimpään remmissä ovat matkustaneet narrit Urho, Suikki, Yrvänä ja Inkeri. Sirkuskunnan Narrien riveissä ovat vuosien varrella loistaneet myös narrit Elsa, Seikka, Elmeri, Riski-Jooseppi, Iita ja Ongervo.</p>
 
@@ -693,7 +682,7 @@ show8:
                     <div className="tabletext">
                         <p>Kesto: 10-30 min. riippuen toiveista ja esiintyjien määrästä.</p>
                         <p>Kieli: Suomi tai Englanti</p>
-                        <p>Tila: Missä tahansa. Yleensä esitetty keskiaikatapahtumissa kadulla tai nurmikolla.</p>
+                        <p>Tila: Missä tahansa. Tasainen alusta ja tuulensuoja eduksi. Yleensä esitetty keskiaikatapahtumissa kadulla tai nurmikolla.</p>
                         
                     </div>
                     </div>
@@ -718,111 +707,9 @@ show8:
 
                     </div>,
 
-                    show8_pics: ["./pictures5/show8_1.jpg", "./pictures5/show8_2.jpg"],
+                    show8_pics: ["./pictures5/narrit1.jpg", "./pictures5/narrit3.jpg", "./pictures5/narrit4.jpg", "./pictures5/narrit5.jpg", "./pictures5/narrit6.jpg", "./pictures5/narrit8.jpg", "./pictures5/narrit7.jpg", "./pictures5/leikarit.jpg", "./pictures5/urhonarri.jpg"],
 
 
-show9: 
-
-                <div>
-
-                    <img className="showpic" alt="Show" src="./pictures5/show9.jpg"></img>
-
-                    <h1 className="tabletitle">Pohjolan Äijä</h1>
-                                        
-                    
-
-                    <div className="tableintro">
-                    <div className="tabletext">
-                         
-
-                        <p>Pohjolan Äijä on suomalaista kansanuskoa tutkiva nykysirkusteos, joka yhdistelee sirkustaidetta, elävää musiikkia, performanssia sekä sanatonta tarinankerrontaa. Vaikutteita on haettu muun muassa nykyaikaisesta ja entisaikaisesta indoeurooppalaisesta shamanismista sekä Kaarle Krohnin kirjallisista teoksista. Esitys on toinen AarnioKuutamo Companyn kokopitkä esitys.</p>
-
-                        <p>Esitys on pyrkimys viedä pohjoismaista perinnekulttuuria näytille paitsi ulkomaille myös eri puolille Suomea. Kotimaassamme on paljon aiheesta kiinnostuneita ja myös paljon ihmisiä, jotka eivät tunne oman kansanuskomme juuria. Pohjolan Äijä tarjoaa katsottavaa ja hämmästeltävää niin asiantuntijoille kuin myös asiaan vihkiytymättömille, ja haluaa herättää mielenkiintoa katsojissa unohdettuja perinteitämme kohtaan.</p>
-
-                        <p>Arttu Aarnio tuottaa esityksessä itserakentamilla soittimillaan ritualistisia äänimaailmoja ja hän on suunnitellut myös henkimaailman äänimaiseman. Kai Kuutamo tutkii shamanistista olemusta ja loveen lankeamista performanssin ja jongleerauksen keinoin. Itse esitys tapahtuu metsässä luonnon helmassa, josta kansanuskomme juuret juontavat.Pohjolan Äijä on osa AarnioKuutamo Companyn 5-vuotisjuhlavuotta.</p>
-
-                        <p>Esityksessä kuullaan kolmea eri soitinta, joista kaikki ovat Aarnion rakentamia. Perinteisenä soittimena nähdään ja kuullaan kehärumpua, jota shamaanit ja noidat ovat perinteisesti käyttäneet loitsuissa ja henkimaailman asioita luoviessa. Uniikkeina soittimina nähdään Arttu Aarnion suunnittelemat ja toteuttamat Seiväsbasso ja Kalman Kantele.</p>
-                        
-                    </div>
-                    </div>
-
-                    <div className="moremargin"></div>
-
-
-                    </div>,
-
-                    show9_pics: [],
-
-
-show10: 
-
-                <div>
-
-                    <img className="showpic" alt="Show" src="./pictures5/show10.jpg"></img>
-
-                    <h1 className="tabletitle">Matkalaukkusirkus</h1>
-                    <h2 className="subtitle">Kai Kuutamon uusi päiväkoti-ikäisille suunnattu kiertävä yhden miehen esitys</h2>
-                                        
-                    
-
-                    <div className="tableintro">
-                    <div className="tabletext">
-                         
-
-                        <p>Matkalaukkusirkus on matkalaukkuun mahtuva esitys, joka vie yhden miehen voimin sirkuksen monta jännittävää ulottuvuutta yleisön kuin yleisön luokse. Matkalaukkusirkus on vartavasten suunniteltu sopimaan tilaan kuin tilaan.</p>
-
-                        <p>Esityksessä nähdään muun muassa taitavaa korvajongleerausta, vaikeita taikatemppuja, erikoinen pallovipulauta eikä eläinnumeroitakaan ole unohdettu. Näe ratsastava hevonen sekä kuuluisa akrobaattipossu samassa esityksessä! Mutta miten kaikki tämä voi mahtua matkalaukkuun?! Se selviää tietysti Kai Kuutamon Matkalaukkusirkus-esityksessä!</p>
-
-                        <p>Sirkustaiteilija Kai Kuutamo juontaa itse koko esityksen, ja vuorovaikutus lapsiyleisön kanssa on tärkeässä roolissa. Esityksessä ei käytetä oikeita eläimiä.</p>
-
-                  
-                    </div>
-                    </div>
-
-                    <br></br>
-
-                    <div className="tableintro">
-                    <div className="tabletext">
-                        <p>Kesto: noin 35 minuuttia</p>
-                        <p>Kohdeyleisö: 2-vuotiaasta lähtien ylöspäin koko perhe</p>
-                        <p>Tila: Esitys soveltuu millaiseen tilaan vain, mutta korkeudesta on etua.</p>
-                        <p>Yleisömääräsuositus ilman äänentoistoa: 100</p>
-                        <p>Äänentoiston kanssa: Ei ylärajaa.</p>
-                        <p>Voin järjestää paikalle oman äänentoiston sovittaessa.</p>
-                        
-                    </div>
-                    </div>
-
-                    <br></br>
-
-                    <div className="tableintro">
-                    <div className="tabletext">
-                        <p>Pienin tila tähän mennessä 2.5m korkea, jossa lattiatila noin 3x3m. Suurimmat tilat tähän asti ovat olleet liikuntasaleja ja kunnan auditorioita.</p>
-
-                        
-                    </div>
-                    </div>
-
-                    <br></br>
-
-                    <div className="tableintro">
-                    <div className="tabletext">
-                        <p>Pystytys noin 30 minuuttia</p>
-                        <p>Purku noin 20 minuuttia</p>
-
-                        
-                    </div>
-                    </div>
-
-
-                    <div className="moremargin"></div>
-
-
-                    </div>,
-
-                    show10_pics: ["./pictures5/show10_1.jpg"],
-
-                    
 
                 
 
@@ -1023,7 +910,7 @@ services:
 </div>
 
 <div className="tableh2wrap">
-   <img className="servicespic" src="pictures6/services1.jpg" alt="Services"></img>
+   <img className="servicespic" src="pictures6/sirkusesitys.jpg" alt="Services"></img>
     <h2>Esitykset ja ohjelma</h2>
 </div>
 
@@ -1037,7 +924,7 @@ services:
 </div>
 
 <div className="tableh3wrap">
-<img className="servicespic" src="pictures6/services2.jpg" alt="Services"></img>
+<img className="servicespic" src="pictures6/sirkustyopaja.jpg" alt="Services"></img>
     <h3>Jongleerauksen opetus</h3>
 </div>
 
@@ -1057,7 +944,7 @@ services:
 </div>
 
 <div className="tableh4wrap">
-<img className="servicespic" src="pictures6/services3.jpg" alt="Services"></img>
+<img className="servicespic" src="pictures6/sirkusvalineet.jpg" alt="Services"></img>
     <h4>Sirkusvälineet</h4>
 </div>
 
@@ -1204,8 +1091,11 @@ shows: {
 
     old: 
     <div id="wholinks">
-    <h2>Poistuneet ohjelmistosta</h2>
+    <h2>Poistuneet ohjelmistosta toistaiseksi</h2>
 
+    <p style={{paddingTop: "5px"}}><a href="http://www.sirkussirkus.com/joulupukki/" rel="noopener noreferrer" target="blank">Joulupukki ja Tempputonttu - Lasten Joululaulusirkusshow</a></p>
+    <p style={{paddingTop: "5px"}}><a href="http://www.sirkussirkus.com/kkaa/" rel="noopener noreferrer" target="blank">Kai Kuutamo & Aimo Annos - Sirkus- ja musiikkispektaakkeli</a></p>
+    <p style={{paddingTop: "5px"}}><a href="http://www.sirkussirkus.com/northman/" rel="noopener noreferrer" target="blank">Pohjolan Äijä</a></p>
     <p style={{paddingTop: "5px"}}><a href="http://www.sirkussirkus.com/specialdelivery/" rel="noopener noreferrer" target="blank">Special Delivery</a></p>
     <p><a href="http://www.sirkussirkus.com/tisch/" rel="noopener noreferrer" target="blank">Tisch</a></p>
     <p><a href="https://www.youtube.com/watch?v=GYFoVHWFQDA" rel="noopener noreferrer" target="blank">ALL IN</a></p>
@@ -1233,7 +1123,7 @@ show:
 
                     <div className="tableintro">
                     <div className="tabletext">
-                        <p>Kai Kuutamo Show on pyörinyt kodeissa, kaduilla, häissä, vanhainkodeissa, 8-vuotissyntymäpäivillä sekä suurissakin tapahtumissa kansainvälisesti jo vuodesta 2010. Samaisen esityksen vuoden 2012 painoksella voitettiin katuesiintymisen Suomen mestaruus. Niistä ajoista esitys on kuitenkin kehittynyt ja kasvanut entisestään.</p>
+                        <p>Kai Kuutamo Showta on esitetty kodeissa, kaduilla, häissä, vanhainkodeissa, 8-vuotissyntymäpäivillä sekä suurissakin tapahtumissa kansainvälisesti jo vuodesta 2010. Samaisen esityksen vuoden 2012 painoksella voitettiin katuesiintymisen Suomen mestaruus. Niistä ajoista esitys on kuitenkin kehittynyt ja kasvanut entisestään.</p>
 
                         <p>Esitys perustuu verbaaliakrobatian, improvisaation, huumorin ja näyttävien jongleeraustemppujen yhdistelmään. Vuorovaikutus yleisön kanssa on merkittävässä roolissa. Kai Kuutamo Show sopii mihin tahansa tilaan ja tilaisuuteen, ja se voidaan esittää kolmella eri kielellä tai haluttaessa jopa sanattomasti. Esityksen pituuteen voi vaikuttaa, ja se voidaan esittää myös osissa tai vaikka juontojen yhteydessä.</p>
 

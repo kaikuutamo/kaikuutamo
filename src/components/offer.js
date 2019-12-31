@@ -236,7 +236,7 @@ class Offer extends React.Component {
                         
             </div>
 
-            <p className="textwithmargin">Tapahtuman tarkoitus</p>
+            <p className="textwithmargin">Tapahtuman luonne</p>
 
             <div className="checkbox">
 
