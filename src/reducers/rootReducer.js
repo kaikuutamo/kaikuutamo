@@ -56,7 +56,7 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös Sirkussirkus Putiikin omistaj
 
      <p>Uransa aikana Kuutamo on opiskellut jongleerausta Suomessa Lahdessa ja Turussa sekä Ukrainassa Kiovassa. Hän on esiintynyt Englannissa, Saksassa, Belgiassa, Ruotsissa, Eestissä, Thaimaassa ja Kambodzassa, voittanut katuesiintymisen Suomen mestaruuden, rikkonut jongleerauksen Suomen ennätyksen sekä pitänyt yllä kaksi vuotta ilmaista sirkuskoulua lapsille Kambodzassa (Circus Kampot).</p>
      
-     <p>Nykyään hän työskentelee pääasiassa Suomessa esiintyen yksin, osana Herttakuninkaat-ryhmää sekä eri muusikoiden kanssa (Merkkarit, Arttu Aarnio, Sakari Kivinen). Esiintymispaikat vaihtelevat lasten festivaaleista vanhainkoteihin sekä suurtapahtumista pieniin syntymäpäiviin. Kai Kuutamo ja Sirkussirkus järjestää myös epäsäännöllisesti monitaidefestivaalia Multi Bueno.</p>
+     <p>Nykyään hän työskentelee pääasiassa Suomessa esiintyen yksin, muiden sirkustaiteilijoiden kanssa (Herttakuninkaat, Sirkuskunnan Narrit) tai muusikoiden kanssa (Merkkarit, Arttu Aarnio, Sakari Kivinen). Esiintymispaikat vaihtelevat lastenfestivaaleista vanhainkoteihin sekä suurtapahtumista pieniin syntymäpäiviin. Kai Kuutamo ja Sirkussirkus järjestää myös epäsäännöllisesti monitaidefestivaalia Multi Bueno.</p>
 
      <p>"Esitämme valmiita teoksia omien kiertueaikataulujemme mukaan ja tilauksesta. Toisinaan rakennamme tapahtumiin ja tilaisuuksiin myös omia ohjelmia tilaajan toiveiden mukaisesti. Opetuspalveluita tarjoamme eri sirkuskouluille ja kerhoille sovitun mittaisissa jaksoissa ja järjestämme myös kertaluontoisia jongleeraustyöpajoja kaikenlaisille ryhmille tilauksesta. Kaikki on mahdollista, jos kalenterissa on tilaa. Esityksiä ja toimintaa kaikkiin tilaisuuksiin on mottomme."</p>
 
@@ -73,9 +73,9 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös Sirkussirkus Putiikin omistaj
 
      <p style={{paddingTop: "5px"}}><a href="http://www.sirkussirkus.com/cv.pdf" rel="noopener noreferrer" target="blank">Ansioluettelo</a></p>
      <p><a href="https://fi.wikipedia.org/wiki/Kai_Kuutamo" rel="noopener noreferrer" target="blank">Kai Kuutamo Wikipediassa</a></p>
-     <p><a href="http://putiikki.sirkussirkus.com/" rel="noopener noreferrer" target="blank">Sirkussirkus Putiikki, kaikki sirkusvälineet saman katon alta</a></p>
-     <p><a href="http://www.sirkussirkus.com/multibueno/index.html" rel="noopener noreferrer" target="blank">Multi Bueno festivaali, monitaidefestivaali Turussa</a></p>
-     <p><a href="http://www.sirkussirkus.com/circuskampot/" rel="noopener noreferrer" target="blank">Circus Kampot, sirkuskouluhanke Kambodzassa</a></p>
+     <p><a href="http://putiikki.sirkussirkus.com/" rel="noopener noreferrer" target="blank">Sirkussirkus Putiikki</a></p>
+     <p><a href="http://www.sirkussirkus.com/multibueno/index.html" rel="noopener noreferrer" target="blank">Multi Bueno monitaidefestivaali Turussa</a></p>
+     <p><a href="http://www.sirkussirkus.com/circuskampot/" rel="noopener noreferrer" target="blank">Circus Kampot sirkuskouluhanke Kambodzassa</a></p>
 
      </div>
      </div>,
@@ -719,7 +719,7 @@ show8:
 
             <div>
             <div className="tabletitlewrap">
-            <h1 className="tabletitle">Artikkeleita verkossa</h1>
+            <h1 className="tabletitle">Lehtiartikkeleita</h1>
      
             </div>
 
@@ -727,19 +727,76 @@ show8:
             <div className="tabletext">
 
             <br></br>
+            
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2019-aamuset.jpg" target="_blank"><p>Merkkarit & Kai Kuutamo juhlakeikalla Vimmassa</p></a>
+            <p>Aamuset 19.11.2019</p>
+    
+            <br></br>
+
+
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2019-turunsanomat-3.jpg" target="_blank"><p>Sirkusarvio: Katusirkuksen rentous kohtaa lastensirkuksen kirjavuuden jonglööri Kai Kuutamon kiertue-esityksessä</p></a>
+            <p>Turun Sanomat 29.9.2019</p>
+    
+            <br></br>
+
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2019-turunsanomat-2.jpg" target="_blank"><p>Seikkisrockin yhdistämät</p></a>
+            <p>Turun Sanomat 2019 kesäkuu</p>
+    
+            <br></br>
+
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2019-turunsanomat-1.jpg" target="_blank"><p>Taiturimaisia temppuja ja vuorovaikutusta</p></a>
+            <p>Turun Sanomat 13.4.2019</p>
+    
+            <br></br>
+
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2018-aamuset.jpg" target="_blank"><p>Sirkusta Tunteella - Sirkusputiikin kauppias haluaa vähentää kuluttamista</p></a>
+            <p>Aamuset 14.2.2018</p>
+    
+            <br></br>
+
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2017-turunsanomat-3.jpg" target="_blank"><p>Kohti Loveen Lankeamista</p></a>
+            <p>Turun Sanomat 2017 Lokakuu</p>
+    
+            <br></br>
+
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2017-turunsanomat-2.jpg" target="_blank"><p>Pohjolan Äijä saapuu Metsäkirkkoon</p></a>
+            <p>Turun Sanomat 2017 Syyskuu</p>
+    
+            <br></br>
+
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2017-turunsanomat-1.jpg" target="_blank"><p>Rokkimusaa ja jongleerausta</p></a>
+            <p>Turun Sanomat 28.5.2017</p>
+    
+            <br></br>
+
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2017-turuntienoo.jpg" target="_blank"><p>Merimiesrock sekoitti Ruskotalon nuoren yleisön</p></a>
+            <p>Turun Tienoo 13.4.2017</p>
+    
+            <br></br>
+
 
             <a className="articlelink" rel="noopener noreferrer" href="https://www.ts.fi/uutiset/paikalliset/796198/Sirkustaiteilija+Kai+Kuutamo+rikkoi+jongleerauksen+Suomen+ennatyksen" target="_blank"><p>Sirkustaiteilija Kai Kuutamo rikkoi jongleerauksen Suomen ennätyksen</p></a>
             <p>Turun Sanomat 18.7.2015</p>
 
             <br></br>
 
-            <a className="articlelink" rel="noopener noreferrer" href="https://www.hoitokotipaivakumpu.fi/documents/21243/160782/Paivakummun_Sanomat_syksy_2015.pdf/d5eb2a54-e06f-4749-9492-6b811bed21ff" target="_blank"><p>Sirkushuveja, taikatemppuja ja akrobatiaa hoitokodeissa</p></a>
-            <p>Hoitokoti Päiväkummun sanomat 1/2015 (sivut 12-13)</p>
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2015-paivakummunsanomat.jpg" target="_blank"><p>Sirkushuveja, taikatemppuja ja akrobatiaa hoitokodeissa</p></a>
+            <p>Hoitokoti Päiväkummun Sanomat 1/2015</p>
+    
+            <br></br>
 
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2014-fidea.jpg" target="_blank"><p>Circus Kampot - Suomalainen sirkuskoulu Kambodzassa</p></a>
+            <p>Fidea Suomen Draama- ja Teatteriopetuksen liiton jäsenlehti 2014</p>
+         
             <br></br>
 
             <a className="articlelink" rel="noopener noreferrer" href="https://www.ts.fi/kulttuuri/519198/Rytmikasta+jongleerausta" target="_blank"><p>Rytmikästä Jongleerausta</p></a>
             <p>Turun Sanomat 6.8.2013</p>
+
+            <br></br>
+
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2012-aamuset.jpg" target="_blank"><p>Elämä yhtä sirkusta</p></a>
+            <p>Aamuset 2012 heinäkuu</p>
 
             <br></br>
 
@@ -748,8 +805,18 @@ show8:
 
             <br></br>
 
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2012-turunsanomat.jpg" target="_blank"><p>Kuutamo tarjoaa logistiikkaa ja sirkushuveja</p></a>
+            <p>Turun Sanomat 2012 elokuu</p>
+
+            <br></br>
+
             <a className="articlelink" rel="noopener noreferrer" href="http://tstv.fi/video/2699" target="_blank"><p>Sirkustaiteilija pahvilaatikoiden keskellä</p></a>
-            <p>TSTV 13.8.2012</p>
+            <p>TS-TV 13.8.2012</p>
+
+            <br></br>
+
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2010-turunsanomat.jpg" target="_blank"><p>Ihan Jonglöörinä</p></a>
+            <p>Turun Sanomat 22.1.2010</p>
 
             <br></br>
 
@@ -787,12 +854,29 @@ show8:
             <div className="tabletext contacttext">
 
             <p id="contacttitle2">Sirkussirkus Putiikki</p>
-            <a className="articlelink" rel="noopener noreferrer" href="http://putiikki.sirkussirkus.com" target="_blank"><p>putiikki.sirkussirkus.com</p></a>
+            <p>kauppa@sirkussirkus.com</p>
             <p>puh. 040 754 6182</p>
             <p>Lonttistentie 14, Turku</p>
+            <a className="articlelink" rel="noopener noreferrer" href="http://putiikki.sirkussirkus.com" target="_blank"><p>www.sirkuskauppa.com</p></a>
 
             </div>
             </div>
+
+            <div className="tableintro">
+            <div className="tabletext contacttext">
+
+            <p id="contacttitle2">Laskutus</p>
+            <p>Sirkussirkus</p>
+            <p>FI20038428</p>
+            <p>Laivateollisuudenkatu 26 A 16</p>
+            <p>20240 Turku</p>
+            <p>FINLAND</p>
+            <p></p>
+
+
+            </div>
+            </div>
+
 
             </div>,
 
@@ -866,7 +950,7 @@ who:
 
  <p>Uransa aikana Kuutamo on opiskellut jongleerausta Suomessa ja Ukrainassa, esiintynyt muun muassa Englannissa, Saksassa, Belgiassa, Ruotsissa, Eestissä, Thaimaassa ja Kambodzassa, voittanut katuesiintymisen Suomen mestaruuden, rikkonut jongleerauksen Suomen ennätyksen sekä pitänyt yllä kaksi vuotta ilmaista sirkuskoulua Kambodzassa.</p>
  
- <p>Nykyään hän työskentelee pääasiassa Suomessa esiintyen yksin, Herttakuninkaat-ryhmän, Aimo Annoksen tai Merkkarit-orkesterin kanssa. Esiintymispaikat vaihtelevat lasten festivaaleista vanhainkoteihin sekä suurtapahtumista pieniin syntymäpäiviin.</p>
+ <p>Nykyään hän työskentelee pääasiassa Suomessa esiintyen yksin, Herttakuninkaat-ryhmän, Aimo Annoksen tai Merkkarit-orkesterin kanssa. Esiintymispaikat vaihtelevat lastenfestivaaleista vanhainkoteihin sekä suurtapahtumista pieniin syntymäpäiviin.</p>
 
  <p>"Esitämme valmiita teoksia omien kiertueaikataulujemme mukaan ja tilauksesta. Toisinaan rakennamme tapahtumiin ja tilaisuuksiin myös omia ohjelmia tilaajan toiveiden mukaisesti. Opetuspalveluita tarjoamme eri sirkuskouluille ja kerhoille sovitun mittaisissa jaksoissa, ja järjestämme myös kertaluontoisia jongleeraustyöpajoja kaikenlaisille ryhmille tilauksesta. Kaikki on mahdollista, jos kalenterissa on tilaa ja palkkiosta päästään yhteisymmärrykseen."</p>
 
