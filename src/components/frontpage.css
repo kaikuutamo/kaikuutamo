@@ -1,32 +1,35 @@
 
 #frontmain {
     position: relative;
-    min-height: calc(99vh - 144px);
+    min-height: calc(99vh - 144px - 100px - 20px);
     overflow-x: hidden;
     overflow-y: auto;
-    
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
 }
 
 #frontwrap {
     position: relative;
-    min-height: calc(99vh - 144px);
+    min-height: calc(99vh - 144px - 100px - 20px);
     overflow: hidden;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto;
+    padding-bottom: 20px;
 }
 
 #frontcont {
     grid-row-start: 5;
     position: relative;
-    padding-top: 20px;
-    padding-bottom: 50px;
     margin: 0 auto;
     display: inline-block;
     position: relative;
     width: 100%;
     max-width: 900px;
-    box-sizing: border-box;
     
 }
 
@@ -61,7 +64,7 @@
     position: absolute;
     bottom: -20px;
     left: -70px;
-    max-width: 750px;
+    max-width: 900px;
     margin: 0;
     padding: 0;
     font-family: 'Fjalla One', sans-serif;
@@ -109,7 +112,27 @@
 
 @media (max-width: 1200px) {
 
- 
+    #fronttext1 {
+        
+        font-size: 1.8rem;
+    }
+    
+    #fronttext2 {
+        
+        font-size: 1.2rem;
+    }
+
+    #frontwrap {
+        padding-bottom: 0px;
+    }
+
+    #fronttext {
+        padding-top: 20px;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        
+    }
    
 }
 
@@ -118,7 +141,17 @@
 
 @media (max-width: 1000px) {
 
+    #frontmain {
+        position: relative;
+        min-height: calc(99vh - 50px - 100px);
 
+    }
+    
+    #frontwrap {
+
+        min-height: calc(99vh - 50px - 100px);
+
+    }
 
 
 }
@@ -128,6 +161,16 @@
 @media (max-width: 800px) {
 
 
+    #fronttext1 {
+        
+        font-size: 1.7rem;
+    }
+    
+    #fronttext2 {
+        
+        font-size: 1rem;
+    }
+
 
 }
 
@@ -135,6 +178,15 @@
 
 @media (max-width: 600px) {
 
+    #fronttext1 {
+        
+        font-size: 1.5rem;
+    }
+    
+    #fronttext2 {
+        
+        font-size: 1rem;
+    }
 
 
 }
