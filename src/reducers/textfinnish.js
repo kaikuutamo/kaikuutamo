@@ -10,8 +10,8 @@ var finnish = {
 
         "text": "Although I am blind I could feel your energy.", 
         "text2": "- sokea afrikkalainen mies",
-        "words": ["Although I am blind I could feel your energy.", "Kuutamo tietää, miten sirkusta tehdään lapsille.", "Satumaisen hieno esitys!"],
-        "words2": ["- Sokea katsoja", "- Turun Sanomat", "- Eläkeläinen"]
+        "words": ["Although I am blind I could feel your energy.", "Kuutamo tietää, miten sirkusta tehdään lapsille.", "Kai Kuutamo on vakuuttavan karismaattinen esiintyjä."],
+        "words2": ["- Sokea afrikkalainen mies", "- Turun Sanomat", "- Turun Sanomat"]
 
     },
 
