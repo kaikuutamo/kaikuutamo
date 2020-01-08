@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 import React from 'react'
 import {Link} from 'react-router-dom';
 
@@ -1832,9 +1833,13 @@ form:
 </div>
 
 }
+=======
+>>>>>>> 57f878d92358eacab275c3c346c644e35925127d
 
 
+import finnish from './textfinnish.js';
 
+import english from './textenglish.js';
 
 
 

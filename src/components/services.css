@@ -12,13 +12,17 @@
     font-family: 'Muli', sans-serif;
     font-weight: 900;
 
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
-#shoplink {
-  text-decoration: none;
-  color: var(--color1)
+#shoplink a {
+  text-decoration: underline;
+  color: var(--text3);
+}
+
+#shoplink a:hover {
+  color: var(--yellow);
 }
 
 #servicesmargin {

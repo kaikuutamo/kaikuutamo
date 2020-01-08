@@ -1,8 +1,7 @@
 
 #frontmain {
     position: relative;
-    height: calc(var(--window-height) - 144px);
-    
+    min-height: calc(99vh - 144px);
     overflow-x: hidden;
     overflow-y: auto;
     
@@ -10,8 +9,7 @@
 
 #frontwrap {
     position: relative;
-
-    min-height: 100%;
+    min-height: calc(99vh - 144px);
     overflow: hidden;
     display: grid;
     grid-template-columns: 1fr;
@@ -21,13 +19,13 @@
 #frontcont {
     grid-row-start: 5;
     position: relative;
-    padding-top: 5px;
-    
+    padding-top: 20px;
+    padding-bottom: 50px;
     margin: 0 auto;
     display: inline-block;
     position: relative;
     width: 100%;
-    max-width: 750px;
+    max-width: 900px;
     box-sizing: border-box;
     
 }
@@ -111,26 +109,7 @@
 
 @media (max-width: 1200px) {
 
-    #frontcont {
-        max-width: 700px;
-        padding-left: 10px;
-        padding-right: 10px;
-        margin-top: 10px;
-    }
-     
-    #fronttext {
-        max-width: 700px;
-    } 
-    
-    #fronttext1 {
-        
-        font-size: 1.8rem;
-    }
-    
-    #fronttext2 {
-        
-        font-size: 1.2rem;
-    }
+ 
    
 }
 
@@ -139,17 +118,7 @@
 
 @media (max-width: 1000px) {
 
-    #frontmain {
-        height: calc(var(--window-height) - 50px);
-        
-    }
 
-    #fronttext {
-        position: relative;
-        bottom: 0;
-        left: 0;
-        
-    }
 
 
 }
@@ -158,15 +127,7 @@
 
 @media (max-width: 800px) {
 
-    #fronttext1 {
-        
-        font-size: 1.7rem;
-    }
-    
-    #fronttext2 {
-        
-        font-size: 1rem;
-    }
+
 
 }
 
@@ -174,84 +135,11 @@
 
 @media (max-width: 600px) {
 
-    #fronttext1 {
-        
-        font-size: 1.5rem;
-    }
-    
-    #fronttext2 {
-        
-        font-size: 1rem;
-    }
-
-}
-
-
-
-
-
-
-/* --------HEIGHT--------*/
-
-@media (max-height: 800px) {
-
-
-
-#frontcont {
-
-    width: 100%;
-    max-width: 600px;
 
 
 }
 
-#fronttext {
-    max-width: 600px;
-} 
-
-/*-------------------------*/
-
-}
-
-@media (max-height: 700px) {
 
 
 
-    #frontcont {
-    
-        width: 100%;
-        max-width: 550px;
-    
-    
-    }
-
-    #fronttext {
-        max-width: 550px;
-    } 
-    
-    /*-------------------------*/
-    
-    
-    }
-
-    @media (max-height: 600px) {
-
-
-
-        #frontcont {
-        
-            width: 100%;
-            max-width: 500px;
-        
-        
-        }
-    
-        #fronttext {
-            max-width: 500px;
-        } 
-        
-        
-        
-        
-        }
 

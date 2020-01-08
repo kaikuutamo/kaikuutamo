@@ -3,3 +3,8 @@
 .articlelink {
     color: white;
 }
+
+.articlenewspaper {
+    font-size: 1.2rem;
+    color: var(--yellow);
+}

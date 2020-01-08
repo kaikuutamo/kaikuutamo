@@ -4,7 +4,7 @@ import {connect} from 'react-redux';
 
 import cloudAnim from './cloudanimation'
 
-import './services.css';
+import './media.css';
 
 import Footer from './footer'
 
@@ -25,6 +25,7 @@ class Media extends React.Component {
             <div className="tablewrap">
             <div className="tablewrap2">
 
+            {this.props.texts.promo}
 
             </div>
             <Footer />
