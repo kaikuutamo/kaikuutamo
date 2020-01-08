@@ -12,8 +12,8 @@ var finnish = {
 
         "text": "Although I am blind I could feel your energy.", 
         "text2": "- sokea afrikkalainen mies",
-        "words": ["Although I am blind I could feel your energy.", "Kuutamo tietää, miten sirkusta tehdään lapsille.", "Satumaisen hieno esitys!"],
-        "words2": ["- Sokea katsoja", "- Turun Sanomat", "- Eläkeläinen"]
+        "words": ["Although I am blind I could feel your energy.", "Kuutamo tietää, miten sirkusta tehdään lapsille.", "Kai Kuutamo on vakuuttavan karismaattinen esiintyjä. Yhteys yleisöön syntyy hetkessä!"],
+        "words2": ["- Sokea katsoja", "- Turun Sanomat", "- Turun Sanomat"]
 
     },
 
@@ -734,7 +734,7 @@ show8:
             <br></br>
 
             <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2019-turunsanomat-3.jpg" target="_blank"><p>Sirkusarvio: Katusirkuksen rentous kohtaa lastensirkuksen kirjavuuden jonglööri Kai Kuutamon kiertue-esityksessä</p></a>
-            <p>Turun Sanomat 29.9.2019</p>
+            <p>Turun Sanomat 29.9.2019</p>  
     
             <br></br>
 
