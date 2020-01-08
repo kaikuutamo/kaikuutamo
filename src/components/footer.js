@@ -17,15 +17,17 @@ class Footer extends React.Component {
         return (
 
             <div id="footersocialwrap">
-
+<p></p>
             <div id="footersocialwrap2">
             <a href="https://www.facebook.com/kuutamosirkus/" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="facebook"></img></a>
             <a href="https://www.instagram.com/kaikuutamo/" target="_blank" rel="noopener noreferrer" ><img src={instagram} alt="instagram"></img></a>
             <a href="https://www.youtube.com/user/kaikuutamo/videos" target="_blank" rel="noopener noreferrer" ><img src={youtube} alt="youtube"></img></a>
             </div>
-
-            <p>Kai Kuutamo | kai@sirkussirkus.com</p>
+<p></p>
+            <p>Kai Kuutamo</p>
+            <p>kai@sirkussirkus.com</p>
             <p>040 754 6182</p>
+ 
             </div>
         
 

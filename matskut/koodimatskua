@@ -1,0 +1,145 @@
+show5: 
+
+                <div>
+
+                    <img className="showpic" alt="Show" src="./pictures5/show5.jpg"></img>
+
+                    <h1 className="tabletitle">Kai Kuutamo ja Aimo Annos</h1>
+                    <h2 className="subtitle">Musiikki- ja sirkusspektaakkeli</h2>
+                    
+                    
+
+                    <div className="tableintro">
+                    <div className="tabletext">
+                         
+
+                        <p>Jonglööri Kai Kuutamo ja musiikin moniottelija Aimo Annos yhdistävät voimansa, ja synnyttävät lavalla pieniä ihmeitä koko yleisön iloksi ja hämmästykseksi. Sanaton katuesitystyylinen spektaakkeli luottaa elävän musiikin, fyysisen ilmaisun ja jongleerauksen yhteistyöhön. Esiintyjien läsnäolo ja tilannetaju pitävät yleisön varpaillaan, ja pienempienkin lasten huomio säilyy läpi koko esityksen. Itse esitys ei kumartele kellekkään ja on aito itselleen aina räjähtävään loppuun asti.</p>
+
+                        <p>Esityksessä tutustutaan erilaisiin soittimiin ja jongleeraustemppuihin. Aimo Annoksen käsissä kyytiä saavat seuraavat soittimet: Tuuba, Rumpusetti, Sähköurut, Basso ja aasialainen Erhu. Kappaleet ovat kaikki omia sävellyksiä, jotka on tehty esitystä varten. Musiikkilajeja ovat mm. Rock, Tango, Chiptune, Shamaanijoika ja Film Noir. Osa musiikista on kokeellista, ja instrumenttien äänimaisemaa käytetään luovasti. Kai Kuutamo tulkitsee musiikkia visuaalisesti eri jongleerausvälineiden keinoin.</p>
+
+                        <p>Esitys on sanaton, ja on nauttinut positiivista kritiikkiä jo vuodesta 2012 lähtien kaikenikäisten suusta mukaan lukien 3-vuotiaat lapset, varhaisteinit sekä 65-vuotiaan Emeritus-lehtorin.</p>
+                    </div>
+                    </div>
+
+                    <br></br>
+
+                    <div className="tableintro">
+                    <div className="tabletext">
+                        <p>Kesto: 40 min.</p>
+                        <p>Kieli: Sanaton</p>
+                        <p>Tila: Sovellettavissa erilaisiin tiloihin. Korkeudesta etua. Mahdollista esittää myös ulkona.</p>
+                        
+                    </div>
+                    </div>
+
+                    <br></br>
+
+                    <div className="tableintro">
+                    <div className="tabletext">
+                        <p>Katso Kai Kuutamo & Aimo Annos -esityksen omat <a className="showlink" href="http://www.sirkussirkus.com/kkaa/" target="blank">verkkosivut</a>!</p>
+                        
+   
+                    </div>
+                    </div>
+
+                    <div className="moremargin"></div>
+
+
+                    </div>,
+
+                    show5_pics: ["./pictures5/show5_1.jpg", "./pictures5/show5_2.jpg"],
+
+
+
+
+
+show7: 
+
+                <div>
+
+                    <img className="showpic" alt="Show" src="./pictures5/show7.jpg"></img>
+
+                    <h1 className="tabletitle">Joulupukki ja Tempputonttu</h1>
+                                        
+                    
+
+                    <div className="tableintro">
+                    <div className="tabletext">
+                         
+
+                        <p>Joulupukki ja hänen lahjakas tonttuystävänsä Tempputonttu esittävät rakastettuja joululauluja ja hämmästyttäviä jongleeraustemppuja. Vauhdikas ja hauska esitys sopii kaikenikäille lapsille.</p>
+
+                        <p>Esityksessä kuullaan joululauluja rokkaavalla meiningillä ja hämmästellään painovoimaa uhmaavia jongleeraustemppuja eri välinein! Kiperiltä tilanteiltakaan ei säästytä esityksen aikana, kun laulujen lomassa pohditaan poroja kahvimukin pohjalla, Korvatunturilla annettavia korvapuusteja sekä sitä miten moni asiaa menee helposti pipariksi.</p>
+
+                        <p>Lapsille suunnattu lämminhenkinen ja hauska jouluesitys tarjoaa huumorin helmiä myös aikuiskatsojalle, ja taitavat sirkustemput hämmästyttävät kaikenikäisiä. Työryhmällä, Merkkareistakin tutuilla muusikko Valtteri Virtasella ja sirkustaiteilija Kai Kuutamolla, on reilusti yli kymmenen vuoden kokemus niin jongleerauksen, joulupukkeilun kuin musiikinkin saralla.</p>
+
+                        <p>Esityksen yhteydessä onnistuu myös erikseen sovittaessa valokuvaustuokio tai lahjojenjako.</p>
+                    </div>
+                    </div>
+
+                    <br></br>
+
+                    <div className="tableintro">
+                    <div className="tabletext">
+                        <p>Kesto noin 25 min | Suositusikä 2+</p>
+                        <p>Oma äänentoisto tuodaan mukana sovittaessa.</p>
+                        <p>Esitys mahtuu pieniinkin tiloihin</p>
+                        
+                    </div>
+                    </div>
+
+                    <br></br>
+
+                    <div className="tableintro">
+                    <div className="tabletext">
+                        <p>Työryhmä on ilahduttanut pieniä joulunodottajia muun muassa Turun seudun päiväkodeissa, Turun Yliopistollisessa Keskussairaalassa ja Suomen Punaisen Ristin vastaanottokeskuksessa.</p>
+
+                        
+                    </div>
+                    </div>
+
+                    <div className="moremargin"></div>
+
+
+                    </div>,
+
+                    show7_pics: ["./pictures5/show7_1.jpg"],
+
+
+
+
+
+
+show9: 
+
+                <div>
+
+                    <img className="showpic" alt="Show" src="./pictures5/show9.jpg"></img>
+
+                    <h1 className="tabletitle">Pohjolan Äijä</h1>
+                                        
+                    
+
+                    <div className="tableintro">
+                    <div className="tabletext">
+                         
+
+                        <p>Pohjolan Äijä on suomalaista kansanuskoa tutkiva nykysirkusteos, joka yhdistelee sirkustaidetta, elävää musiikkia, performanssia sekä sanatonta tarinankerrontaa. Vaikutteita on haettu muun muassa nykyaikaisesta ja entisaikaisesta indoeurooppalaisesta shamanismista sekä Kaarle Krohnin kirjallisista teoksista. Esitys on toinen AarnioKuutamo Companyn kokopitkä esitys.</p>
+
+                        <p>Esitys on pyrkimys viedä pohjoismaista perinnekulttuuria näytille paitsi ulkomaille myös eri puolille Suomea. Kotimaassamme on paljon aiheesta kiinnostuneita ja myös paljon ihmisiä, jotka eivät tunne oman kansanuskomme juuria. Pohjolan Äijä tarjoaa katsottavaa ja hämmästeltävää niin asiantuntijoille kuin myös asiaan vihkiytymättömille, ja haluaa herättää mielenkiintoa katsojissa unohdettuja perinteitämme kohtaan.</p>
+
+                        <p>Arttu Aarnio tuottaa esityksessä itserakentamilla soittimillaan ritualistisia äänimaailmoja ja hän on suunnitellut myös henkimaailman äänimaiseman. Kai Kuutamo tutkii shamanistista olemusta ja loveen lankeamista performanssin ja jongleerauksen keinoin. Itse esitys tapahtuu metsässä luonnon helmassa, josta kansanuskomme juuret juontavat.Pohjolan Äijä on osa AarnioKuutamo Companyn 5-vuotisjuhlavuotta.</p>
+
+                        <p>Esityksessä kuullaan kolmea eri soitinta, joista kaikki ovat Aarnion rakentamia. Perinteisenä soittimena nähdään ja kuullaan kehärumpua, jota shamaanit ja noidat ovat perinteisesti käyttäneet loitsuissa ja henkimaailman asioita luoviessa. Uniikkeina soittimina nähdään Arttu Aarnion suunnittelemat ja toteuttamat Seiväsbasso ja Kalman Kantele.</p>
+                        
+                    </div>
+                    </div>
+
+                    <div className="moremargin"></div>
+
+
+                    </div>,
+
+                    show9_pics: [],
+
+

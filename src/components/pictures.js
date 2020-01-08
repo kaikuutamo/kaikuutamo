@@ -162,6 +162,7 @@ class Pictures extends React.Component {
                 <img onClick={() => this.popUp(13)} className="gallerypic" alt="Kai Kuutamo" src='/pictures4/13.jpg'></img>
                 <img onClick={() => this.popUp(14)} className="gallerypic" alt="Kai Kuutamo" src='/pictures4/14.jpg'></img>
                 <img onClick={() => this.popUp(15)} className="gallerypic" alt="Kai Kuutamo" src='/pictures4/15.jpg'></img>
+                <img onClick={() => this.popUp(22)} className="gallerypic" alt="Kai Kuutamo" src='/pictures4/22.jpg'></img>
                 </div>
 
                 <div>
@@ -170,8 +171,7 @@ class Pictures extends React.Component {
                 <img onClick={() => this.popUp(18)} className="gallerypic" alt="Kai Kuutamo" src='/pictures4/18.jpg'></img>
                 <img onClick={() => this.popUp(19)} className="gallerypic" alt="Kai Kuutamo" src='/pictures4/19.jpg'></img>
                 <img onClick={() => this.popUp(20)} className="gallerypic" alt="Kai Kuutamo" src='/pictures4/20.jpg'></img>
-                <img onClick={() => this.popUp(21)} className="gallerypic" alt="Kai Kuutamo" src='/pictures4/12.jpg'></img>
-                <img onClick={() => this.popUp(22)} className="gallerypic" alt="Kai Kuutamo" src='/pictures4/22.jpg'></img>
+                <img onClick={() => this.popUp(21)} className="gallerypic" alt="Kai Kuutamo" src='/pictures4/21.jpg'></img>
                 <img onClick={() => this.popUp(23)} className="gallerypic" alt="Kai Kuutamo" src='/pictures4/23.jpg'></img>
                 </div>
 
@@ -196,8 +196,6 @@ class Pictures extends React.Component {
                 <img onClick={() => this.popUp(10)} className="gallerypic" alt="Kai Kuutamo" src='/pictures4/10.jpg'></img>
                 <img onClick={() => this.popUp(11)} className="gallerypic" alt="Kai Kuutamo" src='/pictures4/11.jpg'></img>
 
-                <img onClick={() => this.popUp(22)} className="gallerypic" alt="Kai Kuutamo" src='/pictures4/22.jpg'></img>
-
                 </div>
 
                 <div>
@@ -211,8 +209,8 @@ class Pictures extends React.Component {
                 <img onClick={() => this.popUp(18)} className="gallerypic" alt="Kai Kuutamo" src='/pictures4/18.jpg'></img>
                 <img onClick={() => this.popUp(19)} className="gallerypic" alt="Kai Kuutamo" src='/pictures4/19.jpg'></img>
                 <img onClick={() => this.popUp(20)} className="gallerypic" alt="Kai Kuutamo" src='/pictures4/20.jpg'></img>
-                <img onClick={() => this.popUp(21)} className="gallerypic" alt="Kai Kuutamo" src='/pictures4/12.jpg'></img>
-                
+                <img onClick={() => this.popUp(21)} className="gallerypic" alt="Kai Kuutamo" src='/pictures4/21.jpg'></img>
+                <img onClick={() => this.popUp(22)} className="gallerypic" alt="Kai Kuutamo" src='/pictures4/22.jpg'></img>                
                 <img onClick={() => this.popUp(23)} className="gallerypic" alt="Kai Kuutamo" src='/pictures4/23.jpg'></img>
 
                 </div>
