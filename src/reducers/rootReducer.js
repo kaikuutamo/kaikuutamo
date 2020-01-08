@@ -1,6 +1,3 @@
-
-
-
 import finnish from './textfinnish.js';
 
 import english from './textenglish.js';
