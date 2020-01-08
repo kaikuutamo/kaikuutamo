@@ -1,0 +1,22 @@
+#promopicstext {
+    text-align: center;
+    }
+
+#promopics {
+    margin: 0 auto;
+    padding-top: 14px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 25px;
+    grid-gap: 10px;
+    box-sizing: border-box;
+}
+
+#promopics img {
+    width: 100%;
+}
+
+#promopic3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
