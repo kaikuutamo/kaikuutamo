@@ -34,10 +34,28 @@ class FrontPage extends React.Component {
 
         this.number = 1;
 
+        this.calc = 0;
         
     }
     
 
+
+loadPic = () => {
+
+    this.calc = this.calc + 1;
+
+    if (this.calc === 3) {
+        
+        var loadingScreen = document.getElementById("loadingscreen");
+        var loadingCircle = document.getElementById("loadingcircle");
+
+        TweenMax.to(loadingScreen, 1, {opacity: 0, delay: 2})
+        TweenMax.to(loadingScreen, 1, {display: "none", delay: 3});
+        TweenMax.to(loadingCircle, 0, {animation: "none", delay: 3});
+
+    }
+
+}
 
 
 
@@ -116,11 +134,9 @@ componentDidMount  () {
 
     var screenHeight = window.innerHeight;
         
-    
-    
     document.documentElement.style.setProperty('--window-height', screenHeight + "px");
 
-    
+
 }
 
 
@@ -163,9 +179,9 @@ return (
     <div id="frontcont">
 
         <div id="slideimgcont">
-        <img alt="Slideshow" className="frontpic" id="frontpic1" src={pic1}></img>
-        <img alt="Slideshow" className="frontpic" id="frontpic2" src={pic2}></img>
-        <img alt="Slideshow" className="frontpic" id="frontpic3" src={pic3}></img>
+        <img onLoad={this.loadPic} alt="Slideshow" className="frontpic" id="frontpic1" src={pic1}></img>
+        <img onLoad={this.loadPic} alt="Slideshow" className="frontpic" id="frontpic2" src={pic2}></img>
+        <img onLoad={this.loadPic} alt="Slideshow" className="frontpic" id="frontpic3" src={pic3}></img>
         </div>
 
         <div id="fronttext">
