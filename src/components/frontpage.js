@@ -3,7 +3,7 @@ import React from 'react';
 
 import {connect} from 'react-redux';
 
-import {TweenMax} from "gsap/TweenMax";
+import gsap from "gsap";
 
 import './frontpage.css';
 
@@ -49,9 +49,20 @@ loadPic = () => {
         var loadingScreen = document.getElementById("loadingscreen");
         var loadingCircle = document.getElementById("loadingcircle");
 
-        TweenMax.to(loadingScreen, 1, {opacity: 0, delay: 2})
-        TweenMax.to(loadingScreen, 1, {display: "none", delay: 3});
-        TweenMax.to(loadingCircle, 0, {animation: "none", delay: 3});
+
+        if (this.props.loadingscreen === "on") {
+            gsap.to(loadingScreen, 1, {opacity: 0, delay: 2})
+            gsap.to(loadingScreen, 1, {display: "none", delay: 3});
+            gsap.to(loadingCircle, 0, {animation: "none", delay: 3});
+        }
+
+        this.props.loading();
+
+        theInterval =  setInterval(() => {
+       
+            this.slideShow();
+    
+       }, 6000);
 
     }
 
@@ -68,8 +79,8 @@ slideShow = () => {
     var pic = document.getElementsByClassName("frontpic");
     var text = document.getElementById("fronttext");
    
-    TweenMax.to(pic, 0.5, {left: "100px", opacity: "0"});
-    TweenMax.to(text, 0.5, {left: "-170px", opacity: "0"});
+    gsap.to(pic, 0.5, {left: "100px", opacity: "0"});
+    gsap.to(text, 0.5, {left: "-170px", opacity: "0"});
 
     setTimeout(() => {
         
@@ -114,13 +125,13 @@ slideShow = () => {
     if (this.mounted === "false") {return null}
 
     if (window.innerWidth < 1200) {
-        TweenMax.to(pic, 0.5, {left: "0px", opacity: "1", delay: 1});
-        TweenMax.to(text, 0.5, {left: "0px", opacity: "1", delay: 1});
+        gsap.to(pic, 0.5, {left: "0px", opacity: "1", delay: 1});
+        gsap.to(text, 0.5, {left: "0px", opacity: "1", delay: 1});
     }
 
     else {
-        TweenMax.to(pic, 0.5, {left: "0px", opacity: "1", delay: 1});
-        TweenMax.to(text, 0.5, {left: "-70px", opacity: "1", delay: 1});
+        gsap.to(pic, 0.5, {left: "0px", opacity: "1", delay: 1});
+        gsap.to(text, 0.5, {left: "-70px", opacity: "1", delay: 1});
     }
 
 }    
@@ -132,21 +143,20 @@ componentDidMount  () {
 
     window.scrollTo(0, 0)
 
-    var screenHeight = window.innerHeight;
-        
-    document.documentElement.style.setProperty('--window-height', screenHeight + "px");
+    var loadingScreen = document.getElementById("loadingscreen");
+    var loadingCircle = document.getElementById("loadingcircle");
+
+    if (this.props.loadingscreen === "off") {
+
+        loadingScreen.style.display = "none";
+        loadingCircle.style.animation ="none";
+    }
 
 
 }
 
 
 componentWillMount () {
-
-    theInterval =  setInterval(() => {
-       
-        this.slideShow();
-
-   }, 6000);
 
 
     this.setState({
@@ -174,7 +184,9 @@ return (
 <div id="frontmain">
 <div id="frontwrap">
     
-
+<div id="loadingscreen">
+      <div id="loadingcircle"></div>
+</div>
 
     <div id="frontcont">
 
@@ -211,8 +223,21 @@ return (
 
 const mapStateToProps = (state) => {
     return {
-        texts: state.texts
+        texts: state.texts,
+        loadingscreen: state.loadingscreen
     }
 }
 
-export default connect(mapStateToProps)(FrontPage);
+function mapDispatchToProps (dispatch) {
+  
+    return {
+      loading: function (arg) {dispatch({
+          type: "loading",
+          message: "off"
+      })}
+      
+    }
+    
+  }
+
+export default connect(mapStateToProps, mapDispatchToProps)(FrontPage);

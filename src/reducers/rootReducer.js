@@ -8,10 +8,13 @@ import english from './textenglish.js';
 var initState = {
 
     texts: finnish,
+    loadingscreen: "on"
 
 }
 
 const rootReducer = (state=initState, action) => { 
+
+
 
 if (action.type === "change") {
     
@@ -32,6 +35,17 @@ if (action.type === "change") {
         }
         
     }
+
+
+}
+
+if (action.type === "loading") {
+
+    return {
+        ...state,
+        loadingscreen: "off"
+    }
+
 
 }
 

@@ -1,7 +1,39 @@
+#loadingscreen {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 10000;
+    background: var(--sky1);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  #loadingcircle {
+    border: 8px solid var(--sky1); /* Light grey */
+    border-top: 8px solid var(--yellow); /* Blue */
+    border-right: 8px solid var(--yellow); /* Blue */
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+
+
 
 #frontmain {
     position: relative;
-    min-height: calc(99vh - 144px - 100px - 20px);
+    min-height: calc(var(--window-height) - 144px - 100px - 20px);
     overflow-x: hidden;
     overflow-y: auto;
 
@@ -15,7 +47,7 @@
 
 #frontwrap {
     position: relative;
-    min-height: calc(99vh - 144px - 100px - 20px);
+    min-height: calc(var(--window-height) - 144px - 100px - 20px);
     overflow: hidden;
     display: grid;
     grid-template-columns: 1fr;
@@ -144,13 +176,13 @@
 
     #frontmain {
         position: relative;
-        min-height: calc(99vh - 50px - 100px);
+        min-height: calc(var(--window-height) - 50px - 100px);
 
     }
     
     #frontwrap {
 
-        min-height: calc(99vh - 50px - 100px);
+        min-height: calc(var(--window-height) - 50px - 100px);
 
     }
 

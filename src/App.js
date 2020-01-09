@@ -80,9 +80,12 @@ background.appendChild(renderer.domElement);
 
 
 window.addEventListener('resize', function () {
+
   renderer.setSize(window.innerWidth, window.innerHeight);
   camera.aspect = window.innerWidth / window.innerHeight;
   camera.updateProjectionMatrix();
+
+
 })
 
 
@@ -224,9 +227,9 @@ animate();
   return (
     <BrowserRouter>
     <div id="App" className="App">
-    <div id="loadingscreen">
-      <div id="loadingcircle"></div>
-    </div>
+
+
+
     <div id="background">
     </div>
     <div id="clouds">
@@ -236,18 +239,18 @@ animate();
     </div>
       <Header />
       <Route exact path='/' component={FrontPage}/>
-      <Route exact path='/who' component={Who}/>
-      <Route exact path='/services' component={Services}/>
-      <Route exact path='/shows' component={Shows}/>
-      <Route exact path='/show' component={Show}/>
-      <Route exact path='/pictures' component={Pictures}/>
-      <Route exact path='/videos' component={Videos}/>
-      <Route exact path='/articles' component={Articles}/>
-      <Route exact path='/media' component={Media}/>
-      <Route exact path='/offer' component={Offer}/>
-      <Route exact path='/contact' component={Contact}/>
+      <Route path='/who' component={Who}/>
+      <Route path='/services' component={Services}/>
+      <Route path='/shows' component={Shows}/>
+      <Route path='/show' component={Show}/>
+      <Route path='/pictures' component={Pictures}/>
+      <Route path='/videos' component={Videos}/>
+      <Route path='/articles' component={Articles}/>
+      <Route path='/media' component={Media}/>
+      <Route path='/offer' component={Offer}/>
+      <Route path='/contact' component={Contact}/>
 
-      <Route exact path='/formsent' component={FormSent}/>
+      <Route path='/formsent' component={FormSent}/>
     </div>
     </BrowserRouter>
   );
