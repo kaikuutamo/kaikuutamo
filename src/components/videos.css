@@ -60,5 +60,9 @@ position: relative;
 }
 
 #kaiyoutube {
-    color: white;
+    color: var(--text3);
+}
+
+#kaiyoutube:hover {
+    color: var(--yellow);
 }

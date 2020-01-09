@@ -19,6 +19,7 @@ import Contact from './components/contact'
 import FormSent from './components/formsent'
 
 import kuu from './pictures2/kuu.png'
+import kaitsu from './pictures2/kaitsu.png'
 
 import pilvi1 from './pictures2/cloud1.png'
 import pilvi2 from './pictures2/cloud2.png'
@@ -79,9 +80,12 @@ background.appendChild(renderer.domElement);
 
 
 window.addEventListener('resize', function () {
+
   renderer.setSize(window.innerWidth, window.innerHeight);
   camera.aspect = window.innerWidth / window.innerHeight;
   camera.updateProjectionMatrix();
+
+
 })
 
 
@@ -129,6 +133,8 @@ function createStars ()  {
 // Image loader
 
 var map = new THREE.TextureLoader().load( kuu );
+var map2 = new THREE.TextureLoader().load( kaitsu );
+
 var material2 = new THREE.SpriteMaterial( {
    map: map,
    color: 0xffffff
@@ -140,16 +146,30 @@ var material2 = new THREE.SpriteMaterial( {
     color: 0xffffff
     
    } );
+
+   var material4 = new THREE.SpriteMaterial( {
+    map: map2,
+    color: 0xffffff
+    
+   } );
+
+   
 var sprite = new THREE.Sprite( material2 );
 sprite.scale.set(10, 10, 1)
-sprite.position.set(0, 0, 50)
+sprite.position.set(-25, 0, 43.30)
 scene.add( sprite );
 
 
 var sprite2 = new THREE.Sprite( material3 );
-sprite2.position.set(0, 0, -50)
+sprite2.position.set(-25, 0, -43.30)
 sprite2.scale.set(10, 10, 1)
 scene.add( sprite2 );
+
+
+var sprite3 = new THREE.Sprite( material4 );
+sprite3.position.set(50, 0, 0)
+sprite3.scale.set(11, 11, 1)
+scene.add( sprite3 );
 
 
 
@@ -177,7 +197,9 @@ function animate () {
 
   material3.rotation += 0.01;
 
-controls.update();
+  material4.rotation -= 0.01;
+
+  controls.update();
 
 
 
@@ -205,6 +227,9 @@ animate();
   return (
     <BrowserRouter>
     <div id="App" className="App">
+
+
+
     <div id="background">
     </div>
     <div id="clouds">
@@ -214,18 +239,18 @@ animate();
     </div>
       <Header />
       <Route exact path='/' component={FrontPage}/>
-      <Route exact path='/who' component={Who}/>
-      <Route exact path='/services' component={Services}/>
-      <Route exact path='/shows' component={Shows}/>
-      <Route exact path='/show' component={Show}/>
-      <Route exact path='/pictures' component={Pictures}/>
-      <Route exact path='/videos' component={Videos}/>
-      <Route exact path='/articles' component={Articles}/>
-      <Route exact path='/media' component={Media}/>
-      <Route exact path='/offer' component={Offer}/>
-      <Route exact path='/contact' component={Contact}/>
+      <Route path='/who' component={Who}/>
+      <Route path='/services' component={Services}/>
+      <Route path='/shows' component={Shows}/>
+      <Route path='/show' component={Show}/>
+      <Route path='/pictures' component={Pictures}/>
+      <Route path='/videos' component={Videos}/>
+      <Route path='/articles' component={Articles}/>
+      <Route path='/media' component={Media}/>
+      <Route path='/offer' component={Offer}/>
+      <Route path='/contact' component={Contact}/>
 
-      <Route exact path='/formsent' component={FormSent}/>
+      <Route path='/formsent' component={FormSent}/>
     </div>
     </BrowserRouter>
   );

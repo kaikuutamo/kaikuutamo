@@ -916,10 +916,20 @@ promo:
 
 <div id="promopics">
 
+<div className="promopiccont">
 <a href="pictures7/kaikuutamo-promo1.jpg" rel="noopener noreferrer" target="blank"><img className="promopic" src="pictures7/promo1pieni.jpg" alt="Promo"></img></a>
-<a href="pictures7/kaikuutamo-promo2.PNG" rel="noopener noreferrer" target="blank"><img className="promopic" src="pictures7/promo2pieni.jpg" alt="Promo"></img></a>
+<p>Kuvaaja: joku tyyppi</p>
+</div>
 
+<div className="promopiccont">
+<a href="pictures7/kaikuutamo-promo2.PNG" rel="noopener noreferrer" target="blank"><img className="promopic" src="pictures7/promo2pieni.jpg" alt="Promo"></img></a>
+<p>Kuvaaja: joku toinen tyyppi</p>
+</div>
+
+<div className="promopiccont">
 <a id="promopic3" href="pictures7/kaikuutamo-promo3.jpg" rel="noopener noreferrer" target="blank"><img className="promopic" src="pictures7/promo3pieni.jpg" alt="Promo"></img></a>
+<p>fdjskfjksjkdfjksjdfkjksjdkfjksjdfkjksjkdfjksjkdfjksjdfkj</p>
+</div>
 
 </div>
 

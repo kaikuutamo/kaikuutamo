@@ -10,11 +10,20 @@
     margin-bottom: 25px;
     grid-gap: 10px;
     box-sizing: border-box;
+    word-break: break-word;
 }
 
 #promopics img {
     width: 100%;
+    transition: filter 0.1s;
 }
+
+#promopics img:hover {
+    filter: brightness(0.5);
+
+}
+
+
 
 #promopic3 {
     grid-column-start: 1;

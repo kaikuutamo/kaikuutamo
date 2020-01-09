@@ -3,7 +3,8 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import {connect} from 'react-redux';
 
-import {TweenMax} from "gsap/TweenMax";
+import gsap from "gsap";
+
 
 import logo from '../pictures/logo2.png'
 import logo2 from '../pictures/logo3.png'
@@ -50,17 +51,17 @@ mobileMenu = () => {
     var height = window.innerHeight - 50;
 
     if (this.status === "off") {
-        TweenMax.to(ham, 0.5, {transform: "rotate(-90deg)"})
-        TweenMax.to(menu, 0.5, {height: height})
-        tween = TweenMax.to(nav, 0, {display: "initial", delay: 0.5})
+        gsap.to(ham, 0.5, {transform: "rotate(-90deg)"})
+        gsap.to(menu, 0.5, {height: height})
+        tween = gsap.to(nav, 0, {display: "initial", delay: 0.5})
         this.status = "on";
     }
 
     else if (this.status === "on") {
         tween.kill();
-        TweenMax.to(nav, 0, {display: "none"})
-        TweenMax.to(ham, 0.5, {transform: "rotate(0deg)"})
-        TweenMax.to(menu, 0.5, {height: "0%"})
+        gsap.to(nav, 0, {display: "none"})
+        gsap.to(ham, 0.5, {transform: "rotate(0deg)"})
+        gsap.to(menu, 0.5, {height: "0%"})
         this.status = "off";
     }
 
