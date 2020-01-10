@@ -226,7 +226,7 @@ class Offer extends React.Component {
             <p>Sisä- vai ulkotila, jos tiedossa</p>
             <input className="maininput" name="inout" onChange={this.form} type="text"></input>
 
-            <p className="textwithmargin">Äänentoistolaitteet käytettävissä</p>
+            <p className="textwithmargin">Onko paikalla äänentoistolaitteet käytettävissä?</p>
 
             <div className="checkbox">
 
@@ -248,7 +248,7 @@ class Offer extends React.Component {
                         
             </div>
 
-            <p className="textwithmargin">Jätä viesti!</p>
+            <p className="textwithmargin">Viesti. Kerro myös, jos mielessä on jokin tietty esityksemme.</p>
 
             <textarea onChange={this.changeText} id="textarea" rows="7" cols="50">
 
