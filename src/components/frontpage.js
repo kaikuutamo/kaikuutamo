@@ -51,9 +51,9 @@ loadPic = () => {
 
 
         if (this.props.loadingscreen === "on") {
-            gsap.to(loadingScreen, 1, {opacity: 0, delay: 2})
-            gsap.to(loadingScreen, 1, {display: "none", delay: 3});
-            gsap.to(loadingCircle, 0, {animation: "none", delay: 3});
+            gsap.to(loadingScreen, 0.8, {opacity: 0, delay: 1})
+            gsap.to(loadingScreen, 0, {display: "none", delay: 2});
+            gsap.to(loadingCircle, 0, {animation: "none", delay: 2});
         }
 
         this.props.loading();

@@ -1,6 +1,23 @@
 
 /* who.css */
 
+.showbreak {
+
+    width: 70%;
+    height: 1px;
+    background: white;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.showbreak2 {
+
+    height: 5px;
+
+}
+
+
 .showpic {
     width: 100%;
 }

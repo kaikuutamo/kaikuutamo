@@ -295,7 +295,6 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös SIRKUSSIRKUS PUTIIKIN omistaj
                 </div>
             },
 
-
             show:
 
 
@@ -316,7 +315,7 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös SIRKUSSIRKUS PUTIIKIN omistaj
                     </div>
                     </div>
 
-                    <br></br>
+                    <div className="showbreak"></div>
 
                     <div className="tableintro">
                     <div className="tabletext">
@@ -333,22 +332,23 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös SIRKUSSIRKUS PUTIIKIN omistaj
                     </div>
                     </div>
 
-                    <br></br>
+                    <div className="showbreak"></div>
 
                     <div className="tableintro">
                     <div className="tabletext">
 
                         <p>"Kai Kuutamo on vakuuttavan karismaattinen esiintyjä. Yhteys yleisöön syntyy hetkessä ja katsomo sulaa helposti nauruun ja aplodeihin."</p>
                         <p>- Turun Sanomat</p>
+                        <div className="showbreak2"></div>
                         <p>"Although I am blind I could feel your energy. It was a pleasure to experience your show."</p>
                         <p>- sokea afrikkalainen mies</p>
-                        <br></br>
+                        <div className="showbreak2"></div>
                         <p>"Sä olet paras esiintyjä!"</p>
                         <p>- ala-astelainen</p>
-                        <br></br>
+                        <div className="showbreak2"></div>
                         <p>"Olipa mielenkiintoinen ja piristävä esitys!"</p>
                         <p>- mies vanhainkodissa</p>
-                        <br></br>
+                        <div className="showbreak2"></div>
                     </div>
                     </div>
 
@@ -382,7 +382,7 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös SIRKUSSIRKUS PUTIIKIN omistaj
                         </div>
                         </div>
     
-                        <br></br>
+                        <div className="showbreak"></div>
     
                         <div className="tableintro">
                         <div className="tabletext">
@@ -397,26 +397,26 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös SIRKUSSIRKUS PUTIIKIN omistaj
                             
                         </div>
                         </div>
-    <br></br>
+    <div className="showbreak"></div>
 
                             <div className="tableintro">
                     <div className="tabletext">
                         <p>”Kuutamo tietää, miten sirkusta tehdään lapsille. Yleisöä kuunnellaan esityksen aikana ja katusirkukselle tyypillinen rento läsnäolo puree myös aikuisiin.”</p>
                         <p>- Turun Sanomat</p>
-                        <br></br>
+                        <div className="showbreak2"></div>
                         <p>"Moi Kai, esityksestä jäi todella hyvä mieli. Siitä välittyi yleisöään kunnioittava ammatillinen ote."</p>
                         <p>- Yt. Maarit Kallioniemi, lastentarhanopettaja, Turku </p>
-                        <br></br>
+                        <div className="showbreak2"></div>
                         <p>"Tykkäsin todella paljon, ja lapset olivat aivan haltioissaan. Mukavaa kun otit huomioon myös yleisöstä tulleet lukuisat kommentit."</p>
                         <p>- Päiväkodin Johtaja, Aura</p>
-                        <br></br>
+                        <div className="showbreak2"></div>
                         <p>"Olit todella läsnä lasten kanssa ja otit heidät hienosti mukaan esitykseen."</p>
                         <p>- Ohjaaja, Silvan päiväkoti, Kemiö</p>
-                        <br></br>
+                        
                     </div>
                     </div>
     
-                        <br></br>
+                        <div className="showbreak"></div>
 
                         <div className="tableintro">
                     <div className="tabletext">
@@ -424,7 +424,7 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös SIRKUSSIRKUS PUTIIKIN omistaj
                         <p> <a className="showlink" href="http://www.matkalaukkusirkus.com" target="blank">www.matkalaukkusirkus.com</a></p>   
                     </div>
                     </div>
-                    <br></br>
+                    
 
 
                         <div className="moremargin"></div>
@@ -452,7 +452,7 @@ show4:
     </div>
     </div>
 
-    <br></br>
+    <div className="showbreak"></div>
 
     <div className="tableintro">
     <div className="tabletext">
@@ -466,8 +466,7 @@ show4:
     </div>
     </div>
    
-    <br></br>
-
+    
     <div className="moremargin"></div>
 
 </div>,
@@ -495,7 +494,7 @@ show4_pics: ["./pictures5/tuliesitys_prasu1.jpg","./pictures5/tuliesitys_prasu8.
                     </div>
                     </div>
 
-                    <br></br>
+                    <div className="showbreak"></div>
 
                     <div className="tableintro">
                     <div className="tabletext">
@@ -510,7 +509,7 @@ show4_pics: ["./pictures5/tuliesitys_prasu1.jpg","./pictures5/tuliesitys_prasu8.
                     </div>
                     </div>
 
-                    <br></br>
+                    <div className="showbreak"></div>
 
                     <div className="tableintro">
                     <div className="tabletext">
@@ -545,7 +544,7 @@ show3:
                     </div>
                     </div>
 
-                    <br></br>
+                    <div className="showbreak"></div>
 
                     <div className="tableintro">
                     <div className="tabletext">
@@ -560,30 +559,30 @@ show3:
                     </div>
                     </div>
 
-                    <br></br>
+                    <div className="showbreak"></div>
 
                     <div className="tableintro">
                     <div className="tabletext">
                         <p>"Tää oli kyllä kivointa mitä meillä on täällä ikinä ollut!"</p>
                         <p>- Vanhainkodin asukas, Nauvo</p>
-                        <br></br>
+                        <div className="showbreak2"></div>
 
                         <p>"Jopa Pena (nimi muutettu), jolla on 10% näöstä jäljellä, nautti esityksestä."</p>
                         <p>- Vanhainkodin hoitaja, Helsinki</p>
-                        <br></br>
+                        <div className="showbreak2"></div>
 
                         <p>"Mukavaa kun oli huumoria mukana. Koko esityksen ajan hymyilytti."</p>
                         <p>- Vanhainkodin asukas, Turku</p>
-                        <br></br>
+                        <div className="showbreak2"></div>
 
                         <p>"Teette hyvää työtä, pojat. Olette taitavia, lahjakkaita ja iloisia."</p>
                         <p>- Vanhainkodin asukas, Hyvinkää</p>
-                        <br></br>
+                        <div className="showbreak2"></div>
 
                         <p>"Juuri oikean mittainen ja oikeanlainen esitys meidän asukeille."</p>
                         <p>- Vanhainkodin hoitaja, Helsinki</p>
-                        <br></br>                        
-
+                                                
+                        <div className="showbreak"></div>
 
                     </div>
                     </div>
@@ -598,7 +597,7 @@ show3:
                     </div>
                     </div>
 
-   
+                       
 
 
                     <div className="moremargin"></div>
@@ -636,7 +635,7 @@ show6:
                     </div>
                     </div>
 
-                    <br></br>
+                    <div className="showbreak"></div>
 
                     <div className="tableintro">
                     <div className="tabletext">
@@ -679,7 +678,7 @@ show8:
                     </div>
                     </div>
 
-                    <br></br>
+                    <div className="showbreak"></div>
 
                     <div className="tableintro">
                     <div className="tabletext">
@@ -690,14 +689,14 @@ show8:
                     </div>
                     </div>
 
-                    <br></br>
+                    <div className="showbreak"></div>
 
                     <div className="tableintro">
                     <div className="tabletext">
                         <p>"Juuri tällaista huumoria pitää täällä olla!"</p>
                         <p>- Mies Turun Keskiaikaisilla Markkinoilla</p>
 
-                        <br></br>
+                        <div className="showbreak2"></div>
 
                         <p>"Markkinoiden paras ja hauskin esitys. Ehdottomasti!"</p>
                         <p>- Nainen Turun Keskiaikaisilla Markkinoilla</p>
@@ -711,12 +710,10 @@ show8:
                     </div>,
 
                     show8_pics: ["./pictures5/narrit1.jpg", "./pictures5/narrit3.jpg", "./pictures5/narrit4.jpg", "./pictures5/narrit5.jpg", "./pictures5/narrit6.jpg", "./pictures5/narrit8.jpg", "./pictures5/narrit7.jpg", "./pictures5/leikarit.jpg", "./pictures5/urhonarri.jpg"],
-
-
-
-                
+   
 
             },
+            
 
             articles: 
 
@@ -729,118 +726,118 @@ show8:
             <div className="tableintro">
             <div className="tabletext">
 
-            <br></br>
+            <div className="articlebreak"></div>
             
             <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2019-aamuset.jpg" target="_blank"><p>Merkkarit & Kai Kuutamo juhlakeikalla Vimmassa</p></a>
             <p><span className="articlenewspaper">Aamuset 19.11.2019</span></p>
     
-            <br></br>
+            <div className="articlebreak"></div>
 
             <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2019-turunsanomat-2.jpg" target="_blank"><p>Sirkusarvio: Katusirkuksen rentous kohtaa lastensirkuksen kirjavuuden jonglööri Kai Kuutamon kiertue-esityksessä</p></a>
             <p><span className="articlenewspaper">Turun Sanomat 29.9.2019</span></p>
     
-            <br></br>
+            <div className="articlebreak"></div>
 
             <a className="articlelink" rel="noopener noreferrer" href="https://turunseutusanomat.fi/2019/06/harvaluodon-rannalla-keskikesaa-juhlisti-arviolta-yli-600-ihmista/?fbclid=IwAR3UfAptx0jmS5qV1JKButKJ2Wn79-axxwt-YhveYTjpLPvq_r6lkkjnrRc" target="_blank"><p>Harvaluodon rannalla keskikesää juhlisti arviolta yli 600 ihmistä</p></a>
             <p><span className="articlenewspaper">Turun Seutusanomat 25.6.2019</span></p>
     
-            <br></br>
+            <div className="articlebreak"></div>
 
 
             <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2019-turunsanomat-3.jpg" target="_blank"><p>Seikkisrockin yhdistämät</p></a>
             <p><span className="articlenewspaper">Turun Sanomat 2019 kesäkuu</span></p>
     
-            <br></br>
+            <div className="articlebreak"></div>
 
             <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2019-turunsanomat-1.jpg" target="_blank"><p>Taiturimaisia temppuja ja vuorovaikutusta</p></a>
             <p><span className="articlenewspaper">Turun Sanomat 13.4.2019</span></p>
     
-            <br></br>
+            <div className="articlebreak"></div>
 
             <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2018-aamuset.jpg" target="_blank"><p>Sirkusta Tunteella - Sirkusputiikin kauppias haluaa vähentää kuluttamista</p></a>
             <p><span className="articlenewspaper">Aamuset 14.2.2018</span></p>
     
-            <br></br>
+            <div className="articlebreak"></div>
 
             <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2017-turunsanomat-3.jpg" target="_blank"><p>Kohti Loveen Lankeamista</p></a>
             <p><span className="articlenewspaper">Turun Sanomat 2017 Lokakuu</span></p>
     
-            <br></br>
+            <div className="articlebreak"></div>
 
             <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2017-turunsanomat-2.jpg" target="_blank"><p>Pohjolan Äijä saapuu Metsäkirkkoon</p></a>
             <p><span className="articlenewspaper">Turun Sanomat 2017 Syyskuu</span></p>
     
-            <br></br>
+            <div className="articlebreak"></div>
 
             <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2017-turunsanomat-1.jpg" target="_blank"><p>Rokkimusaa ja jongleerausta</p></a>
             <p><span className="articlenewspaper">Turun Sanomat 28.5.2017</span></p>
     
-            <br></br>
+            <div className="articlebreak"></div>
 
             <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2017-turuntienoo.jpg" target="_blank"><p>Merimiesrock sekoitti Ruskotalon nuoren yleisön</p></a>
             <p><span className="articlenewspaper">Turun Tienoo 13.4.2017</span></p>
     
-            <br></br>
+            <div className="articlebreak"></div>
 
             <a className="articlelink" rel="noopener noreferrer" href="http://www.auranaallot.fi/uutiset/paikallinen/festivaali-joka-juhlii-kaikkea-samanaikaisesti-monisyinen-festivaali?fbclid=IwAR3V4Je-MOtEchTinkZbd_mXRbYcl3ZbiMA5aP2obNpmwIKw6K6PZTMtg2c" target="_blank"><p>Festivaali, joka juhlii kaikkea samanaikaisesti on monisyinen festivaali</p></a>
             <p><span className="articlenewspaper">Auran Aallot 2015</span></p>
 
-            <br></br>
+            <div className="articlebreak"></div>
 
             <a className="articlelink" rel="noopener noreferrer" href="https://www.ts.fi/uutiset/paikalliset/796198/Sirkustaiteilija+Kai+Kuutamo+rikkoi+jongleerauksen+Suomen+ennatyksen" target="_blank"><p>Sirkustaiteilija Kai Kuutamo rikkoi jongleerauksen Suomen ennätyksen</p></a>
             <p><span className="articlenewspaper">Turun Sanomat 18.7.2015</span></p>
 
-            <br></br>
+            <div className="articlebreak"></div>
 
             <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2015-paivakummunsanomat.jpg" target="_blank"><p>Sirkushuveja, taikatemppuja ja akrobatiaa hoitokodeissa</p></a>
             <p><span className="articlenewspaper">Hoitokoti Päiväkummun Sanomat 1/2015</span></p>
     
-            <br></br>
+            <div className="articlebreak"></div>
 
             <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2014-fidea.jpg" target="_blank"><p>Circus Kampot - Suomalainen sirkuskoulu Kambodzassa</p></a>
             <p><span className="articlenewspaper">Fidea Suomen Draama- ja Teatteriopetuksen liiton jäsenlehti 2014</span></p>
          
-            <br></br>
+            <div className="articlebreak"></div>
 
             <a className="articlelink" rel="noopener noreferrer" href="https://www.ts.fi/kulttuuri/519198/Rytmikasta+jongleerausta" target="_blank"><p>Rytmikästä Jongleerausta</p></a>
             <p><span className="articlenewspaper">Turun Sanomat 6.8.2013</span></p>
 
-            <br></br>
+            <div className="articlebreak"></div>
 
             <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2012-aamuset.jpg" target="_blank"><p>Elämä yhtä sirkusta</p></a>
             <p><span className="articlenewspaper">Aamuset 2012 heinäkuu</span></p>
 
-            <br></br>
+            <div className="articlebreak"></div>
 
             <a className="articlelink" rel="noopener noreferrer" href="https://www.ts.fi/kulttuuri/380163/Maailma+on+erilainen+sirkustaiteilijan+silmin" target="_blank"><p>Maailma on erilainen sirkustaiteilijan silmin</p></a>
             <p><span className="articlenewspaper">Turun Sanomat 19.8.2012</span></p>
 
-            <br></br>
+            <div className="articlebreak"></div>
 
             <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2012-turunsanomat.jpg" target="_blank"><p>Kuutamo tarjoaa logistiikkaa ja sirkushuveja</p></a>
             <p><span className="articlenewspaper">Turun Sanomat 2012 elokuu</span></p>
 
-            <br></br>
+            <div className="articlebreak"></div>
 
             <a className="articlelink" rel="noopener noreferrer" href="http://tstv.fi/video/2699" target="_blank"><p>Sirkustaiteilija pahvilaatikoiden keskellä</p></a>
             <p><span className="articlenewspaper">TS-TV 13.8.2012</span></p>
 
-            <br></br>
+            <div className="articlebreak"></div>
 
             <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2010-turunsanomat.jpg" target="_blank"><p>Ihan Jonglöörinä</p></a>
             <p><span className="articlenewspaper">Turun Sanomat 22.1.2010</span></p>
 
-            <br></br>
+            <div className="articlebreak"></div>
 
             <a className="articlelink" rel="noopener noreferrer" href="http://www.ts.fi/viihde/1074295603/Lapsille+raataloity+sirkus+taituroi+Seikkispuistossa" target="_blank"><p>Lapsille räätälöity sirkus taituroi Seikkailupuistossa</p></a>
             <p><span className="articlenewspaper">Turun Sanomat 19.7.2008</span></p>
 
-            <br></br>
+            <div className="articlebreak"></div>
 
             <a className="articlelink" rel="noopener noreferrer" href="http://www.ts.fi/viihde/1074183475/Kun+jongloori+palaa+kotiinsa" target="_blank"><p>Kun jonglööri palaa kotiinsa</p></a>
             <p><span className="articlenewspaper">Turun Sanomat 27.2.2007</span></p>
 
-            <br></br>
+            <div className="articlebreak"></div>
 
 
             </div>
