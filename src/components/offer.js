@@ -162,7 +162,7 @@ class Offer extends React.Component {
 
             /* ------------------------------- */
 
-            console.log(emailText)
+            
 
             var link = document.getElementById("linktoformsent");
 
