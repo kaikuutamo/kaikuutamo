@@ -266,7 +266,7 @@ show:
         <div className="tableintro">
         <div className="tabletext">
             <p>"Although I am blind I could feel your energy. It was a pleasure to experience your show."</p>
-            <p>- sokea afrikkalainen mies</p>
+            <p>- Akim Color</p>
             <br></br>
             <p>"Sä olet paras esiintyjä!"</p>
             <p>- ala-astelainen</p>

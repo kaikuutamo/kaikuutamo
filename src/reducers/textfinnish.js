@@ -8,10 +8,10 @@ var finnish = {
 
     frontpage: {
 
-        "text": "\"Although I am blind I could feel your energy.\"", 
-        "text2": "- sokea afrikkalainen mies",
-        "words": ["\"Although I am blind I could feel your energy.\"", "\"Kuutamo tietää, miten sirkusta tehdään lapsille.\"", "\"Kai Kuutamo on vakuuttavan karismaattinen esiintyjä.\""],
-        "words2": ["- Sokea afrikkalainen mies", "- Turun Sanomat", "- Turun Sanomat"]
+        "text": "Esityksiä kaikkiin tilaisuuksiin!", 
+        "text2": "Ohjelmaa kaikenikäisille!",
+        "words": ["Esityksiä kaikkiin tilaisuuksiin!", "\"Kuutamo tietää, miten sirkusta tehdään lapsille.\"", "\"Kai Kuutamo on vakuuttavan karismaattinen esiintyjä.\""],
+        "words2": ["Ohjelmaa kaikenikäisille!", "- Turun Sanomat", "- Turun Sanomat"]
 
     },
 
@@ -119,7 +119,7 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös SIRKUSSIRKUS PUTIIKIN omistaj
 
              <p>Peruskurssi tai vastaava avoin jongleeraustyöpaja sopii niin yritystilaisuuksiin kuin esimerkiksi lastentapahtumiin. Tuomme välineet mukanamme sovitulle määrälle oppilaita, eikä osanottajilta vaadita muuta kuin mukavat vaatteet ja avoin mieli.</p> 
              
-                 <p>Tutustumiskurssilla välineenä ovat lähtökohtaisesti pallot, ja pyrkimyksenä on oppia kolmen pallon jongleeraus, mutta tilaajan toiveesta voimme keskittyä pallojen sijaan myös esimerkiksi renkaisiin, keiloihin tai diaboloon. Avoimmessa tai useamman tunnin työpajassa voidaan tutustua moneen eri välineeseen.</p> 
+                 <p>Tutustumiskurssilla välineenä ovat lähtökohtaisesti pallot, ja pyrkimyksenä on oppia kolmen pallon jongleeraus, mutta tilaajan toiveesta voimme keskittyä pallojen sijaan myös esimerkiksi renkaisiin, keiloihin tai diaboloon. Avoimessa tai useamman tunnin työpajassa voidaan tutustua moneen eri välineeseen.</p> 
              
                  <p>Lapsille suosituin työpajamalli on ollut avoin työpaja, jossa on paljon eri välineitä ja mukaan voi tulla ja myös lähteä missä kohtaa vain.</p>
              
@@ -276,14 +276,20 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös SIRKUSSIRKUS PUTIIKIN omistaj
                 title1: <h2 className="showstitle">Sooloesitykset</h2>,
                 title2: <h3 className="showstitle">Kumppanit ja ryhmät</h3>,
 
-                old: 
+                old:
+                <div>
                 <div id="wholinks">
-                <h2>Poistuneet ohjelmistosta toistaiseksi</h2>
+                    <h2>Muut esitykset</h2>
 
-                <p style={{paddingTop: "5px"}}><a href="http://www.sirkussirkus.com/joulupukki/" rel="noopener noreferrer" target="blank">Joulupukki ja Tempputonttu - Lasten Joululaulusirkusshow</a></p>
-                <p style={{paddingTop: "5px"}}><a href="http://www.sirkussirkus.com/kkaa/" rel="noopener noreferrer" target="blank">Kai Kuutamo & Aimo Annos - Sirkus- ja musiikkispektaakkeli</a></p>
-                <p style={{paddingTop: "5px"}}><a href="http://www.sirkussirkus.com/northman/" rel="noopener noreferrer" target="blank">Pohjolan Äijä</a></p>
-                <p style={{paddingTop: "5px"}}><a href="http://www.sirkussirkus.com/specialdelivery/" rel="noopener noreferrer" target="blank">Special Delivery</a></p>
+                <p><a href="http://www.sirkussirkus.com/joulupukki/" rel="noopener noreferrer" target="blank">Joulupukki ja Tempputonttu - Lasten Joululaulusirkusshow</a></p>
+                <p><a href="http://www.sirkussirkus.com/kkaa/" rel="noopener noreferrer" target="blank">Kai Kuutamo & Aimo Annos - Sirkus- ja musiikkispektaakkeli</a></p>
+                <p><a href="http://www.sirkussirkus.com/northman/" rel="noopener noreferrer" target="blank">Pohjolan Äijä</a></p>
+                </div>
+
+                <div id="wholinks">
+                <h2>Poistuneet ohjelmistosta</h2>
+
+                <p><a href="http://www.sirkussirkus.com/specialdelivery/" rel="noopener noreferrer" target="blank">Special Delivery</a></p>
                 <p><a href="http://www.sirkussirkus.com/tisch/" rel="noopener noreferrer" target="blank">Tisch</a></p>
                 <p><a href="https://www.youtube.com/watch?v=GYFoVHWFQDA" rel="noopener noreferrer" target="blank">ALL IN</a></p>
                 <p><a href="https://www.youtube.com/watch?v=4PS4xrsHZlg" rel="noopener noreferrer" target="blank">Kai Kuutamo & Miriam Tuominen</a></p>
@@ -291,7 +297,7 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös SIRKUSSIRKUS PUTIIKIN omistaj
                 <p><a href="http://www.sirkussirkus.com/sirkuskunta/esitykset.html" rel="noopener noreferrer" target="blank">Taitureita ja Tunareita</a></p>
                 <p><a href="http://www.sirkussirkus.com/sirkuskunta/esitykset.html" rel="noopener noreferrer" target="blank">Punaisen Maneesin Kirjava Sirkus</a></p>
                 <p><a href="http://www.sirkussirkus.com/kotiinpaluu/" rel="noopener noreferrer" target="blank">Kotiinpaluu</a></p>
-
+                </div>
                 </div>
             },
 
@@ -340,8 +346,9 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös SIRKUSSIRKUS PUTIIKIN omistaj
 
                         <p>"Kai Kuutamo on vakuuttavan karismaattinen esiintyjä. Yhteys yleisöön syntyy hetkessä ja katsomo sulaa helposti nauruun ja aplodeihin."</p>
                         <p>- Turun Sanomat</p>
+                        <br></br>
                         <p>"Although I am blind I could feel your energy. It was a pleasure to experience your show."</p>
-                        <p>- sokea afrikkalainen mies</p>
+                        <p>- Akim Color, sokea muusikko</p>
                         <br></br>
                         <p>"Sä olet paras esiintyjä!"</p>
                         <p>- ala-astelainen</p>
@@ -358,9 +365,9 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös SIRKUSSIRKUS PUTIIKIN omistaj
 
                     show1_pics: ["./pictures5/kaikuutamoshow1.jpg", "./pictures5/kaikuutamoshow2.jpg", "./pictures5/kaikuutamoshow3.jpg", "./pictures5/kaikuutamoshow4.jpg", "./pictures5/kaikuutamoshow5.jpg", "./pictures5/kaikuutamoshow6.jpg", "./pictures5/kaikuutamoshow7.jpg", "./pictures5/kaikuutamoshow8.jpg", "./pictures5/kaikuutamoshow9.jpg"],
 
-                    show10: 
+    show10: 
 
-                    <div>
+    <div>
     
                         <img className="showpic" alt="Show" src="./pictures5/show10.jpg"></img>
     
@@ -399,7 +406,7 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös SIRKUSSIRKUS PUTIIKIN omistaj
                         </div>
     <br></br>
 
-                            <div className="tableintro">
+                    <div className="tableintro">
                     <div className="tabletext">
                         <p>”Kuutamo tietää, miten sirkusta tehdään lapsille. Yleisöä kuunnellaan esityksen aikana ja katusirkukselle tyypillinen rento läsnäolo puree myös aikuisiin.”</p>
                         <p>- Turun Sanomat</p>
@@ -410,8 +417,9 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös SIRKUSSIRKUS PUTIIKIN omistaj
                         <p>"Tykkäsin todella paljon, ja lapset olivat aivan haltioissaan. Mukavaa kun otit huomioon myös yleisöstä tulleet lukuisat kommentit."</p>
                         <p>- Päiväkodin Johtaja, Aura</p>
                         <br></br>
-                        <p>"Olit todella läsnä lasten kanssa ja otit heidät hienosti mukaan esitykseen."</p>
-                        <p>- Ohjaaja, Silvan päiväkoti, Kemiö</p>
+                        <p>"Esitys oli jymymenestys niin aikuisten kuin lastenkin mielestä, ja esitys oli myös sopiva kestoltaan."</p>
+                        <p>- Yt. Maria Lundén / Taoskujan päiväkodin vanhempainyhdistys, Turku</p>
+
                         <br></br>
                     </div>
                     </div>
@@ -490,7 +498,7 @@ show4_pics: ["./pictures5/tuliesitys_prasu1.jpg","./pictures5/tuliesitys_prasu8.
 
                         <p>Esityksessä soivat Merkkareiden omat kappaleet sekä klassikkolastenlaulut. Energinen esitys tempaa yleisön mukaansa, ja tututkin lastenlaulut saavat Merkkarien käsittelyssä aivan uutta virtaa. Kai Kuutamo esittelee kappaleiden säestämänä taitojaan eri jongleerausvälineillä ja johdattelee katsojat mukaan yhteisiin musiikkileikkeihin.</p>
 
-                        <p>MERKKARIT JA KAIKUUTAMO -ryhmän hauskan esityksen parissa viihtyvät helposti myös aikuiset ja nuoriso. Esitys sopii niin suurille festivaaliareenoille ja teatteritiloihin kuin myös pienempiin tilaisuuksiin, päiväkoteihin ja kouluihin.</p>
+                        <p>MERKKARIT JA KAI KUUTAMO -ryhmän hauskan esityksen parissa viihtyvät helposti myös aikuiset ja nuoriso. Esitys sopii niin suurille festivaaliareenoille ja teatteritiloihin kuin myös pienempiin tilaisuuksiin, päiväkoteihin ja kouluihin.</p>
 
                     </div>
                     </div>
@@ -628,7 +636,7 @@ show6:
                     <div className="tabletext">
                          
 
-                        <p> Yllä tapahtumasi kanssa uusiin korkeuksiin Pitkä Ranen ja kumppanien avulla! Rainhard Reisiheisi tunnetaan kaverien kesken nimellä Pitkä Rane, ja kavereitahan Ranella riittää minne hän ikinä eksyykään! Pitkällä mitallaan hän tulee helposti huomatuksi, ja iloisen ulospäinsuuntautuneen luonteensa ansiosta hänen kanssa on helppo jutella päivän polttavista aiheista, räätälöidyistä vaatteista tai terveellisestä ruokavaliosta.</p>
+                        <p> Yllä tapahtumasi kanssa uusiin korkeuksiin Pitkä Ranen ja kumppanien avulla! Rainhard Reisiheisi tunnetaan kaverien kesken nimellä Pitkä Rane, ja kavereitahan Ranella riittää minne hän ikinä eksyykään! Pitkällä mitallaan hän tulee helposti huomatuksi, ja iloisen ulospäinsuuntautuneen luonteensa ansiosta hänen kanssaan on helppo jutella päivän polttavista aiheista, räätälöidyistä vaatteista tai terveellisestä ruokavaliosta.</p>
 
                         <p>Pitkä Ranella ei ole varsinaista omaa esitystä, vaan hänet voi tilata kiertelemään tapahtumiin, ja ottamaan kontaktia kävijöihin tai muuten vaan olemaan pitkänä. Lentolehtisten tai esimerkiksi ilmapallojen jakaminen onnistuu myös (tilaaja vastaa materiaaleista).</p>
 
@@ -671,9 +679,11 @@ show8:
 
                         <p>Sirkuskunnan Narrit tuovat keskiajan hengen ja hulvattoman meiningin luoksesi leikarimaisella katuesityksellään, joka esittelee yleisölleen aikansa ihmeitä kuten kapuloiden käsittelyä, käsillä tasapainoilua, tynnärin vanteiden pyöritystä, mahtityrväällä isottelua sekä KUOLEMANTEMPPUJA! Koko esitys on aina läpeensä juonnettu ja täynnä hullunkurista, mutta eteenpäin virtaavaa puhtia.</p>
 
-                        <p>Turun Keskiaikaisilta Markkinoilta ponnistaneet Sirkuskunnan Narrit ovat nauttineet vuosien varrella suurenmoista suosiota. He ovat esiintyneet Turun Keskiaikaisilla markkinoilla jo yli 10 vuoden ajan, ja nykyään he vierailevat jo melkein kaikissa Suomen suuremmissa keskiaikatapahtumissa jollain kokoonpanolla. Heitä tapaa myös säännöllisen epäsäännöllisesti Turun Linnan tapahtumissa.</p>
+                        <p>Turun Keskiaikaisilta Markkinoilta ponnistaneet Sirkuskunnan Narrit ovat nauttineet vuosien varrella suurenmoista suosiota. He ovat esiintyneet Turun Keskiaikaisilla markkinoilla jo yli 10 vuoden ajan, ja he ovat vierailleet jo kaikissa Suomen suurissa keskiaikatapahtumissa. Sirkuskunnan Narrit ovat myös tavallinen näky Turun Linann tapahtumissa ja he ovat esiintyneet jopa linnan kuninkaan salissa!</p>
 
-                        <p>Narreja on mahdollista palkata esiintymään 2-5 hengen ryhmässä, jossa jokaisella narrilla on aina muista poikkeava oma erikoistaitonsa. Pisimpään remmissä ovat matkustaneet narrit Urho, Suikki, Yrvänä ja Inkeri. Sirkuskunnan Narrien riveissä ovat vuosien varrella loistaneet myös narrit Elsa, Seikka, Elmeri, Riski-Jooseppi, Iita ja Ongervo.</p>
+                        <p>Narreja on mahdollista palkata esiintymään 1-5 hengen ryhmissä, jossa jokaisella narrilla on aina muista poikkeava oma erikoistaitonsa. Pisimpään remmissä ovat matkustaneet narrit Urho, Suikki, Yrvänä ja Inkeri. Sirkuskunnan Narrien riveissä ovat vuosien varrella loistaneet myös narrit Elsa, Seikka, Elmeri, Riski-Jooseppi, Iita ja Ongervo.</p>
+
+                        <p>Mutta ketä nämä narrit sitten ovat? Kaikki esiintyjät ovat sirkustaiteen ammattilaisia ja kokeneita esiintyjiä. Narrinimien takaa löytyvät Kai Kuutamo, Tuomas Vuorinen, Jukka Grönfors, Susanna Liinamaa, Heidi Aho, Petra Solar, Teemu Skön, Tiina Tuomisto, Pekka Laamanen ja Elina Vessonen.</p>
 
                         
                     </div>
@@ -683,10 +693,14 @@ show8:
 
                     <div className="tableintro">
                     <div className="tabletext">
-                        <p>Kesto: 10-30 min. riippuen toiveista ja esiintyjien määrästä.</p>
+                        <p>Kesto: 10-40 min. riippuen toiveista ja esiintyjien määrästä.</p>
+                        <p>Kohdeyleisö: Koko perhe. Voidaan myös suunnata tilaisuuden luonteen mukaan aikuisille.</p>
                         <p>Kieli: Suomi tai Englanti</p>
                         <p>Tila: Missä tahansa. Tasainen alusta ja tuulensuoja eduksi. Yleensä esitetty keskiaikatapahtumissa kadulla tai nurmikolla.</p>
-                        
+                        <p>Pystytys: 10 minuuttia</p>
+                        <p>Purku: 10 minuuttia</p>
+
+
                     </div>
                     </div>
 
@@ -710,7 +724,7 @@ show8:
 
                     </div>,
 
-                    show8_pics: ["./pictures5/narrit1.jpg", "./pictures5/narrit3.jpg", "./pictures5/narrit4.jpg", "./pictures5/narrit5.jpg", "./pictures5/narrit6.jpg", "./pictures5/narrit8.jpg", "./pictures5/narrit7.jpg", "./pictures5/leikarit.jpg", "./pictures5/urhonarri.jpg"],
+                    show8_pics: ["./pictures5/narrit1.jpg", "./pictures5/narrit3.jpg", "./pictures5/narrit4.jpg", "./pictures5/narrit5.jpg", "./pictures5/narrit6.jpg", "./pictures5/narrit8.jpg", "./pictures5/narrit7.jpg", "./pictures5/leikarit.jpg", "./pictures5/urhonarri.jpg", "./pictures5/narrit11.jpg", "./pictures5/lerssitorni.jpg", "./pictures5/narrit33.jpg"],
 
 
 
