@@ -8,9 +8,9 @@ var finnish = {
 
     frontpage: {
 
-        "text": "Although I am blind I could feel your energy.", 
+        "text": "\"Although I am blind I could feel your energy.\"", 
         "text2": "- sokea afrikkalainen mies",
-        "words": ["Although I am blind I could feel your energy.", "Kuutamo tietää, miten sirkusta tehdään lapsille.", "Kai Kuutamo on vakuuttavan karismaattinen esiintyjä."],
+        "words": ["\"Although I am blind I could feel your energy.\"", "\"Kuutamo tietää, miten sirkusta tehdään lapsille.\"", "\"Kai Kuutamo on vakuuttavan karismaattinen esiintyjä.\""],
         "words2": ["- Sokea afrikkalainen mies", "- Turun Sanomat", "- Turun Sanomat"]
 
     },
@@ -50,13 +50,13 @@ var finnish = {
      <div className="tabletext">
      
      <p>Kai Kuutamo on kansainvälisen uran luonut palkittu esiintyvä taiteilija. 
-Hän on korkeakoulutettu sirkustaiteilija ja myös Sirkussirkus Putiikin omistaja.</p>
+Hän on korkeakoulutettu sirkustaiteilija ja myös SIRKUSSIRKUS PUTIIKIN omistaja.</p>
 
-     <p>Uransa aikana Kuutamo on opiskellut jongleerausta Suomessa Lahdessa ja Turussa sekä Ukrainassa Kiovassa. Hän on esiintynyt Englannissa, Saksassa, Belgiassa, Ruotsissa, Eestissä, Thaimaassa ja Kambodzassa, voittanut katuesiintymisen Suomen mestaruuden, rikkonut jongleerauksen Suomen ennätyksen sekä pitänyt yllä kaksi vuotta ilmaista sirkuskoulua lapsille Kambodzassa (Circus Kampot).</p>
+     <p>Uransa aikana Kuutamo on opiskellut jongleerausta Suomessa Lahdessa ja Turussa sekä Ukrainassa Kiovassa. Hän on esiintynyt Englannissa, Saksassa, Belgiassa, Ruotsissa, Eestissä, Thaimaassa ja Kambodzassa, voittanut katuesiintymisen Suomen mestaruuden, rikkonut jongleerauksen Suomen ennätyksen sekä pitänyt yllä kaksi vuotta ilmaista sirkuskoulua lapsille Kambodzassa (CIRCUS KAMPOT).</p>
      
-     <p>Nykyään hän työskentelee pääasiassa Suomessa esiintyen yksin, muiden sirkustaiteilijoiden kanssa (Herttakuninkaat, Sirkuskunnan Narrit) tai muusikoiden kanssa (Merkkarit, Arttu Aarnio, Sakari Kivinen). Esiintymispaikat vaihtelevat lastenfestivaaleista vanhainkoteihin sekä suurtapahtumista pieniin syntymäpäiviin. Kai Kuutamo ja Sirkussirkus järjestää myös epäsäännöllisesti monitaidefestivaalia Multi Bueno.</p>
+     <p>Nykyään hän työskentelee pääasiassa Suomessa esiintyen yksin tai omien ryhmiensä kanssa (HERTTAKUNINKAAT, MERKKARIT, AARNIOKUUTAMO COMPANY, KIVINEN KUUTAMO, SIRKUSKUNNAN NARRIT). Esiintymispaikat vaihtelevat lastenfestivaaleista vanhainkoteihin sekä suurtapahtumista pieniin syntymäpäiviin. Kai Kuutamo ja Sirkussirkus järjestää myös epäsäännöllisesti MULTI BUENO -monitaidefestivaalia.</p>
 
-     <p>"Esitämme valmiita teoksia omien kiertueaikataulujemme mukaan ja tilauksesta. Toisinaan rakennamme tapahtumiin ja tilaisuuksiin myös omia ohjelmia tilaajan toiveiden mukaisesti. Opetuspalveluita tarjoamme eri sirkuskouluille ja kerhoille sovitun mittaisissa jaksoissa ja järjestämme myös kertaluontoisia jongleeraustyöpajoja kaikenlaisille ryhmille tilauksesta. Kaikki on mahdollista, jos kalenterissa on tilaa. Esityksiä ja toimintaa kaikkiin tilaisuuksiin on mottomme."</p>
+     <p>"Esitämme valmiita teoksia omien kiertueaikataulujemme mukaan ja tilauksesta. Toisinaan rakennamme tapahtumiin ja tilaisuuksiin myös omia ohjelmia tilaajan toiveiden mukaisesti (Esimerkiksi Kaupunkikeskus Triplan avajaiset ja Viiden Ässän Sirkus). Opetuspalveluita tarjoamme eri sirkuskouluille ja kerhoille sovitun mittaisissa jaksoissa ja järjestämme myös kertaluontoisia jongleeraustyöpajoja kaikenlaisille ryhmille tilauksesta. Kaikki on mahdollista, jos kalenterissa on tilaa. Esityksiä ja hauskaa toimintaa kaikkiin tilaisuuksiin!"</p>
 
      <p>- Kai Kuutamo</p>
 
@@ -103,7 +103,7 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös Sirkussirkus Putiikin omistaj
          <div className="tabletext">
              <p>Ohjelmaa etsiessäsi voit tutustua valmiisiin esityksiimme ESITYKSET-sivulla,  täyttää tarjouspyyntölomakkeen tai ottaa suoraan yhteyttä ja kertoa tilausuudestasi. Teemme ja myös muokkaamme esityksiä tilaajan kanssa yhteistyössä niin, että ohjelma parhaiten sopii tilaisuuden tai tapahtuman luonteeseen.</p>
              <p>Kai Kuutamon omasta repertuaarista löytyy erilaisia jongleerausohjelmia, tuliesityksiä ja puujalkahahmoja. Puhetyöt kuten juontaminen, luennointi ja seremoniamestarointi sujuvat myös. Välitämme myös muita taiteilijoita, ja järjestämme isompiin tapahtumiin ohjelmakokonaisuuksia. Kerro minne, milloin sekä mitä kaipaat ja pyydä tarjousta!</p>
-             <p>Lopulliseen hintaan vaikuttavat esityksen sisältö, kesto, esiintyjien määrä,matkakulut sekä mahdolliset rekvisiittakulut. Tarjouksemme on laskutettava kiinteä hinta, joka sisältää sopimuksen mukaan kaikki kulut.</p>
+             <p>Lopulliseen hintaan vaikuttavat esityksen sisältö, kesto, esiintyjien määrä, matkakulut sekä mahdolliset rekvisiittakulut. Tarjouksemme on laskutettava kiinteä hinta, joka sisältää sopimuksen mukaan kaikki kulut.</p>
              
          </div>
      </div>
@@ -139,7 +139,10 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös Sirkussirkus Putiikin omistaj
              
              <p>Putiikki sijaitsi alkuaikoina Jarrumiehenkadulla Turussa. Se oli suljettuna vuodet 2011-2015 Aasiassa työskentelyn johdosta, ja se avattiin uudestaan verkkokauppana vuonna 2016. Marraskuussa 2017 uusi kivijalkakauppa avattiin osoitteeseen Lonttistentie 14, Turku.</p>
 
-             <p>Kaupasta saat parhaat jongleerausvälineet joka lähtöön. Lisäksi hyllystä löytyvät ilma-akrobatiavälineet, taikuustuotteet, yksipyöräiset sekä paljon muita kiinnostavia myyntiartikkeleita. Olemme paikalla keskiviikkoisin klo 15-18 ja sen lisäksi sovitusti tai sattumanvaraisesti. Verkkokaupan tilauksia toimitamme päivittäin. Sirkussirkus Putiikin tarjontaan voit tutustua parhaiten osoitteessa:  <span id="shoplink"><a href="http://putiikki.sirkussirkus.com/" target="blank">www.sirkuskauppa.com</a></span>.</p>
+             <p>Kaupasta saat parhaat jongleerausvälineet joka lähtöön. Lisäksi hyllystä löytyvät ilma-akrobatiavälineet, taikuustuotteet, yksipyöräiset sekä paljon muita kiinnostavia myyntiartikkeleita. Olemme paikalla keskiviikkoisin klo 15-18 ja sen lisäksi sovitusti tai sattumanvaraisesti. Verkkokaupan tilauksia toimitamme päivittäin. Sirkussirkus Putiikin tarjontaan voit tutustua parhaiten osoitteessa:  </p>
+
+                 <p>
+                 <span id="shoplink"><a href="http://putiikki.sirkussirkus.com/" target="blank">www.sirkuskauppa.com</a></span>.</p>
              
          </div>
      </div>
@@ -278,9 +281,8 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös Sirkussirkus Putiikin omistaj
                 <h2>Poistuneet ohjelmistosta toistaiseksi</h2>
 
                 <p style={{paddingTop: "5px"}}><a href="http://www.sirkussirkus.com/joulupukki/" rel="noopener noreferrer" target="blank">Joulupukki ja Tempputonttu - Lasten Joululaulusirkusshow</a></p>
-    <p style={{paddingTop: "5px"}}><a href="http://www.sirkussirkus.com/kkaa/" rel="noopener noreferrer" target="blank">Kai Kuutamo & Aimo Annos - Sirkus- ja musiikkispektaakkeli</a></p>
-    <p style={{paddingTop: "5px"}}><a href="http://www.sirkussirkus.com/northman/" rel="noopener noreferrer" target="blank">Pohjolan Äijä</a></p>
-
+                <p style={{paddingTop: "5px"}}><a href="http://www.sirkussirkus.com/kkaa/" rel="noopener noreferrer" target="blank">Kai Kuutamo & Aimo Annos - Sirkus- ja musiikkispektaakkeli</a></p>
+                <p style={{paddingTop: "5px"}}><a href="http://www.sirkussirkus.com/northman/" rel="noopener noreferrer" target="blank">Pohjolan Äijä</a></p>
                 <p style={{paddingTop: "5px"}}><a href="http://www.sirkussirkus.com/specialdelivery/" rel="noopener noreferrer" target="blank">Special Delivery</a></p>
                 <p><a href="http://www.sirkussirkus.com/tisch/" rel="noopener noreferrer" target="blank">Tisch</a></p>
                 <p><a href="https://www.youtube.com/watch?v=GYFoVHWFQDA" rel="noopener noreferrer" target="blank">ALL IN</a></p>
@@ -335,6 +337,9 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös Sirkussirkus Putiikin omistaj
 
                     <div className="tableintro">
                     <div className="tabletext">
+
+                        <p>"Kai Kuutamo on vakuuttavan karismaattinen esiintyjä. Yhteys yleisöön syntyy hetkessä ja katsomo sulaa helposti nauruun ja aplodeihin."</p>
+                        <p>- Turun Sanomat</p>
                         <p>"Although I am blind I could feel your energy. It was a pleasure to experience your show."</p>
                         <p>- sokea afrikkalainen mies</p>
                         <br></br>
@@ -647,7 +652,7 @@ show6:
 
                     </div>,
 
-                    show6_pics: ["./pictures5/puujalkahahmot1.jpg", "./pictures5/puujalkahahmot2.jpg", "./pictures5/puujalkahahmot3.jpg", "./pictures5/puujalkahahmot4.jpg", "./pictures5/puujalkahahmot5.jpg", "./pictures5/puujalkahahmot6.jpg"],
+                    show6_pics: ["./pictures5/puujalkahahmot1.jpg", "./pictures5/puujalkahahmot2.jpg", "./pictures5/puujalkahahmot3.jpg", "./pictures5/puujalkahahmot4.jpg", "./pictures5/puujalkahahmot5.jpg", "./pictures5/puujalkahahmot6.jpg", "./pictures5/puujalkahahmot7.jpg", "./pictures5/puujalkahahmot8.jpg", "./pictures5/puujalkahahmot9.jpg"],
 
 
 show8: 
@@ -731,7 +736,7 @@ show8:
     
             <br></br>
 
-            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2019-turunsanomat-3.jpg" target="_blank"><p>Sirkusarvio: Katusirkuksen rentous kohtaa lastensirkuksen kirjavuuden jonglööri Kai Kuutamon kiertue-esityksessä</p></a>
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2019-turunsanomat-2.jpg" target="_blank"><p>Sirkusarvio: Katusirkuksen rentous kohtaa lastensirkuksen kirjavuuden jonglööri Kai Kuutamon kiertue-esityksessä</p></a>
             <p><span className="articlenewspaper">Turun Sanomat 29.9.2019</span></p>
     
             <br></br>
@@ -742,7 +747,7 @@ show8:
             <br></br>
 
 
-            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2019-turunsanomat-2.jpg" target="_blank"><p>Seikkisrockin yhdistämät</p></a>
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2019-turunsanomat-3.jpg" target="_blank"><p>Seikkisrockin yhdistämät</p></a>
             <p><span className="articlenewspaper">Turun Sanomat 2019 kesäkuu</span></p>
     
             <br></br>
@@ -872,8 +877,9 @@ show8:
             <div className="tableintro">
             <div className="tabletext contacttext">
 
-            <p id="contacttitle2">Laskutus</p>
+            <p id="contacttitle2">Laskutus ja posti</p>
             <p>Sirkussirkus</p>
+            <p>Kaj-Mikael Schütt</p>
             <p>FI20038428</p>
             <p>Laivateollisuudenkatu 26 A 16</p>
             <p>20240 Turku</p>
@@ -904,36 +910,29 @@ form:
 promo:
 
 <div>
-
 <div className="tableintro">
-
 <div className="tabletext">
-
 <p id="promopicstext">Promootiokuvat painokelpoisina. Klikkaa suureksi.</p>
-
 <div id="promopics">
-
 <div className="promopiccont">
+
 <a href="pictures7/kaikuutamo-promo1.jpg" rel="noopener noreferrer" target="blank"><img className="promopic" src="pictures7/promo1pieni.jpg" alt="Promo"></img></a>
-<p>Kuvaaja: joku tyyppi</p>
+<p>Valokuvaaja: Samboth Piseth</p>
 </div>
 
 <div className="promopiccont">
-<a href="pictures7/kaikuutamo-promo2.PNG" rel="noopener noreferrer" target="blank"><img className="promopic" src="pictures7/promo2pieni.jpg" alt="Promo"></img></a>
-<p>Kuvaaja: joku toinen tyyppi</p>
+<a href="pictures7/kaikuutamo-promo2.png" rel="noopener noreferrer" target="blank"><img className="promopic" src="pictures7/promo2pieni.jpg" alt="Promo"></img></a>
+<p>Sama kuva ilman taustaa (.png)</p>
 </div>
 
 <div className="promopiccont">
 <a id="promopic3" href="pictures7/kaikuutamo-promo3.jpg" rel="noopener noreferrer" target="blank"><img className="promopic" src="pictures7/promo3pieni.jpg" alt="Promo"></img></a>
-<p>fdjskfjksjkdfjksjdfkjksjdkfjksjdfkjksjkdfjksjkdfjksjdfkj</p>
+<p>Valokuvaaja: Christoffer Collina</p>
 </div>
 
 </div>
-
 </div>
-
 </div>
-
 </div>
 
 }
