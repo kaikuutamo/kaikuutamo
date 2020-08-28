@@ -10,9 +10,9 @@ var english = {
     frontpage: {
 
         "text": "\"Although I am blind I could feel your energy.\"", 
-        "text2": "- A blind african man",
+        "text2": "- Akim Color",
         "words": ["\"Although I am blind I could feel your energy.\"", "\"Kuutamo knows how to perform circus for children.\"", "\"Kai Kuutamo is a convincing charismatic performer.\""],
-        "words2": ["- A blind african man", "- TS Newspaper", "- TS Newspaper"]
+        "words2": ["- Akim Color", "- TS Newspaper", "- TS Newspaper"]
 
     },
 
@@ -90,7 +90,7 @@ services:
 </div>
 <div className="tableintro">
     <div className="tabletext">
-        <p>Updated soon in English.</p>
+        <p>Updated later in English.</p>
     </div>
 </div>
 <div className="tableh3wrap">
@@ -99,7 +99,7 @@ services:
 </div>
 <div className="tableintro">
     <div className="tabletext">
-        <p>Updated soon in English.</p>
+        <p>Updated later in English.</p>
         
     </div>
 </div>
@@ -109,8 +109,8 @@ services:
 </div>
 <div className="tableintro">
     <div className="tabletext">
-        <p>Updated soon in English. Online shop link:</p>
-<p><span id="shoplink"><a href="http://putiikki.sirkussirkus.com/" target="blank">www.sirkuskauppa.com</a></span>.</p>
+        <p>Updated later in English. Online shop link:</p>
+<p><span id="shoplink"><a href="http://putiikki.sirkussirkus.com/" target="blank">www.sirkuskauppa.com</a></span> (in Finnish).</p>
         
     </div>
 </div>
@@ -127,75 +127,89 @@ mobilemenu:
 <li><Link to="/media">MEDIA</Link></li>
 <li><Link to="/contact">CONTACT</Link></li>
 </div>,
-videos:
+
+videos: 
+
 <div>
-<div className="tabletitlewrap">
-</div>
-<div className="videos">
-    <h2>Live shows</h2>
-    <p>Jongleerausnumerot Herttakuninkaat-ryhmän nimikkoesityksestä vastaiskronologisessa järjestyksessä.</p>
-    <div className="icont">
-    <div className="icont2">
-    <iframe className="video" title="1" src="https://www.youtube.com/embed/c0TV9iVjoyY" allowFullScreen></iframe>
-    </div>
-    </div>
-    <p>Traileri Kai Kuutamo & Aimo Annos -esityksestä.</p>
-    <div className="icont">
-    <div className="icont2">
-    <iframe className="video" title="2" src="https://www.youtube.com/embed/RCORvHu3gmw" allowFullScreen></iframe>
-    </div>
-    </div>
-    
-</div>
-    <div className="videos">
-    <h3>Leikattu ja liimattu</h3>
-    <p>Kambodzan Circus Pharen teltassa paikallisella otteella tuotettu promootiovideo.</p>
-    <div className="icont">
-    <div className="icont2">
-    <iframe className="video" title="3" src="https://www.youtube.com/embed/GwU39mFL7Vk" allowFullScreen></iframe>
-    </div>
-    </div>
-    <p>Suomalaiset Patukat (Finnish Poles). Parhaat temput viime vuosikymmeneltä.</p>
-    <div className="icont">
-    <div className="icont2">
-    <iframe className="video" title="4" src="https://www.youtube.com/embed/UofXrINtKrQ" allowFullScreen></iframe>
-    </div>
-    </div>
-    
-</div>
-    <div className="videos">
-    <h4>Ennätyksiä</h4>
-    <p>Virallinen Suomen ennätys 10 pallolla vuonna 2015. Esityksessä Saari 2015 -tapahtumassa Raumalla.</p>
-    <div className="icont">
-    <div className="icont2">
-    <iframe className="video" title="5" src="https://www.youtube.com/embed/kt_masR6uQA" allowFullScreen></iframe>
-    </div>
-    </div>
-    <p>Epävirallinen viimeisin Suomen ennätys 10 pallolla vuonna 2016. Turun Sirkus.</p>
-    <div className="icont">
-    <div className="icont2">
-    <iframe className="video" title="6" src="https://www.youtube.com/embed/Np22u_L19oc" allowFullScreen></iframe>
-    </div>
-    </div>
-    
-</div>
-    <div className="videos">
-    <h4>Muuta</h4>
-    <p>Kuvakooste Kai Kuutamo & Sirkussirkus Ensemblen järjestämän Multi Bueno Festivaalin tunnelmista. Musiikista vastaa Yakuzi Pato.</p>
-    <div className="icont">
-    <div className="icont2">
-    <iframe className="video" title="7" src="https://www.youtube.com/embed/-P7RSNGgZxc" allowFullScreen></iframe>
-    </div>
-    </div>
-    
-</div>
-<div id="morevideos">
-<p>More videos at Kai Kuutamo's Youtube channel: <a id="kaiyoutube" href="https://www.youtube.com/user/kaikuutamo/" target="blank">kaikuutamo @ Youtube</a>!</p>
 
-</div>
+       <div className="tabletitlewrap">
+
+       
+
+       </div>
+
+       
+
+       <div className="videos">
+
+           <h2>Caught Live</h2>
+
+           <p>Moments from the Kai Kuutamo Show.</p>
+
+           <div className="icont">
+           <div className="icont2">
+           <iframe className="video" title="1" src="https://www.youtube.com/embed/mgXEuOOcmTY" allowFullScreen></iframe>
+           </div>
+           </div>
+
+           <p>Juggling acts from the Herttakuninkaat show.</p>
+
+           <div className="icont">
+           <div className="icont2">
+           <iframe className="video" title="2" src="https://www.youtube.com/embed/c0TV9iVjoyY" allowFullScreen></iframe>
+           </div>
+           </div>
+
+           
+       </div>
 
 
-</div>,
+           <div className="videos">
+
+           <h3>Cut & Paste</h3>
+
+           <p>A promotion video filmed at Circus Phare in 2012 with local style.</p>
+
+           <div className="icont">
+           <div className="icont2">
+           <iframe className="video" title="3" src="https://www.youtube.com/embed/GwU39mFL7Vk" allowFullScreen></iframe>
+           </div>
+           </div>
+
+           <p>Finnish Poles. Best tricks from the end of 2000's.</p>
+
+           <div className="icont">
+           <div className="icont2">
+           <iframe className="video" title="4" src="https://www.youtube.com/embed/UofXrINtKrQ" allowFullScreen></iframe>
+           </div>
+           </div>
+           
+       </div>
+
+           <div className="videos">
+
+           <h4>Other</h4>
+
+           <p>Slideshow from the fifth Multi Bueno Festival held at Barker in 2015. Music on the video by Yakuzi Pato.</p>
+
+           <div className="icont">
+           <div className="icont2">
+           <iframe className="video" title="7" src="https://www.youtube.com/embed/-P7RSNGgZxc" allowFullScreen></iframe>
+           </div>
+           </div>
+
+
+           
+       </div>
+
+       <div id="morevideos">
+
+       <p>More videos here: <a id="kaiyoutube" href="https://www.youtube.com/user/kaikuutamo/" target="blank">Youtube channel kaikuutamo</a>!</p>
+
+       </div>
+
+       
+       </div>,
 
 shows: {
 
@@ -651,11 +665,11 @@ show8:
 
             },
 
-articles: 
+            articles: 
 
             <div>
             <div className="tabletitlewrap">
-            <h1 className="tabletitle">Articles Online</h1>
+            <h1 className="tabletitle">Finnish Newspaper Articles</h1>
      
             </div>
 
@@ -664,114 +678,119 @@ articles:
 
             <div className="articlebreak"></div>
             
-            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2019-aamuset.jpg" target="_blank"><p>Merkkarit & Kai Kuutamo juhlakeikalla Vimmassa</p></a>
             <p><span className="articlenewspaper">Aamuset 19.11.2019</span></p>
-    
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2019-aamuset.jpg" target="_blank"><p>Merkkarit & Kai Kuutamo juhlakeikalla Vimmassa</p></a>
+
+            <div className="articlebreak"></div>
+            
+            <p><span className="articlenewspaper">Aamuset 23.10.2019</span></p>
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2019-aamuset-2.jpg" target="_blank"><p>Lonttinen sai uuden seinämaalauksen</p></a>
+        
             <div className="articlebreak"></div>
 
-            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2019-turunsanomat-2.jpg" target="_blank"><p>Sirkusarvio: Katusirkuksen rentous kohtaa lastensirkuksen kirjavuuden jonglööri Kai Kuutamon kiertue-esityksessä</p></a>
             <p><span className="articlenewspaper">Turun Sanomat 29.9.2019</span></p>
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2019-turunsanomat-2.jpg" target="_blank"><p>Sirkusarvio: Katusirkuksen rentous kohtaa lastensirkuksen kirjavuuden jonglööri Kai Kuutamon kiertue-esityksessä</p></a>
     
             <div className="articlebreak"></div>
 
-            <a className="articlelink" rel="noopener noreferrer" href="https://turunseutusanomat.fi/2019/06/harvaluodon-rannalla-keskikesaa-juhlisti-arviolta-yli-600-ihmista/?fbclid=IwAR3UfAptx0jmS5qV1JKButKJ2Wn79-axxwt-YhveYTjpLPvq_r6lkkjnrRc" target="_blank"><p>Harvaluodon rannalla keskikesää juhlisti arviolta yli 600 ihmistä</p></a>
             <p><span className="articlenewspaper">Turun Seutusanomat 25.6.2019</span></p>
+            <a className="articlelink" rel="noopener noreferrer" href="https://turunseutusanomat.fi/2019/06/harvaluodon-rannalla-keskikesaa-juhlisti-arviolta-yli-600-ihmista/?fbclid=IwAR3UfAptx0jmS5qV1JKButKJ2Wn79-axxwt-YhveYTjpLPvq_r6lkkjnrRc" target="_blank"><p>Harvaluodon rannalla keskikesää juhlisti arviolta yli 600 ihmistä</p></a>
     
             <div className="articlebreak"></div>
 
 
-            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2019-turunsanomat-3.jpg" target="_blank"><p>Seikkisrockin yhdistämät</p></a>
             <p><span className="articlenewspaper">Turun Sanomat 2019 kesäkuu</span></p>
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2019-turunsanomat-3.jpg" target="_blank"><p>Seikkisrockin yhdistämät</p></a>
     
             <div className="articlebreak"></div>
 
-            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2019-turunsanomat-1.jpg" target="_blank"><p>Taiturimaisia temppuja ja vuorovaikutusta</p></a>
             <p><span className="articlenewspaper">Turun Sanomat 13.4.2019</span></p>
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2019-turunsanomat-1.jpg" target="_blank"><p>Taiturimaisia temppuja ja vuorovaikutusta</p></a>
     
             <div className="articlebreak"></div>
 
-            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2018-aamuset.jpg" target="_blank"><p>Sirkusta Tunteella - Sirkusputiikin kauppias haluaa vähentää kuluttamista</p></a>
             <p><span className="articlenewspaper">Aamuset 14.2.2018</span></p>
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2018-aamuset.jpg" target="_blank"><p>Sirkusta Tunteella - Sirkusputiikin kauppias haluaa vähentää kuluttamista</p></a>
     
             <div className="articlebreak"></div>
 
-            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2017-turunsanomat-3.jpg" target="_blank"><p>Kohti Loveen Lankeamista</p></a>
             <p><span className="articlenewspaper">Turun Sanomat 2017 Lokakuu</span></p>
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2017-turunsanomat-3.jpg" target="_blank"><p>Kohti Loveen Lankeamista</p></a>
     
             <div className="articlebreak"></div>
 
-            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2017-turunsanomat-2.jpg" target="_blank"><p>Pohjolan Äijä saapuu Metsäkirkkoon</p></a>
             <p><span className="articlenewspaper">Turun Sanomat 2017 Syyskuu</span></p>
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2017-turunsanomat-2.jpg" target="_blank"><p>Pohjolan Äijä saapuu Metsäkirkkoon</p></a>
     
             <div className="articlebreak"></div>
 
-            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2017-turunsanomat-1.jpg" target="_blank"><p>Rokkimusaa ja jongleerausta</p></a>
             <p><span className="articlenewspaper">Turun Sanomat 28.5.2017</span></p>
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2017-turunsanomat-1.jpg" target="_blank"><p>Rokkimusaa ja jongleerausta</p></a>
     
             <div className="articlebreak"></div>
 
-            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2017-turuntienoo.jpg" target="_blank"><p>Merimiesrock sekoitti Ruskotalon nuoren yleisön</p></a>
             <p><span className="articlenewspaper">Turun Tienoo 13.4.2017</span></p>
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2017-turuntienoo.jpg" target="_blank"><p>Merimiesrock sekoitti Ruskotalon nuoren yleisön</p></a>
     
             <div className="articlebreak"></div>
 
-            <a className="articlelink" rel="noopener noreferrer" href="http://www.auranaallot.fi/uutiset/paikallinen/festivaali-joka-juhlii-kaikkea-samanaikaisesti-monisyinen-festivaali?fbclid=IwAR3V4Je-MOtEchTinkZbd_mXRbYcl3ZbiMA5aP2obNpmwIKw6K6PZTMtg2c" target="_blank"><p>Festivaali, joka juhlii kaikkea samanaikaisesti on monisyinen festivaali</p></a>
             <p><span className="articlenewspaper">Auran Aallot 2015</span></p>
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.auranaallot.fi/uutiset/paikallinen/festivaali-joka-juhlii-kaikkea-samanaikaisesti-monisyinen-festivaali?fbclid=IwAR3V4Je-MOtEchTinkZbd_mXRbYcl3ZbiMA5aP2obNpmwIKw6K6PZTMtg2c" target="_blank"><p>Festivaali, joka juhlii kaikkea samanaikaisesti on monisyinen festivaali</p></a>
 
             <div className="articlebreak"></div>
 
-            <a className="articlelink" rel="noopener noreferrer" href="https://www.ts.fi/uutiset/paikalliset/796198/Sirkustaiteilija+Kai+Kuutamo+rikkoi+jongleerauksen+Suomen+ennatyksen" target="_blank"><p>Sirkustaiteilija Kai Kuutamo rikkoi jongleerauksen Suomen ennätyksen</p></a>
             <p><span className="articlenewspaper">Turun Sanomat 18.7.2015</span></p>
+            <a className="articlelink" rel="noopener noreferrer" href="https://www.ts.fi/uutiset/paikalliset/796198/Sirkustaiteilija+Kai+Kuutamo+rikkoi+jongleerauksen+Suomen+ennatyksen" target="_blank"><p>Sirkustaiteilija Kai Kuutamo rikkoi jongleerauksen Suomen ennätyksen</p></a>
 
             <div className="articlebreak"></div>
 
-            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2015-paivakummunsanomat.jpg" target="_blank"><p>Sirkushuveja, taikatemppuja ja akrobatiaa hoitokodeissa</p></a>
             <p><span className="articlenewspaper">Hoitokoti Päiväkummun Sanomat 1/2015</span></p>
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2015-paivakummunsanomat.jpg" target="_blank"><p>Sirkushuveja, taikatemppuja ja akrobatiaa hoitokodeissa</p></a>
     
             <div className="articlebreak"></div>
 
-            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2014-fidea.jpg" target="_blank"><p>Circus Kampot - Suomalainen sirkuskoulu Kambodzassa</p></a>
             <p><span className="articlenewspaper">Fidea Suomen Draama- ja Teatteriopetuksen liiton jäsenlehti 2014</span></p>
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2014-fidea.jpg" target="_blank"><p>Circus Kampot - Suomalainen sirkuskoulu Kambodzassa</p></a>
          
             <div className="articlebreak"></div>
 
-            <a className="articlelink" rel="noopener noreferrer" href="https://www.ts.fi/kulttuuri/519198/Rytmikasta+jongleerausta" target="_blank"><p>Rytmikästä Jongleerausta</p></a>
             <p><span className="articlenewspaper">Turun Sanomat 6.8.2013</span></p>
+            <a className="articlelink" rel="noopener noreferrer" href="https://www.ts.fi/kulttuuri/519198/Rytmikasta+jongleerausta" target="_blank"><p>Rytmikästä Jongleerausta</p></a>
 
             <div className="articlebreak"></div>
 
-            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2012-aamuset.jpg" target="_blank"><p>Elämä yhtä sirkusta</p></a>
             <p><span className="articlenewspaper">Aamuset 2012 heinäkuu</span></p>
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2012-aamuset.jpg" target="_blank"><p>Elämä yhtä sirkusta</p></a>
 
             <div className="articlebreak"></div>
 
-            <a className="articlelink" rel="noopener noreferrer" href="https://www.ts.fi/kulttuuri/380163/Maailma+on+erilainen+sirkustaiteilijan+silmin" target="_blank"><p>Maailma on erilainen sirkustaiteilijan silmin</p></a>
             <p><span className="articlenewspaper">Turun Sanomat 19.8.2012</span></p>
+            <a className="articlelink" rel="noopener noreferrer" href="https://www.ts.fi/kulttuuri/380163/Maailma+on+erilainen+sirkustaiteilijan+silmin" target="_blank"><p>Maailma on erilainen sirkustaiteilijan silmin</p></a>
 
             <div className="articlebreak"></div>
 
-            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2012-turunsanomat.jpg" target="_blank"><p>Kuutamo tarjoaa logistiikkaa ja sirkushuveja</p></a>
             <p><span className="articlenewspaper">Turun Sanomat 2012 elokuu</span></p>
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2012-turunsanomat.jpg" target="_blank"><p>Kuutamo tarjoaa logistiikkaa ja sirkushuveja</p></a>
 
             <div className="articlebreak"></div>
 
-            <a className="articlelink" rel="noopener noreferrer" href="http://tstv.fi/video/2699" target="_blank"><p>Sirkustaiteilija pahvilaatikoiden keskellä</p></a>
             <p><span className="articlenewspaper">TS-TV 13.8.2012</span></p>
+            <a className="articlelink" rel="noopener noreferrer" href="http://tstv.fi/video/2699" target="_blank"><p>Sirkustaiteilija pahvilaatikoiden keskellä</p></a>
 
             <div className="articlebreak"></div>
 
-            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2010-turunsanomat.jpg" target="_blank"><p>Ihan Jonglöörinä</p></a>
             <p><span className="articlenewspaper">Turun Sanomat 22.1.2010</span></p>
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2010-turunsanomat.jpg" target="_blank"><p>Ihan Jonglöörinä</p></a>
 
             <div className="articlebreak"></div>
 
-            <a className="articlelink" rel="noopener noreferrer" href="http://www.ts.fi/viihde/1074295603/Lapsille+raataloity+sirkus+taituroi+Seikkispuistossa" target="_blank"><p>Lapsille räätälöity sirkus taituroi Seikkailupuistossa</p></a>
             <p><span className="articlenewspaper">Turun Sanomat 19.7.2008</span></p>
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.ts.fi/viihde/1074295603/Lapsille+raataloity+sirkus+taituroi+Seikkispuistossa" target="_blank"><p>Lapsille räätälöity sirkus taituroi Seikkailupuistossa</p></a>
 
             <div className="articlebreak"></div>
 
-            <a className="articlelink" rel="noopener noreferrer" href="http://www.ts.fi/viihde/1074183475/Kun+jongloori+palaa+kotiinsa" target="_blank"><p>Kun jonglööri palaa kotiinsa</p></a>
             <p><span className="articlenewspaper">Turun Sanomat 27.2.2007</span></p>
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.ts.fi/viihde/1074183475/Kun+jongloori+palaa+kotiinsa" target="_blank"><p>Kun jonglööri palaa kotiinsa</p></a>
 
             <div className="articlebreak"></div>
 

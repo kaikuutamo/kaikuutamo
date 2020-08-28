@@ -49,14 +49,14 @@ var finnish = {
 
      <div className="tabletext">
      
-     <p>Kai Kuutamo on kansainvälisen uran luonut palkittu esiintyvä taiteilija. 
+     <p>Kai Kuutamo on kansainvälistäkin uraa luonut palkittu esiintyvä taiteilija. 
 Hän on korkeakoulutettu sirkustaiteilija ja myös SIRKUSSIRKUS PUTIIKIN omistaja.</p>
 
-     <p>Uransa aikana Kuutamo on opiskellut jongleerausta Suomessa Lahdessa ja Turussa sekä Ukrainassa Kiovassa. Hän on esiintynyt Englannissa, Saksassa, Belgiassa, Ruotsissa, Eestissä, Thaimaassa ja Kambodzassa, voittanut katuesiintymisen Suomen mestaruuden, rikkonut jongleerauksen Suomen ennätyksen sekä pitänyt yllä kaksi vuotta ilmaista sirkuskoulua lapsille Kambodzassa (CIRCUS KAMPOT).</p>
+     <p>Uransa aikana Kuutamo on opiskellut jongleerausta Suomessa Lahdessa ja Turussa sekä Ukrainassa Kiovassa. Hän on esiintynyt Englannissa, Saksassa, Belgiassa, Ruotsissa, Eestissä, Thaimaassa ja Kambodzassa. Kuutamo on voittanut katuesiintymisen Suomen mestaruuden, rikkonut jongleerauksen Suomen ennätyksen sekä pitänyt yllä kaksi vuotta ilmaista sirkuskoulua lapsille Kambodzassa (CIRCUS KAMPOT).</p>
      
      <p>Nykyään hän työskentelee pääasiassa Suomessa esiintyen yksin tai omien ryhmiensä kanssa (HERTTAKUNINKAAT, MERKKARIT, AARNIOKUUTAMO COMPANY, KIVINEN KUUTAMO, SIRKUSKUNNAN NARRIT). Esiintymispaikat vaihtelevat lastenfestivaaleista vanhainkoteihin sekä suurtapahtumista pieniin syntymäpäiviin. Kai Kuutamo ja Sirkussirkus järjestää myös epäsäännöllisesti MULTI BUENO -monitaidefestivaalia.</p>
 
-     <p>"Esitämme valmiita teoksia omien kiertueaikataulujemme mukaan ja tilauksesta. Toisinaan rakennamme tapahtumiin ja tilaisuuksiin myös omia ohjelmia tilaajan toiveiden mukaisesti (Esimerkiksi Kaupunkikeskus Triplan avajaiset ja Viiden Ässän Sirkus). Opetuspalveluita tarjoamme eri sirkuskouluille ja kerhoille sovitun mittaisissa jaksoissa ja järjestämme myös kertaluontoisia jongleeraustyöpajoja kaikenlaisille ryhmille tilauksesta. Kaikki on mahdollista, jos kalenterissa on tilaa. Esityksiä ja hauskaa toimintaa kaikkiin tilaisuuksiin!"</p>
+     <p>"Esitämme valmiita teoksia omien kiertueaikataulujemme mukaan ja tilauksesta. Toisinaan rakennamme tapahtumiin ja tilaisuuksiin myös omia ohjelmia tilaajan toiveiden mukaisesti (Esimerkiksi Kaupunkikeskus Triplan avajaiset ja Viiden Ässän Sirkus). Opetuspalveluita tarjoamme eri sirkuskouluille ja kerhoille sovitun mittaisissa jaksoissa ja järjestämme myös kertaluontoisia jongleeraustyöpajoja kaikenlaisille ryhmille tilauksesta. Sirkusvälineet järjestyvät myös meidän puolesta. Kaikki on mahdollista, jos kalenterissa on tilaa. Esityksiä ja hauskaa toimintaa kaikkiin tilaisuuksiin!"</p>
 
      <p>- Kai Kuutamo</p>
 
@@ -315,9 +315,11 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös SIRKUSSIRKUS PUTIIKIN omistaj
 
                     <div className="tableintro">
                     <div className="tabletext">
-                        <p>Kai Kuutamo Showta on esitetty kodeissa, kaduilla, häissä, vanhainkodeissa, syntymäpäivillä sekä myös suurissa tapahtumissa kansainvälisesti jo vuodesta 2010. Samaisen esityksen vuoden 2012 painoksella voitettiin katuesiintymisen Suomen mestaruus.</p>
+                        <p>Kai Kuutamo Showta on esitetty kodeissa, kaduilla, häissä, vanhainkodeissa, syntymäpäivillä sekä myös suurissa tapahtumissa kansainvälisesti jo vuodesta 2010. Samaisen esityksen vuoden 2012 painoksella voitettiin katuesiintymisen Suomen mestaruus, ja vuonna 2020 Kai Kuutamo Show oli myös osana Kansallisteatterin Kiertuenäyttämön ohjelmistoa.</p>
 
-                        <p>Esitys perustuu verbaaliakrobatian, improvisaation, huumorin ja näyttävien jongleeraustemppujen yhdistelmään. Vuorovaikutus yleisön kanssa on merkittävässä roolissa. Kai Kuutamo Show sopii mihin tahansa tilaan ja tilaisuuteen, ja se voidaan esittää kolmella eri kielellä tai haluttaessa jopa sanattomasti. Esityksen pituuteen voi vaikuttaa, ja sitä voidaan esittää myös kahdessa osassa tai vaikka pieninä palasina juontojen yhteydessä.</p>
+                        <p>Esitys perustuu puheen, improvisaation, huumorin ja näyttävien jongleeraustemppujen yhdistelmään. Vuorovaikutus yleisön kanssa on merkittävässä roolissa, ja siksi esityksestä ovatkin vuosien varrella nauttineet niin lapset kuin senioritkin. Esityksessä nähdään mm. taitavaa jalkapallojen käsittelyä, pallojen kiinniottoa korvilla, jongleerausta aina kahdeksaan palloon asti sekä ainutlaatuinen diabolo-onkivapatemppu.</p>    
+                            
+                        <p>Kai Kuutamo Show sopii mihin tahansa tilaan ja tilaisuuteen, ja se voidaan esittää kolmella eri kielellä (Suomi, Englanti, Khmer) tai haluttaessa jopa sanattomasti. Esityksen pituuteen voi vaikuttaa, ja sitä voidaan esittää myös kahdessa osassa tai vaikka juontojen yhteydessä.</p>
                     </div>
                     </div>
 
@@ -325,15 +327,14 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös SIRKUSSIRKUS PUTIIKIN omistaj
 
                     <div className="tableintro">
                     <div className="tabletext">
-                    <p>Kesto: 10-45 minuuttia sopimuksen mukaan.</p>
+                    <p>Kesto: 10-35 minuuttia sopimuksen mukaan.</p>
                     <p>Kohdeyleisö: Koko perhe. Voidaan myös suunnata tilaisuuden luonteen mukaan aikuisille.</p>
                     <p>Kieli: Suomi, Englanti tai Khmer (Kambodza)</p>
                     <p>Tila: Soveltuu minne tahansa sisälle tai ulos. Korkeudesta etua.</p>
-                    <p>(45 minuutin esitykseen minimikorkeus 7 metriä ja lattiatila 8 x 5 metriä.)</p>
+                    <p>(45 minuutin esitykseen minimikorkeus 7 metriä ja lattiatila 7 x 5 metriä.)</p>
                     <p>Äänentoisto: Tuodaan mukana sovittaessa.</p>
                     <p>Pystytys 30 minuuttia</p>
                     <p>Purku 20 minuuttia</p>
-    
 
                     </div>
                     </div>
@@ -353,7 +354,7 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös SIRKUSSIRKUS PUTIIKIN omistaj
                         <p>- ala-astelainen</p>
                         <div className="showbreak2"></div>
                         <p>"Olipa mielenkiintoinen ja piristävä esitys!"</p>
-                        <p>- mies vanhainkodissa</p>
+                        <p>- vanhainkodin asukas</p>
                         <div className="showbreak2"></div>
                     </div>
                     </div>
@@ -743,6 +744,16 @@ show8:
             <div className="tabletext">
 
             <div className="articlebreak"></div>
+
+            <p><span className="articlenewspaper">Yle Areena 22.7.2020</span></p>
+            <a className="articlelink" rel="noopener noreferrer" href="https://areena.yle.fi/1-50590251" target="_blank"><p>Kansallisteatterin Kiertuenäyttämön Sisäpihasirkus tien päällä</p></a>
+
+            <div className="articlebreak"></div>
+
+            <p><span className="articlenewspaper">Turun Sanomat 9.7.2020</span></p>
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2020-turunsanomat-1.jpg" target="_blank"><p>Intohimona Jongleeraus </p></a>
+
+            <div className="articlebreak"></div>
             
             <p><span className="articlenewspaper">Aamuset 19.11.2019</span></p>
             <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2019-aamuset.jpg" target="_blank"><p>Merkkarit & Kai Kuutamo juhlakeikalla Vimmassa</p></a>
@@ -764,6 +775,8 @@ show8:
     
             <div className="articlebreak"></div>
 
+            <p><span className="articlenewspaper">Turun Sanomat 2019 kesäkuu</span></p>
+            <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2019-turunsanomat-3.jpg" target="_blank"><p>Seikkisrockin yhdistämät</p></a>
 
             <p><span className="articlenewspaper">Turun Sanomat 2019 kesäkuu</span></p>
             <a className="articlelink" rel="noopener noreferrer" href="http://www.sirkussirkus.com/artikkelit/2019-turunsanomat-3.jpg" target="_blank"><p>Seikkisrockin yhdistämät</p></a>
