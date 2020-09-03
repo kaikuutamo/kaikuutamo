@@ -1,0 +1,47 @@
+
+.calendar-wrap {
+    margin-top: 30px;
+}
+
+.white-line-top {
+    width: 100%;
+    height: 1px;
+    background: white;
+    margin-bottom: 30px;
+}
+
+.white-line-bottom {
+    width: 100%;
+    height: 1px;
+    background: white;
+    margin-top: 30px;
+}
+
+.white-line {
+    width: 100%;
+    height: 1px;
+    background: white;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.month-block-title {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.month-block-text {
+    font-size: 1.0rem;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.calendar-empty-block {
+    height: 30px;
+}

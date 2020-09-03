@@ -15,6 +15,7 @@ import Articles from './components/articles'
 import Media from './components/media'
 import Offer from './components/offer'
 import Contact from './components/contact'
+import Calendar from './components/calendar'
 
 import FormSent from './components/formsent'
 
@@ -249,6 +250,7 @@ animate();
       <Route path='/media' component={Media}/>
       <Route path='/offer' component={Offer}/>
       <Route path='/contact' component={Contact}/>
+      <Route path='/calendar' component={Calendar}/>
 
       <Route path='/formsent' component={FormSent}/>
     </div>

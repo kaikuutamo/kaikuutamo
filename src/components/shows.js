@@ -37,7 +37,15 @@ class Shows extends React.Component {
 
             <div id="showcontainer">
 
+            <div className="shows-title-and-button">
+
             {this.props.texts.shows.title1}
+
+            <div className="show-button-wrap">
+                 <Link className="shows-calendar-button" to="/calendar"><button className="shows-calendar-button2">KALENTERI</button></Link>
+            </div>
+
+            </div>
 
             <Link to="/show?show1"><img alt="Kai Kuutamo Show" src="./pictures5/show1.jpg"></img></Link>
             <Link to="/show?show10"><img alt="Matkalaukkusirkus" src="./pictures5/show10.jpg"></img></Link>

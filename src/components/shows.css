@@ -5,6 +5,43 @@
     height: auto;
 }
 
+.shows-title-and-button {
+    display: grid;
+    grid-template-columns: min-content auto;
+
+}
+
+.show-button-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.shows-calendar-button {
+    width: 90%;
+    height: 57%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-decoration: none;
+}
+
+.shows-calendar-button2 {
+    border-radius: 4px;
+    font-size: 1.6rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 800;
+    padding: 13px;
+    background: #ffeb2d;
+}
+
+.shows-calendar-button2:hover {
+    text-decoration: none;
+    transition-duration: 0.5s;
+    color: white;
+    background: #0d0f6b;
+}
+
 #showcontainer img {
     width: 100%;
     margin-bottom: 5px;
@@ -18,9 +55,11 @@
 }
 
 .showstitle {
-    text-align: center;
+    white-space: none;
+    text-align: left;
+    margin-left: 40px;
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     padding: 0;
     font-size: 1.6rem;
     font-family: 'Muli', sans-serif;

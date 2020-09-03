@@ -346,15 +346,15 @@ Hän on korkeakoulutettu sirkustaiteilija ja myös SIRKUSSIRKUS PUTIIKIN omistaj
 
                         <p>"Kai Kuutamo on vakuuttavan karismaattinen esiintyjä. Yhteys yleisöön syntyy hetkessä ja katsomo sulaa helposti nauruun ja aplodeihin."</p>
                         <p>- Turun Sanomat</p>
-                        <br></br>
+                        <div className="showbreak2"></div>
                         <p>"Although I am blind I could feel your energy. It was a pleasure to experience your show."</p>
                         <p>- Akim Color, sokea muusikko</p>
-                        <br></br>
+                        <div className="showbreak2"></div>
                         <p>"Sä olet paras esiintyjä!"</p>
                         <p>- ala-astelainen</p>
                         <div className="showbreak2"></div>
-                        <p>"Olipa mielenkiintoinen ja piristävä esitys!"</p>
-                        <p>- vanhainkodin asukas</p>
+                        <p>"Kiitos esityksestä, joka oli mahtava! Asukkaamme selkeästi nauttivat ja saivat iloa päiväänsä. Olet lämpimästi tervetullut toistekin asukkaita ja henkilökuntaa piristämään."</p>
+                        <p>- Helsingin Seniorisäätiö</p>
                         <div className="showbreak2"></div>
                     </div>
                     </div>
