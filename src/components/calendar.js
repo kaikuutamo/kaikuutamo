@@ -47,29 +47,30 @@ render () {
                 <p className="month-block-title">2020</p>
                 <div className="white-line"></div>
 
-                <p className="month-block-title">JOULUKUU 2020</p>
+                    <p className="month-block-title">JOULUKUU 2020</p>
                 
-                <p className="month-block-text">13.12. Viking Line, Amorella</p>                                
-                <p className="month-block-text">10.-12.12. Kolme Väriä, Aurinkobaletti, Turku</p>
+                    <p className="month-block-text">13.12. Viking Line, Amorella</p>                                
+                    <p className="month-block-text">10.-12.12. Kolme Väriä, Aurinkobaletti, Turku</p>
 
 
-                <p className="month-block-title">LOKAKUU 2020</p>
-                <p className="month-block-text">26.10. Paimion kirjasto, Paimio</p>
-                <p className="month-block-text">22.10. Perhetalo Piikkiö, Nuppula, Kaarina</p>
-                <p className="month-block-text">21.10. Perhetalo Oskariina, Kaarina</p>
-                <p className="month-block-text">20.10. Littoisten monitoimitalo, Kaarina</p>
-                <p className="month-block-text">5.10. Yksityistilaisuus, Kaarina</p>
+                    <p className="month-block-title">LOKAKUU 2020</p>
+                    <p className="month-block-text">26.10. Paimion kirjasto, Paimio</p>
+                    <p className="month-block-text">22.10. Perhetalo Piikkiö, Nuppula, Kaarina</p>
+                    <p className="month-block-text">21.10. Perhetalo Oskariina, Kaarina</p>
+                    <p className="month-block-text">20.10. Littoisten monitoimitalo, Kaarina</p>
+                    <p className="month-block-text">5.10. Yksityistilaisuus, Kaarina</p>
 
 
 
-                                <p className="month-block-title">SYYSKUU 2020</p>                                
+                    <p className="month-block-title">SYYSKUU 2020</p>
+                    <p className="month-block-text">30.9. Pilke-musiikkipäiväkoti Rumpali, Masku</p>                                            
                     <p className="month-block-text">25.9. Sirkus Faktorin residenssi, Orivesi</p>
-<p className="month-block-text">24.9. Sirkus Faktorin residenssi, Orivesi</p>
-<p className="month-block-text">23.9. Sirkus Faktorin residenssi, Orivesi</p>
-<p className="month-block-text">22.9. Sirkus Faktorin residenssi, Orivesi</p>
-<p className="month-block-text">21.9. Sirkus Faktorin residenssi, Orivesi</p>
-<p className="month-block-text">20.9. Kauppakeskus Veturi, Kouvola</p>
-<p className="month-block-text">19.9. Kauppakeskus Willa, Hyvinkää</p>
+                    <p className="month-block-text">24.9. Sirkus Faktorin residenssi, Orivesi</p>
+                    <p className="month-block-text">23.9. Sirkus Faktorin residenssi, Orivesi</p>
+                    <p className="month-block-text">22.9. Sirkus Faktorin residenssi, Orivesi</p>
+                    <p className="month-block-text">21.9. Sirkus Faktorin residenssi, Orivesi</p>
+                    <p className="month-block-text">20.9. Kauppakeskus Veturi, Kouvola</p>
+                    <p className="month-block-text">19.9. Kauppakeskus Willa, Hyvinkää</p>
                     <p className="month-block-text">18.9. Sirkus Faktorin residenssi, Orivesi</p>
                     <p className="month-block-text">17.9. Sirkus Faktorin residenssi, Orivesi</p>
                     <p className="month-block-text">16.9. Sirkus Faktorin residenssi, Orivesi</p>
